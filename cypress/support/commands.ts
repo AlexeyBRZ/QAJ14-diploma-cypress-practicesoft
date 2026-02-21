@@ -16,29 +16,31 @@ Cypress.Commands.add("navigate", () => {
   cy.visit("https://practicesoftwaretesting.com/");
 });
 
-// Collects products names into Array
-// Cypress.Commands.add("collectProductNames", (selector: string) => {
-//   const names: string[] = [];
-//   return cy
-//     .get(selector)
-//     .each(($el) => {
-//       names.push($el.text().trim());
-//     })
-//     .then(() => {
-//       return cy.wrap(names);
-//     });
-// });
-
 Cypress.Commands.add("collectProductNames", (selector: string) => {
   return cy.get(selector).then(($els) => {
     return [...$els].map((el) => el.innerText.trim());
   });
 });
 
-Cypress.Commands.add("login", (email: string, password: string) => {
-  cy.get("#user-name").type(email);
-  cy.get("#password").type(password);
-  cy.get("#login-button").click();
+Cypress.Commands.add("logout", () => {
+  cy.visit("https://practicesoftwaretesting.com/account");
+  cy.get('[data-test="nav-menu"]').click();
+  cy.get('[data-test="nav-sign-out"]').click();
+});
+
+// Cypress.Commands.add("login", (email: string, password: string) => {
+//   cy.get('[data-test="email"]').type(email);
+//   cy.get('[data-test="password"]').type(password);
+//   cy.get('[data-test="login-submit"]').click();
+// });
+
+Cypress.Commands.add("login", () => {
+  cy.visit("https://practicesoftwaretesting.com/auth/login");
+  cy.get('[data-test="email"]').type(Cypress.env("jackHoweEmail"));
+  cy.get('[data-test="password"]').type(Cypress.env("jackHowePassword"));
+  cy.get('[data-test="login-submit"]').click();
+  cy.intercept("GET", "**/account*").as("loggedIn");
+  cy.wait("@loggedIn");
 });
 
 Cypress.Commands.add("waitForAngular", () => {
@@ -82,7 +84,10 @@ declare global {
   namespace Cypress {
     interface Chainable {
       navigate(): Chainable<void>;
-      login(email: string, password: string): Chainable<void>;
+      login(): Chainable<void>;
+      logout(): Chainable<void>;
+
+      //  login(email: string, password: string): Chainable<void>;
       collectProductNames(selector: string): Chainable<string[]>;
       waitForAngular(): Chainable<void>;
 

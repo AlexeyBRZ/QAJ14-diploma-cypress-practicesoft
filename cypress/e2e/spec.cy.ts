@@ -1,4 +1,4 @@
-import { TestContext } from "./testContext";
+import { TestContext } from "../support/testContext";
 
 beforeEach(() => {
   cy.navigate();
@@ -64,6 +64,50 @@ describe("E2E tests of practicesoftwaretesting site", () => {
       );
     });
 
+    it("check alert if product is added to favorites", () => {
+      cy.login();
+      ctx.header.clickHomeTab();
+      ctx.mainPage.goToPageFromPaginator(2);
+      ctx.mainPage.selectProductByIndex(5);
+      cy.get(ctx.productPage.productNameLocator)
+        .invoke("text")
+        .then((text) => text.trim())
+        .as("productName");
+      ctx.productPage.clickAddToFavoritesButton();
+      cy.get(ctx.header.alertLocator).should(
+        "have.text",
+        " Product added to your favorites list. ",
+      );
+      ctx.header.clickMyAccountOptionsDropDown();
+      ctx.header.clickMyFavorites();
+      cy.get<string>("@productName").then((productName) => {
+        ctx.favoritesPage.clickDeleteBtnNextToCertainProduct(
+          productName as string,
+        );
+        cy.intercept("DELETE", "**/favorites/**").as("deleteFavorite");
+
+        ctx.favoritesPage.clickDeleteBtnNextToCertainProduct(productName);
+
+        cy.wait("@deleteFavorite");
+
+        cy.contains("h5", productName).should("not.exist");
+        cy.logout();
+      });
+    });
+
+    it("check alert if product is alsready added to favorites", () => {
+      cy.login();
+      ctx.header.clickHomeTab();
+      ctx.mainPage.goToPageFromPaginator(2);
+      ctx.mainPage.selectProductByIndex(6);
+      ctx.productPage.clickAddToFavoritesButton();
+      ctx.productPage.clickAddToFavoritesButton();
+      cy.get(ctx.header.alertLocator).should(
+        "have.text",
+        " Product already in your favorites list. ",
+      );
+    });
+
     it("check out of stock product", () => {
       ctx.mainPage.clickOutOfStockProductCard();
       cy.get(ctx.productPage.addToCartButtonLocator).should("be.disabled");
@@ -90,7 +134,7 @@ describe("E2E tests of practicesoftwaretesting site", () => {
         });
     });
 
-    it.only("Check alert that only one Thor Hammer can be added to the cart", () => {
+    it("Check alert that only one Thor Hammer can be added to the cart", () => {
       cy.get(ctx.sideBar.searchFieldLocator).clear().type("Thor Hammer");
       ctx.sideBar.clickSearchButton();
       cy.get(ctx.mainPage.searchCompletedLocator, { timeout: 15000 }).should(
@@ -103,6 +147,147 @@ describe("E2E tests of practicesoftwaretesting site", () => {
         "have.text",
         " You can only have one Thor Hammer in the cart. ",
       );
+    });
+  });
+
+  describe("test of purchasing with different methods", () => {
+    beforeEach(() => {
+      cy.login();
+    });
+    it("check payment with cash in delivery method", () => {
+      ctx.header.clickHomeTab();
+      ctx.mainPage.goToPageFromPaginator(3);
+      ctx.mainPage.selectProductByIndex(4);
+      ctx.productPage.clickAddToCartButton();
+      ctx.header.clickCartIconInHeader();
+      ctx.cartPage.clickProceedToCheckoutButtonFromCartTab();
+      ctx.cartPage.clickProceedToCheckoutWithSignedUser();
+      ctx.cartPage.fillInBillingAddressForm(
+        "test Street 33",
+        "Libreville",
+        "State",
+        "Gabon",
+        "34CT",
+      );
+      ctx.cartPage.clickProceedToCheckoutWithFilledBillingAddressForm();
+      ctx.cartPage.choosePaymentMethod("cashOnDelivery");
+      ctx.cartPage.clickConfirmButton();
+      cy.get(ctx.cartPage.paymentSuccessmessageLocator).should(
+        "have.text",
+        "Payment was successful",
+      );
+    });
+
+    it("check payment with bank transfer", () => {
+      ctx.header.clickHomeTab();
+      ctx.mainPage.goToPageFromPaginator(3);
+      ctx.mainPage.selectProductByIndex(5);
+      ctx.productPage.clickAddToCartButton();
+      ctx.header.clickCartIconInHeader();
+      ctx.cartPage.clickProceedToCheckoutButtonFromCartTab();
+      ctx.cartPage.clickProceedToCheckoutWithSignedUser();
+      ctx.cartPage.fillInBillingAddressForm(
+        "test Street 33",
+        "Libreville",
+        "State",
+        "Gabon",
+        "34CT",
+      );
+      ctx.cartPage.clickProceedToCheckoutWithFilledBillingAddressForm();
+      ctx.cartPage.choosePaymentMethod("bankTransfer");
+      ctx.cartPage.fillInBankTransferForm(
+        "myBank",
+        "testAccountName",
+        565647348,
+      );
+      ctx.cartPage.clickConfirmButton();
+      cy.get(ctx.cartPage.paymentSuccessmessageLocator).should(
+        "have.text",
+        "Payment was successful",
+      );
+    });
+
+    it("check payment with credit card", () => {
+      ctx.header.clickHomeTab();
+      ctx.mainPage.goToPageFromPaginator(3);
+      ctx.mainPage.selectProductByIndex(6);
+      ctx.productPage.clickAddToCartButton();
+      ctx.header.clickCartIconInHeader();
+      ctx.cartPage.clickProceedToCheckoutButtonFromCartTab();
+      ctx.cartPage.clickProceedToCheckoutWithSignedUser();
+      ctx.cartPage.fillInBillingAddressForm(
+        "test Street 33",
+        "Libreville",
+        "State",
+        "Gabon",
+        "34CT",
+      );
+      ctx.cartPage.clickProceedToCheckoutWithFilledBillingAddressForm();
+      ctx.cartPage.choosePaymentMethod("creditCard");
+      ctx.cartPage.fillInCreditCardForm(
+        "1234-1234-1234-1234",
+        "12/2028",
+        442,
+        "Strannyy personazh",
+      );
+      ctx.cartPage.clickConfirmButton();
+      cy.get(ctx.cartPage.paymentSuccessmessageLocator).should(
+        "have.text",
+        "Payment was successful",
+      );
+    });
+
+    it("check buy now pay later payment", () => {
+      ctx.header.clickHomeTab();
+      ctx.mainPage.goToPageFromPaginator(3);
+      ctx.mainPage.selectProductByIndex(6);
+      ctx.productPage.clickAddToCartButton();
+      ctx.header.clickCartIconInHeader();
+      ctx.cartPage.clickProceedToCheckoutButtonFromCartTab();
+      ctx.cartPage.clickProceedToCheckoutWithSignedUser();
+      ctx.cartPage.fillInBillingAddressForm(
+        "test Street 33",
+        "Libreville",
+        "State",
+        "Gabon",
+        "34CT",
+      );
+      ctx.cartPage.clickProceedToCheckoutWithFilledBillingAddressForm();
+      ctx.cartPage.choosePaymentMethod("buyNowPayLater");
+      ctx.cartPage.chooseMonthlyInstallments("sixMonths");
+      ctx.cartPage.clickConfirmButton();
+      cy.get(ctx.cartPage.paymentSuccessmessageLocator).should(
+        "have.text",
+        "Payment was successful",
+      );
+    });
+
+    it("check payment with gift card", () => {
+      ctx.header.clickHomeTab();
+      ctx.mainPage.goToPageFromPaginator(3);
+      ctx.mainPage.selectProductByIndex(6);
+      ctx.productPage.clickAddToCartButton();
+      ctx.header.clickCartIconInHeader();
+      ctx.cartPage.clickProceedToCheckoutButtonFromCartTab();
+      ctx.cartPage.clickProceedToCheckoutWithSignedUser();
+      ctx.cartPage.fillInBillingAddressForm(
+        "test Street 33",
+        "Libreville",
+        "State",
+        "Gabon",
+        "34CT",
+      );
+      ctx.cartPage.clickProceedToCheckoutWithFilledBillingAddressForm();
+      ctx.cartPage.choosePaymentMethod("giftCard");
+      ctx.cartPage.fillInGiftCardForm("565656565", "34343434");
+      ctx.cartPage.clickConfirmButton();
+      cy.get(ctx.cartPage.paymentSuccessmessageLocator).should(
+        "have.text",
+        "Payment was successful",
+      );
+    });
+    afterEach(() => {
+      cy.logout();
     });
   });
 

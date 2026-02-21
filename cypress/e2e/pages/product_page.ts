@@ -3,6 +3,7 @@ export class ProductPage {
   increaseQuantityButtonLocator = '[data-test="increase-quantity"]';
   addToFavouritesButtonLocator = '[data-test="add-to-favorites"]';
   relatedProductsHeaderLocator = "Related products";
+  productNameLocator = '[data-test="product-name"]';
 
   clickIncreaseQuantutyButton() {
     return cy.get(this.increaseQuantityButtonLocator).click();

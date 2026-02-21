@@ -33,10 +33,6 @@ export class MainPage {
       .contains("a.page-link", new RegExp(`^${pageNumber}$`))
       .click();
 
-    cy.waitForAngular();
-    // cy.intercept('GET', '**/products*').as('getProducts')
-    // cy.wait('@getProducts')
-
     cy.get("li.page-item.active a.page-link", { timeout: 15000 }).should(
       "have.text",
       pageNumber.toString(),
