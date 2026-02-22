@@ -264,7 +264,7 @@ describe("E2E tests of practicesoftwaretesting site", () => {
       );
     });
 
-    it.only("check payment with gift card", () => {
+    it("check payment with gift card", () => {
       ctx.header.clickHomeTab();
       ctx.mainPage.goToPageFromPaginator(3);
       ctx.mainPage.selectProductByIndex(6);
