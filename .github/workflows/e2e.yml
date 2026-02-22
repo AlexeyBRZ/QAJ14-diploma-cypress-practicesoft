@@ -1,29 +1,39 @@
-name: Cypress Tests
+name: Cypress Tests + Allure Report
 
 on:
-  pull_request:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:  
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
-  cypress-run:
+  cypress-test:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Run Cypress tests
-        run: npx cypress run
-
-      - name: Install Java
-        if: always()
-        uses: actions/setup-java@v4
+      - name: Run Cypress tests on Chrome
+        uses: cypress-io/github-action@v6
         with:
-          distribution: "temurin"
-          java-version: "17"
+          browser: chrome
+          spec: cypress/e2e/**/*.cy.ts
+          install: false  
 
       - name: Install Allure CLI
         if: always()
@@ -31,25 +41,34 @@ jobs:
 
       - name: Generate Allure report
         if: always()
-        run: allure generate allure-results --clean -o allure-report
+        run: |
+          mkdir -p allure-report
+          allure generate allure-results --clean -o allure-report || echo "No Allure results — skipping report generation"
 
-      - name: Deploy report to GitHub Pages
+      - name: Setup Pages
         if: always()
-        uses: peaceiris/actions-gh-pages@v4
+        uses: actions/configure-pages@v5
+
+      - name: Upload Allure Report Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./allure-report
+          name: allure-report
+          path: allure-report/
+          retention-days: 1
 
-      - name: Display report URL
-        if: always() && github.ref == 'refs/heads/main'
-        run: echo "📊 Allure Report ${{ steps.deployment.outputs.page_url }}"
+      - name: Upload Pages Artifact
+        if: always()
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: allure-report/
 
+      - name: Deploy to GitHub Pages
+        if: always()
+        id: deployment
+        uses: actions/deploy-pages@v4
 
-
-        
-
-      
-
-      
-
-      
+      - name: Display Allure Report URL
+        if: always()
+        run: |
+          echo "Allure Report: ${{ steps.deployment.outputs.page_url || 'https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/index.html' }}"
