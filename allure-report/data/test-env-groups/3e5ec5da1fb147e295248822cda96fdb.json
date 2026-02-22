@@ -1,0 +1,7 @@
+{
+  "id": "3e5ec5da1fb147e295248822cda96fdb",
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site check possibilty to come back shopping from cart",
+  "name": "check possibilty to come back shopping from cart",
+  "status": "broken",
+  "testResultsByEnv": { "default": "e6170ecbd26bda71d9ac8d208eefd05c" }
+}

@@ -1,0 +1,171 @@
+{
+  "uuid": "7f217073-0f0a-414e-95b2-6adc034be9c2",
+  "name": "\"before each\" hook",
+  "children": ["8a427423-6125-4ee8-989a-1915803b08cb"],
+  "befores": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "Resolved Url",
+              "value": "https://practicesoftwaretesting.com/auth/login"
+            },
+            { "name": "Redirects", "value": "[]" },
+            {
+              "name": "Cookies Set",
+              "value": "[{\"domain\":\".practicesoftwaretesting.com\",\"httpOnly\":true,\"name\":\"cf_clearance\",\"path\":\"/\",\"sameSite\":\"no_restriction\",\"secure\":..."
+            }
+          ],
+          "start": 1771766392885,
+          "name": "visit https://practicesoftwaretesting.com/auth/login",
+          "stop": 1771766393035
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            { "name": "Selector", "value": "[data-test=\"email\"]" },
+            {
+              "name": "Yielded",
+              "value": "<input _ngcontent-ng-c713820125=\"\" formcontrolname=\"email\" id=\"email\" data-test=\"email\" type=\"email\" aria-required=\"true\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your email\" aria-invalid=\"false\">"
+            },
+            { "name": "Elements", "value": "1" }
+          ],
+          "start": 1771766393035,
+          "name": "get [data-test=\"email\"]",
+          "stop": 1771766393088
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "Applied To",
+              "value": "<input _ngcontent-ng-c713820125=\"\" formcontrolname=\"email\" id=\"email\" data-test=\"email\" type=\"email\" aria-required=\"true\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your email\" aria-invalid=\"false\">"
+            },
+            { "name": "Elements", "value": "1" },
+            { "name": "Coords", "value": "{\"x\":500,\"y\":483}" },
+            {
+              "name": "Typed",
+              "value": "customer2@practicesoftwaretesting.com"
+            }
+          ],
+          "start": 1771766393088,
+          "name": "type customer2@practicesoftwaretesting.com",
+          "stop": 1771766393624
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            { "name": "Selector", "value": "[data-test=\"password\"]" },
+            {
+              "name": "Yielded",
+              "value": "<input class=\"form-control\" id=\"password\" type=\"password\" placeholder=\"Your password\" data-test=\"password\" aria-invalid=\"false\">"
+            },
+            { "name": "Elements", "value": "1" }
+          ],
+          "start": 1771766393624,
+          "name": "get [data-test=\"password\"]",
+          "stop": 1771766393625
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "Applied To",
+              "value": "<input class=\"form-control\" id=\"password\" type=\"password\" placeholder=\"Your password\" data-test=\"password\" aria-invalid=\"false\">"
+            },
+            { "name": "Elements", "value": "1" },
+            { "name": "Coords", "value": "{\"x\":477,\"y\":561}" },
+            { "name": "Typed", "value": "welcome01" }
+          ],
+          "start": 1771766393625,
+          "name": "type welcome01",
+          "stop": 1771766393848
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            { "name": "Selector", "value": "[data-test=\"login-submit\"]" },
+            {
+              "name": "Yielded",
+              "value": "<input _ngcontent-ng-c713820125=\"\" type=\"submit\" data-test=\"login-submit\" aria-label=\"Login\" class=\"btnSubmit\" value=\"Login\">"
+            },
+            { "name": "Elements", "value": "1" }
+          ],
+          "start": 1771766393848,
+          "name": "get [data-test=\"login-submit\"]",
+          "stop": 1771766393849
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "Applied To",
+              "value": "<input _ngcontent-ng-c713820125=\"\" type=\"submit\" data-test=\"login-submit\" aria-label=\"Login\" class=\"btnSubmit\" value=\"Login\">"
+            },
+            { "name": "Elements", "value": "1" },
+            { "name": "Coords", "value": "{\"x\":417,\"y\":612}" }
+          ],
+          "start": 1771766393849,
+          "name": "click",
+          "stop": 1771766393918
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            { "name": "Waited For", "value": "loggedIn" },
+            {
+              "name": "Yielded",
+              "value": "{\"id\":\"interceptedRequest801\",\"browserRequestId\":\"90E471EDFC077121AE6D738C9471EB76\",\"routeId\":\"1771766393918-524\",\"request\":{\"he..."
+            }
+          ],
+          "start": 1771766393919,
+          "name": "wait @loggedIn",
+          "stop": 1771766395411
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1771766392884,
+      "name": "\"before each\" hook",
+      "stop": 1771766395411
+    }
+  ],
+  "afters": []
+}

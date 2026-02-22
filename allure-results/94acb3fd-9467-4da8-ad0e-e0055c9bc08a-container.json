@@ -1,0 +1,67 @@
+{
+  "uuid": "94acb3fd-9467-4da8-ad0e-e0055c9bc08a",
+  "name": "\"after each\" hook",
+  "children": ["640f44d4-4cf4-484d-b415-e21b6bf1997a"],
+  "befores": [],
+  "afters": [
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Timed out retrying after 4000ms: Expected to find element: `[data-test=\"nav-menu\"]`, but never found it.",
+        "trace": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-test=\"nav-menu\"]`, but never found it.\n    at Context.eval (webpack://cypress-practicesoft/./cypress/support/commands.ts:27:5)\n    at wrapped (https://practicesoftwaretesting.com/__cypress/runner/cypress_runner.js:146319:43)"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "Resolved Url",
+              "value": "https://practicesoftwaretesting.com/account"
+            },
+            { "name": "Redirects", "value": "[]" },
+            {
+              "name": "Cookies Set",
+              "value": "[{\"domain\":\".practicesoftwaretesting.com\",\"httpOnly\":true,\"name\":\"cf_clearance\",\"path\":\"/\",\"sameSite\":\"no_restriction\",\"secure\":..."
+            }
+          ],
+          "start": 1771767151089,
+          "name": "visit https://practicesoftwaretesting.com/account",
+          "stop": 1771767151256
+        },
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Timed out retrying after 4000ms: Expected to find element: `[data-test=\"nav-menu\"]`, but never found it.",
+            "trace": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-test=\"nav-menu\"]`, but never found it.\n    at Context.eval (webpack://cypress-practicesoft/./cypress/support/commands.ts:27:5)\n    at wrapped (https://practicesoftwaretesting.com/__cypress/runner/cypress_runner.js:146319:43)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E tests of practicesoftwaretesting site -- test of purchasing with different methods -- check buy now pay later payment -- after each hook (failed) (1).png",
+              "source": "1760f42a-b095-4c73-9dd7-c89459f4c14b-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            { "name": "Selector", "value": "[data-test=\"nav-menu\"]" },
+            { "name": "Elements", "value": "0" }
+          ],
+          "start": 1771767151256,
+          "name": "get [data-test=\"nav-menu\"]",
+          "stop": 1771767155368
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1771767151088,
+      "name": "\"after each\" hook",
+      "stop": 1771767155368
+    }
+  ]
+}

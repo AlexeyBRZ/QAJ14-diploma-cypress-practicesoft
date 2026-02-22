@@ -1,0 +1,7 @@
+{
+  "id": "18366ad1507b2c247944da43ac7c57d0",
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site test of purchasing with different methods check buy now pay later payment",
+  "name": "check buy now pay later payment",
+  "status": "broken",
+  "testResultsByEnv": { "default": "1022cba9da743446e95b633242cb32ec" }
+}

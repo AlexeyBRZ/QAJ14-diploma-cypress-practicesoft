@@ -1,0 +1,7 @@
+{
+  "id": "89f7a66c5b10797f1017d056fc3cb8ef",
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site check sorting of products check Low to High filter of products",
+  "name": "check Low to High filter of products",
+  "status": "broken",
+  "testResultsByEnv": { "default": "5ad04f462e434cbbfef92b9b5c141442" }
+}

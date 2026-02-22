@@ -1,0 +1,410 @@
+{
+  "id": "c14882a850d2969d335e482201f7e422",
+  "name": "check out of stock product",
+  "start": 1771766095616,
+  "stop": 1771766096577,
+  "duration": 961,
+  "status": "passed",
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page check out of stock product",
+  "historyId": "ae8dc3117c0da44c26073ccb69e63b64.d41d8cd98f00b204e9800998ecf8427e",
+  "flaky": false,
+  "muted": false,
+  "known": false,
+  "hidden": true,
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "cypress" },
+    {
+      "name": "parentSuite",
+      "value": "E2E tests of practicesoftwaretesting site"
+    },
+    { "name": "suite", "value": "tests of product page" },
+    { "name": "host", "value": "a-birzgal.local" },
+    { "name": "thread", "value": "pid-90852-worker-main" },
+    { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+  ],
+  "groupedLabels": {
+    "language": ["javascript"],
+    "framework": ["cypress"],
+    "parentSuite": ["E2E tests of practicesoftwaretesting site"],
+    "suite": ["tests of product page"],
+    "host": ["a-birzgal.local"],
+    "thread": ["pid-90852-worker-main"],
+    "package": ["cypress.e2e.spec.cy.ts"]
+  },
+  "parameters": [],
+  "links": [],
+  "steps": [
+    {
+      "stepId": "156b9c39a7435a9f941c1aee1c0aa20d",
+      "name": "get [data-test=\"out-of-stock\"]",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"out-of-stock\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"out-of-stock\" class=\"float-start text-danger\">Out of ...</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766095771,
+      "stop": 1771766096147,
+      "duration": 376,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "34fbd0fbba6fcf1fd0a1b1c5fc511435",
+      "name": "click",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"out-of-stock\" class=\"float-start text-danger\">Out of ...</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":689,\"y\":1185}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766096148,
+      "stop": 1771766096221,
+      "duration": 73,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "802aaf085366e8be244b69972a645049",
+      "name": "get [data-test=\"add-to-cart\"]",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "38e432e0a34c211e8cc7cef64c1ae2fd",
+          "name": "assert expected [data-test=\"add-to-cart\"] to be disabled",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-cart\" id=\"btn-add-to-cart\" class=\"btn-success btn\" disabled=\"\">...</button>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766096222,
+          "stop": 1771766096578,
+          "duration": 356,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"add-to-cart\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-cart\" id=\"btn-add-to-cart\" class=\"btn-success btn\" disabled=\"\">...</button>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766096222,
+      "stop": 1771766096578,
+      "duration": 356,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "88dcad6086bf4d4b81249c16f0da7c21",
+      "name": "get [data-test=\"increase-quantity\"]",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "ba868979b432b55df6d6b49800d1786e",
+          "name": "assert expected <button#btn-increase-quantity.btn.btn-secondary> to be disabled",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"increase-quantity\" id=\"btn-increase-quantity\" class=\"btn btn-secondary\" disabled=\"\" aria-label=\"Increase quantity\">...</button>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766096579,
+          "stop": 1771766096579,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"increase-quantity\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"increase-quantity\" id=\"btn-increase-quantity\" class=\"btn btn-secondary\" disabled=\"\" aria-label=\"Increase quantity\">...</button>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766096579,
+      "stop": 1771766096579,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "7ce876bccdd700ea144b9db85c5aecea",
+      "name": "get [data-test=\"add-to-favorites\"]",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "1b91c4a664bb22364a5dd5e8a4260d3b",
+          "name": "assert expected <button#btn-add-to-favorites.btn.btn-warning> to be enabled",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-favorites\" id=\"btn-add-to-favorites\" class=\"btn btn-warning\">...</button>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766096580,
+          "stop": 1771766096580,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"add-to-favorites\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-favorites\" id=\"btn-add-to-favorites\" class=\"btn btn-warning\">...</button>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766096580,
+      "stop": 1771766096580,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    }
+  ],
+  "error": {},
+  "testCase": {
+    "id": "ae8dc3117c0da44c26073ccb69e63b64",
+    "name": "check out of stock product",
+    "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page check out of stock product"
+  },
+  "environment": "default",
+  "setup": [
+    {
+      "id": "4872d17224aca760b463dc5d17c94763",
+      "type": "before",
+      "name": "\"before each\" hook",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "729fe1e7803df532ba9a5ad06f497be2",
+          "name": "visit https://practicesoftwaretesting.com/",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Resolved Url",
+              "value": "https://practicesoftwaretesting.com/",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Redirects",
+              "value": "[]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Cookies Set",
+              "value": "[{\"domain\":\".practicesoftwaretesting.com\",\"httpOnly\":true,\"name\":\"cf_clearance\",\"path\":\"/\",\"sameSite\":\"no_restriction\",\"secure\":...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766095627,
+          "stop": 1771766095766,
+          "duration": 139,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "acaed39d8e4bf4f893b0d20e998eb838",
+          "name": "clearLocalStorage",
+          "status": "passed",
+          "steps": [],
+          "parameters": [],
+          "start": 1771766095766,
+          "stop": 1771766095766,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "1439073e77f7f1cb7a563ba02c636e65",
+          "name": "clearCookies",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "null",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Cleared Cookies",
+              "value": "[{\"name\":\"cf_clearance\",\"value\":\"N_q_Y7xklZUJRM6jRHWRj1tyxr7V2C.tFrz8cSZXGC4-1771766070-1.2.1.1-GnzqH_Ei691SBDdHzpbc3ZWY0gvCGmAw...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Num Cookies",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766095766,
+          "stop": 1771766095770,
+          "duration": 4,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "duration": 151
+    }
+  ],
+  "teardown": [
+    {
+      "id": "13d840befe3ff3e5a34589adcb3a03d5",
+      "type": "after",
+      "name": "Cypress video",
+      "status": "passed",
+      "steps": [
+        {
+          "link": {
+            "used": true,
+            "missed": false,
+            "id": "dc7c8eedcf06e64d816da02797a0f447",
+            "originalFileName": "0c606046-d9ac-46af-846d-acdca96b525d-attachment.mp4",
+            "ext": ".mp4",
+            "contentType": "video/mp4",
+            "contentLength": 26742053,
+            "name": "Cypress video"
+          },
+          "type": "attachment"
+        }
+      ],
+      "duration": 19
+    }
+  ],
+  "history": [],
+  "retries": [],
+  "breadcrumbs": [
+    ["E2E tests of practicesoftwaretesting site", "tests of product page"]
+  ],
+  "retry": false,
+  "titlePath": [
+    "cypress",
+    "e2e",
+    "spec.cy.ts",
+    "E2E tests of practicesoftwaretesting site",
+    "tests of product page"
+  ],
+  "retriesCount": 0,
+  "attachments": [],
+  "order": 29
+}

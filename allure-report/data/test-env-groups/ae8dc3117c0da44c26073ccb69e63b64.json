@@ -1,0 +1,7 @@
+{
+  "id": "ae8dc3117c0da44c26073ccb69e63b64",
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page check out of stock product",
+  "name": "check out of stock product",
+  "status": "broken",
+  "testResultsByEnv": { "default": "7e0c691679f9483175017d1dfdb841c0" }
+}

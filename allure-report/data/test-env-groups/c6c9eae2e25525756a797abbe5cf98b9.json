@@ -1,0 +1,7 @@
+{
+  "id": "c6c9eae2e25525756a797abbe5cf98b9",
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site check sorting of products [Flacky] check Z-A filter of products",
+  "name": "[Flacky] check Z-A filter of products",
+  "status": "broken",
+  "testResultsByEnv": { "default": "acaa41ef66a4482902a44a12307117dc" }
+}

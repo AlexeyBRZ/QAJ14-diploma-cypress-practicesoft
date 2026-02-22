@@ -1,0 +1,331 @@
+{
+  "root": { "groups": ["719ffbccd1f60fabb76192606929585c"], "leaves": [] },
+  "groupsById": {
+    "719ffbccd1f60fabb76192606929585c": {
+      "nodeId": "719ffbccd1f60fabb76192606929585c",
+      "name": "cypress",
+      "statistic": { "total": 21, "failed": 4, "passed": 17 },
+      "groups": ["82fb0632ec08c14a35ff492846ec8a84"]
+    },
+    "82fb0632ec08c14a35ff492846ec8a84": {
+      "nodeId": "82fb0632ec08c14a35ff492846ec8a84",
+      "name": "e2e",
+      "statistic": { "total": 21, "failed": 4, "passed": 17 },
+      "groups": ["60db30919e7a3bd385f472b6479fe924"]
+    },
+    "60db30919e7a3bd385f472b6479fe924": {
+      "nodeId": "60db30919e7a3bd385f472b6479fe924",
+      "name": "spec.cy.ts",
+      "statistic": { "total": 21, "failed": 4, "passed": 17 },
+      "groups": ["fa4223315b6ee9407046b4d76fc7496e"]
+    },
+    "fa4223315b6ee9407046b4d76fc7496e": {
+      "nodeId": "fa4223315b6ee9407046b4d76fc7496e",
+      "name": "E2E tests of practicesoftwaretesting site",
+      "statistic": { "total": 21, "failed": 4, "passed": 17 },
+      "leaves": [
+        "0904ae169b82a767625ef321fe57c0b6",
+        "e596fa79eff1b066080e911b0c949365",
+        "e6170ecbd26bda71d9ac8d208eefd05c",
+        "d3b2029e013546a83099e96ebc496a33"
+      ],
+      "groups": [
+        "eac3d1452eaa7b2bf2fbc492aae0f47f",
+        "55a137d4eb2b8cfa7d6cab3a6424b95a",
+        "25d9f890c8b9d589abe9aa7b7d4a1a3d"
+      ]
+    },
+    "eac3d1452eaa7b2bf2fbc492aae0f47f": {
+      "nodeId": "eac3d1452eaa7b2bf2fbc492aae0f47f",
+      "name": "tests of product page",
+      "statistic": { "total": 7, "passed": 6, "failed": 1 },
+      "leaves": [
+        "48d7bdca85e3b6a009c109b55367fd7a",
+        "ac2063b49d07e59a741bbbd3e61398c8",
+        "14fe54bf399b1775cbca3be70bd4f3c3",
+        "6e8515e55200df899ddf73baae19d230",
+        "212d9cfc59b3710b619ec36373b8a119",
+        "2f4e5f33e336dc5c910826057a085224",
+        "be909946d8be17f81ff01672a532dec1"
+      ]
+    },
+    "55a137d4eb2b8cfa7d6cab3a6424b95a": {
+      "nodeId": "55a137d4eb2b8cfa7d6cab3a6424b95a",
+      "name": "test of purchasing with different methods",
+      "statistic": { "total": 5, "passed": 3, "failed": 2 },
+      "leaves": [
+        "3f5e63c6e57a65b19d54e62c26e4846b",
+        "d18e44eeaa8a5325a515ffde1ec741bd",
+        "74a47af6685869f874da5554c532a3a4",
+        "564dea915af42533174dc6f6113715f8",
+        "e9b0faf8e58978a4d86e05d4ec7fe914"
+      ]
+    },
+    "25d9f890c8b9d589abe9aa7b7d4a1a3d": {
+      "nodeId": "25d9f890c8b9d589abe9aa7b7d4a1a3d",
+      "name": "check sorting of products",
+      "statistic": { "total": 5, "passed": 5 },
+      "leaves": [
+        "37698d97bd929a893f1a098b30a3ebc3",
+        "ed0a92608f1676302e76dd0aa6edc05c",
+        "fd9ca97168f4e58461b78ddd0a097820",
+        "a5a5221e53e185f2da67abb2e029682a",
+        "dda85db42eed41876a6446a2c5eef3a2"
+      ]
+    }
+  },
+  "leavesById": {
+    "0904ae169b82a767625ef321fe57c0b6": {
+      "nodeId": "0904ae169b82a767625ef321fe57c0b6",
+      "id": "bee02c0a06bc146fd5f1bab0eda3655c.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "check site logo visible on the main page",
+      "status": "failed",
+      "duration": 4441,
+      "flaky": false,
+      "start": 1771766291672,
+      "retry": true,
+      "retriesCount": 3,
+      "groupOrder": 1
+    },
+    "e596fa79eff1b066080e911b0c949365": {
+      "nodeId": "e596fa79eff1b066080e911b0c949365",
+      "id": "b48836f4c1918116428a0fc06022abc6.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "[Flacky] check searching by name of product",
+      "status": "passed",
+      "duration": 867,
+      "flaky": false,
+      "start": 1771766296141,
+      "retry": true,
+      "retriesCount": 2,
+      "groupOrder": 2
+    },
+    "e6170ecbd26bda71d9ac8d208eefd05c": {
+      "nodeId": "e6170ecbd26bda71d9ac8d208eefd05c",
+      "id": "3e5ec5da1fb147e295248822cda96fdb.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "check possibilty to come back shopping from cart",
+      "status": "passed",
+      "duration": 3978,
+      "flaky": false,
+      "start": 1771766297032,
+      "retry": true,
+      "retriesCount": 2,
+      "groupOrder": 3
+    },
+    "d3b2029e013546a83099e96ebc496a33": {
+      "nodeId": "d3b2029e013546a83099e96ebc496a33",
+      "id": "1cd41f35fcfbe8e83a23dc82fc51ba98.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "check possibility to clean search field by x button",
+      "status": "passed",
+      "duration": 583,
+      "flaky": false,
+      "start": 1771766301036,
+      "retry": true,
+      "retriesCount": 2,
+      "groupOrder": 4
+    },
+    "48d7bdca85e3b6a009c109b55367fd7a": {
+      "nodeId": "48d7bdca85e3b6a009c109b55367fd7a",
+      "id": "c5a686ac4cbf2f34afcd25d63a981b5d.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "check alert if add products to favorites with unauthorized user",
+      "status": "passed",
+      "duration": 1254,
+      "flaky": false,
+      "start": 1771766301643,
+      "retry": true,
+      "retriesCount": 2,
+      "groupOrder": 1
+    },
+    "ac2063b49d07e59a741bbbd3e61398c8": {
+      "nodeId": "ac2063b49d07e59a741bbbd3e61398c8",
+      "id": "3236c65fbc47fd7b28c63af429ac8094.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "check alert if product is added to cart",
+      "status": "passed",
+      "duration": 1663,
+      "flaky": false,
+      "start": 1771766302922,
+      "retry": true,
+      "retriesCount": 2,
+      "groupOrder": 2
+    },
+    "14fe54bf399b1775cbca3be70bd4f3c3": {
+      "nodeId": "14fe54bf399b1775cbca3be70bd4f3c3",
+      "id": "81dc64c24a6b70883a3783c903f4fc6f.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "check alert if product is added to favorites",
+      "status": "passed",
+      "duration": 14079,
+      "flaky": false,
+      "start": 1771766304609,
+      "retry": true,
+      "retriesCount": 2,
+      "groupOrder": 3
+    },
+    "6e8515e55200df899ddf73baae19d230": {
+      "nodeId": "6e8515e55200df899ddf73baae19d230",
+      "id": "d216b78e4ee64a37299f1201e00f8f36.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "check alert if product is alsready added to favorites",
+      "status": "passed",
+      "duration": 6532,
+      "flaky": false,
+      "start": 1771766318707,
+      "retry": true,
+      "retriesCount": 2,
+      "groupOrder": 4
+    },
+    "212d9cfc59b3710b619ec36373b8a119": {
+      "nodeId": "212d9cfc59b3710b619ec36373b8a119",
+      "id": "ae8dc3117c0da44c26073ccb69e63b64.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "check out of stock product",
+      "status": "passed",
+      "duration": 3818,
+      "flaky": false,
+      "start": 1771766325272,
+      "retry": true,
+      "retriesCount": 2,
+      "groupOrder": 5
+    },
+    "2f4e5f33e336dc5c910826057a085224": {
+      "nodeId": "2f4e5f33e336dc5c910826057a085224",
+      "id": "41ba1a340b56c77883d66f0b7296c8ba.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "check if there are related products on product page",
+      "status": "passed",
+      "duration": 3411,
+      "flaky": false,
+      "start": 1771766329117,
+      "retry": true,
+      "retriesCount": 2,
+      "groupOrder": 6
+    },
+    "be909946d8be17f81ff01672a532dec1": {
+      "nodeId": "be909946d8be17f81ff01672a532dec1",
+      "id": "78e903cb83575f6e90bf325a6512347e.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "Check alert that only one Thor Hammer can be added to the cart",
+      "status": "failed",
+      "duration": 7643,
+      "flaky": false,
+      "start": 1771766332562,
+      "retry": true,
+      "retriesCount": 2,
+      "groupOrder": 7
+    },
+    "3f5e63c6e57a65b19d54e62c26e4846b": {
+      "nodeId": "3f5e63c6e57a65b19d54e62c26e4846b",
+      "id": "79b35bd686b99c6a3acc5c0c3ab70c3d.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "check payment with cash in delivery method",
+      "status": "passed",
+      "duration": 11482,
+      "flaky": false,
+      "start": 1771766340236,
+      "retry": true,
+      "retriesCount": 1,
+      "groupOrder": 1
+    },
+    "d18e44eeaa8a5325a515ffde1ec741bd": {
+      "nodeId": "d18e44eeaa8a5325a515ffde1ec741bd",
+      "id": "cc41c08df0081a24db22361d4e8c30b8.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "check payment with bank transfer",
+      "status": "passed",
+      "duration": 16011,
+      "flaky": false,
+      "start": 1771766353515,
+      "retry": true,
+      "retriesCount": 1,
+      "groupOrder": 2
+    },
+    "74a47af6685869f874da5554c532a3a4": {
+      "nodeId": "74a47af6685869f874da5554c532a3a4",
+      "id": "5651a866a57cb6b36890ab6788d24582.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "check payment with credit card",
+      "status": "failed",
+      "duration": 9116,
+      "flaky": false,
+      "start": 1771766371257,
+      "retry": true,
+      "retriesCount": 1,
+      "groupOrder": 3
+    },
+    "564dea915af42533174dc6f6113715f8": {
+      "nodeId": "564dea915af42533174dc6f6113715f8",
+      "id": "18366ad1507b2c247944da43ac7c57d0.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "check buy now pay later payment",
+      "status": "passed",
+      "duration": 10790,
+      "flaky": false,
+      "start": 1771766381137,
+      "retry": true,
+      "retriesCount": 1,
+      "groupOrder": 4
+    },
+    "e9b0faf8e58978a4d86e05d4ec7fe914": {
+      "nodeId": "e9b0faf8e58978a4d86e05d4ec7fe914",
+      "id": "b9bbed74147f35033bddc38eb8af36ef.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "check payment with gift card",
+      "status": "failed",
+      "duration": 11512,
+      "flaky": false,
+      "start": 1771766392672,
+      "retry": true,
+      "retriesCount": 1,
+      "groupOrder": 5
+    },
+    "37698d97bd929a893f1a098b30a3ebc3": {
+      "nodeId": "37698d97bd929a893f1a098b30a3ebc3",
+      "id": "d80af8a985e889114d69c9718c539b67.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "check sorting by eco-friendly label",
+      "status": "passed",
+      "duration": 583,
+      "flaky": false,
+      "start": 1771766404921,
+      "retry": true,
+      "retriesCount": 2,
+      "groupOrder": 1
+    },
+    "ed0a92608f1676302e76dd0aa6edc05c": {
+      "nodeId": "ed0a92608f1676302e76dd0aa6edc05c",
+      "id": "cee58cd9a5836a10d7bc78a1768cd2a0.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "check A-Z filter of products",
+      "status": "passed",
+      "duration": 1976,
+      "flaky": false,
+      "start": 1771766405539,
+      "retry": true,
+      "retriesCount": 2,
+      "groupOrder": 2
+    },
+    "fd9ca97168f4e58461b78ddd0a097820": {
+      "nodeId": "fd9ca97168f4e58461b78ddd0a097820",
+      "id": "c6c9eae2e25525756a797abbe5cf98b9.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "[Flacky] check Z-A filter of products",
+      "status": "passed",
+      "duration": 1093,
+      "flaky": false,
+      "start": 1771766407541,
+      "retry": true,
+      "retriesCount": 2,
+      "groupOrder": 3
+    },
+    "a5a5221e53e185f2da67abb2e029682a": {
+      "nodeId": "a5a5221e53e185f2da67abb2e029682a",
+      "id": "361379f4d00914a35b503bd0965b85a1.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "[Flacky] check High to Low filter of products",
+      "status": "passed",
+      "duration": 1087,
+      "flaky": false,
+      "start": 1771766408779,
+      "retry": true,
+      "retriesCount": 2,
+      "groupOrder": 4
+    },
+    "dda85db42eed41876a6446a2c5eef3a2": {
+      "nodeId": "dda85db42eed41876a6446a2c5eef3a2",
+      "id": "89f7a66c5b10797f1017d056fc3cb8ef.d41d8cd98f00b204e9800998ecf8427e",
+      "name": "check Low to High filter of products",
+      "status": "passed",
+      "duration": 817,
+      "flaky": false,
+      "start": 1771766409929,
+      "retry": true,
+      "retriesCount": 2,
+      "groupOrder": 5
+    }
+  }
+}

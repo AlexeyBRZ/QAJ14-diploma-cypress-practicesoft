@@ -1,0 +1,84 @@
+{
+  "uuid": "ecaeaf4b-75d1-4a39-a1c5-17d9fa35dd64",
+  "name": "check site logo visible on the main page",
+  "historyId": "8a2f51d9457d778a39014561e3bc3d52:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Timed out retrying after 4000ms: expected '<a.navbar-brand>' to be 'enabled'",
+    "trace": "AssertionError: Timed out retrying after 4000ms: expected '<a.navbar-brand>' to be 'enabled'\n    at Context.eval (webpack://cypress-practicesoft/./cypress/e2e/spec.cy.ts:13:30)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Timed out retrying after 4000ms: expected '<a.navbar-brand>' to be 'enabled'",
+        "trace": "AssertionError: Timed out retrying after 4000ms: expected '<a.navbar-brand>' to be 'enabled'\n    at Context.eval (webpack://cypress-practicesoft/./cypress/e2e/spec.cy.ts:13:30)"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Timed out retrying after 4000ms: expected '<a.navbar-brand>' to be 'enabled'",
+            "trace": "AssertionError: Timed out retrying after 4000ms: expected '<a.navbar-brand>' to be 'enabled'\n    at Context.eval (webpack://cypress-practicesoft/./cypress/e2e/spec.cy.ts:13:30)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<a _ngcontent-ng-c1334646923=\"\" href=\"/\" class=\"navbar-brand\" title=\"Practice Software Testing - Toolshop\">...</a>"
+            }
+          ],
+          "start": 1771766251610,
+          "name": "assert expected [class=navbar-brand] to be enabled",
+          "stop": 1771766255606
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[class=navbar-brand]" },
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c1334646923=\"\" href=\"/\" class=\"navbar-brand\" title=\"Practice Software Testing - Toolshop\">...</a>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766251607,
+      "name": "get [class=navbar-brand]",
+      "stop": 1771766255606
+    }
+  ],
+  "attachments": [
+    {
+      "name": "E2E tests of practicesoftwaretesting site -- check site logo visible on the main page (failed) (1).png",
+      "source": "c31229d0-fb0b-4c86-b067-dc25087e228f-attachment.png",
+      "type": "image/png"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "cypress" },
+    {
+      "name": "parentSuite",
+      "value": "E2E tests of practicesoftwaretesting site"
+    },
+    { "name": "host", "value": "a-birzgal.local" },
+    { "name": "thread", "value": "pid-94276-worker-main" },
+    { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+  ],
+  "links": [],
+  "start": 1771766251304,
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site check site logo visible on the main page",
+  "titlePath": [
+    "cypress",
+    "e2e",
+    "spec.cy.ts",
+    "E2E tests of practicesoftwaretesting site"
+  ],
+  "testCaseId": "8a2f51d9457d778a39014561e3bc3d52",
+  "stop": 1771766255799
+}

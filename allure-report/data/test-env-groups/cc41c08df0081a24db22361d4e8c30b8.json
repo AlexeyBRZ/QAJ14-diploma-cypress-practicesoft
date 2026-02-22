@@ -1,0 +1,7 @@
+{
+  "id": "cc41c08df0081a24db22361d4e8c30b8",
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site test of purchasing with different methods check payment with bank transfer",
+  "name": "check payment with bank transfer",
+  "status": "broken",
+  "testResultsByEnv": { "default": "b9dd47deb749f8a179a3db2395f1c951" }
+}

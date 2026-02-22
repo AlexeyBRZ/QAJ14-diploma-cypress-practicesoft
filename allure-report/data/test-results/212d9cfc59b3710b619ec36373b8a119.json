@@ -1,0 +1,739 @@
+{
+  "id": "212d9cfc59b3710b619ec36373b8a119",
+  "name": "check out of stock product",
+  "start": 1771766325272,
+  "stop": 1771766329090,
+  "duration": 3818,
+  "status": "passed",
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page check out of stock product",
+  "historyId": "ae8dc3117c0da44c26073ccb69e63b64.d41d8cd98f00b204e9800998ecf8427e",
+  "flaky": false,
+  "muted": false,
+  "known": false,
+  "hidden": false,
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "cypress" },
+    {
+      "name": "parentSuite",
+      "value": "E2E tests of practicesoftwaretesting site"
+    },
+    { "name": "suite", "value": "tests of product page" },
+    { "name": "host", "value": "a-birzgal.local" },
+    { "name": "thread", "value": "pid-95817-worker-main" },
+    { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+  ],
+  "groupedLabels": {
+    "language": ["javascript"],
+    "framework": ["cypress"],
+    "parentSuite": ["E2E tests of practicesoftwaretesting site"],
+    "suite": ["tests of product page"],
+    "host": ["a-birzgal.local"],
+    "thread": ["pid-95817-worker-main"],
+    "package": ["cypress.e2e.spec.cy.ts"]
+  },
+  "parameters": [],
+  "links": [],
+  "steps": [
+    {
+      "stepId": "3c420911f8e621b9dbaf440e34139880",
+      "name": "get [data-test=\"out-of-stock\"]",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"out-of-stock\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"out-of-stock\" class=\"float-start text-danger\">Out of ...</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766325373,
+      "stop": 1771766326743,
+      "duration": 1370,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "6a558058fd2fea154809163f52b6d6e6",
+      "name": "click",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"out-of-stock\" class=\"float-start text-danger\">Out of ...</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":689,\"y\":1185}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766326744,
+      "stop": 1771766326817,
+      "duration": 73,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "421e41b148cb3af76f737c9dff028cc5",
+      "name": "get [data-test=\"add-to-cart\"]",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "d6b8cb63e5630a1738b6030af2e3b824",
+          "name": "assert expected [data-test=\"add-to-cart\"] to be disabled",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-cart\" id=\"btn-add-to-cart\" class=\"btn-success btn\" disabled=\"\">...</button>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766326819,
+          "stop": 1771766329089,
+          "duration": 2270,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"add-to-cart\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-cart\" id=\"btn-add-to-cart\" class=\"btn-success btn\" disabled=\"\">...</button>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766326818,
+      "stop": 1771766329089,
+      "duration": 2271,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "f26b58751d0493ccf70d44d8e42d2dbb",
+      "name": "get [data-test=\"increase-quantity\"]",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "aa5c597cf5c9ad62c530858be9c737b8",
+          "name": "assert expected <button#btn-increase-quantity.btn.btn-secondary> to be disabled",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"increase-quantity\" id=\"btn-increase-quantity\" class=\"btn btn-secondary\" disabled=\"\" aria-label=\"Increase quantity\">...</button>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766329090,
+          "stop": 1771766329090,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"increase-quantity\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"increase-quantity\" id=\"btn-increase-quantity\" class=\"btn btn-secondary\" disabled=\"\" aria-label=\"Increase quantity\">...</button>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766329089,
+      "stop": 1771766329090,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "a0d66afe5582f514101b48358596ae0b",
+      "name": "get [data-test=\"add-to-favorites\"]",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "872575d9a91026f709e82bb032bd2a4f",
+          "name": "assert expected <button#btn-add-to-favorites.btn.btn-warning> to be enabled",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-favorites\" id=\"btn-add-to-favorites\" class=\"btn btn-warning\">...</button>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766329090,
+          "stop": 1771766329090,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"add-to-favorites\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-favorites\" id=\"btn-add-to-favorites\" class=\"btn btn-warning\">...</button>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766329090,
+      "stop": 1771766329090,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    }
+  ],
+  "error": {},
+  "testCase": {
+    "id": "ae8dc3117c0da44c26073ccb69e63b64",
+    "name": "check out of stock product",
+    "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page check out of stock product"
+  },
+  "environment": "default",
+  "setup": [
+    {
+      "id": "9a179abe2250066349659bff82bd7b45",
+      "type": "before",
+      "name": "\"before each\" hook",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "0fed7d84a8e6f23d2fa37e32ced1f748",
+          "name": "visit https://practicesoftwaretesting.com/",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Resolved Url",
+              "value": "https://practicesoftwaretesting.com/",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Redirects",
+              "value": "[]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Cookies Set",
+              "value": "[{\"domain\":\".practicesoftwaretesting.com\",\"httpOnly\":true,\"name\":\"cf_clearance\",\"path\":\"/\",\"sameSite\":\"no_restriction\",\"secure\":...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766325281,
+          "stop": 1771766325364,
+          "duration": 83,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "8a830c187a0ab90eeb42d1b4fa6feb82",
+          "name": "clearLocalStorage",
+          "status": "passed",
+          "steps": [],
+          "parameters": [],
+          "start": 1771766325365,
+          "stop": 1771766325365,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "44ef2ff91af3cc604c561f01e40e2ac9",
+          "name": "clearCookies",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "null",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Cleared Cookies",
+              "value": "[{\"name\":\"cf_clearance\",\"value\":\"j6Wg_PY2h0XxZOlhFSdUfTKeJ7SUrHbuxk6eoDU23vw-1771766292-1.2.1.1-xdnq3ybPeJRY7Bdx7sYYwbUqkeXQV5Wq...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Num Cookies",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766325365,
+          "stop": 1771766325372,
+          "duration": 7,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "duration": 99
+    }
+  ],
+  "teardown": [
+    {
+      "id": "b7a4cf8106624256f0cd48aa9d7e4794",
+      "type": "after",
+      "name": "Cypress video",
+      "status": "passed",
+      "steps": [
+        {
+          "link": {
+            "used": true,
+            "missed": false,
+            "id": "7acc2591be960ff122555f2c0e46fdf4",
+            "originalFileName": "92114ed1-bfc2-4cbc-9b5d-364e653a7fa7-attachment.mp4",
+            "ext": ".mp4",
+            "contentType": "video/mp4",
+            "contentLength": 63562655,
+            "name": "Cypress video"
+          },
+          "type": "attachment"
+        }
+      ],
+      "duration": 40
+    }
+  ],
+  "history": [],
+  "retries": [
+    {
+      "id": "c14882a850d2969d335e482201f7e422",
+      "name": "check out of stock product",
+      "testCase": {
+        "id": "ae8dc3117c0da44c26073ccb69e63b64",
+        "name": "check out of stock product",
+        "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page check out of stock product"
+      },
+      "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page check out of stock product",
+      "historyId": "ae8dc3117c0da44c26073ccb69e63b64.d41d8cd98f00b204e9800998ecf8427e",
+      "status": "passed",
+      "error": {},
+      "start": 1771766095616,
+      "stop": 1771766096577,
+      "duration": 961,
+      "flaky": false,
+      "muted": false,
+      "known": false,
+      "hidden": true,
+      "labels": [
+        { "name": "language", "value": "javascript" },
+        { "name": "framework", "value": "cypress" },
+        {
+          "name": "parentSuite",
+          "value": "E2E tests of practicesoftwaretesting site"
+        },
+        { "name": "suite", "value": "tests of product page" },
+        { "name": "host", "value": "a-birzgal.local" },
+        { "name": "thread", "value": "pid-90852-worker-main" },
+        { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+      ],
+      "steps": [
+        {
+          "stepId": "156b9c39a7435a9f941c1aee1c0aa20d",
+          "name": "get [data-test=\"out-of-stock\"]",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"out-of-stock\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"out-of-stock\" class=\"float-start text-danger\">Out of ...</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766095771,
+          "stop": 1771766096147,
+          "duration": 376,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "34fbd0fbba6fcf1fd0a1b1c5fc511435",
+          "name": "click",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Applied To",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"out-of-stock\" class=\"float-start text-danger\">Out of ...</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Coords",
+              "value": "{\"x\":689,\"y\":1185}",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766096148,
+          "stop": 1771766096221,
+          "duration": 73,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "802aaf085366e8be244b69972a645049",
+          "name": "get [data-test=\"add-to-cart\"]",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "38e432e0a34c211e8cc7cef64c1ae2fd",
+              "name": "assert expected [data-test=\"add-to-cart\"] to be disabled",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "subject",
+                  "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-cart\" id=\"btn-add-to-cart\" class=\"btn-success btn\" disabled=\"\">...</button>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766096222,
+              "stop": 1771766096578,
+              "duration": 356,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"add-to-cart\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-cart\" id=\"btn-add-to-cart\" class=\"btn-success btn\" disabled=\"\">...</button>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766096222,
+          "stop": 1771766096578,
+          "duration": 356,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "88dcad6086bf4d4b81249c16f0da7c21",
+          "name": "get [data-test=\"increase-quantity\"]",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "ba868979b432b55df6d6b49800d1786e",
+              "name": "assert expected <button#btn-increase-quantity.btn.btn-secondary> to be disabled",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "subject",
+                  "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"increase-quantity\" id=\"btn-increase-quantity\" class=\"btn btn-secondary\" disabled=\"\" aria-label=\"Increase quantity\">...</button>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766096579,
+              "stop": 1771766096579,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"increase-quantity\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"increase-quantity\" id=\"btn-increase-quantity\" class=\"btn btn-secondary\" disabled=\"\" aria-label=\"Increase quantity\">...</button>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766096579,
+          "stop": 1771766096579,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "7ce876bccdd700ea144b9db85c5aecea",
+          "name": "get [data-test=\"add-to-favorites\"]",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "1b91c4a664bb22364a5dd5e8a4260d3b",
+              "name": "assert expected <button#btn-add-to-favorites.btn.btn-warning> to be enabled",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "subject",
+                  "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-favorites\" id=\"btn-add-to-favorites\" class=\"btn btn-warning\">...</button>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766096580,
+              "stop": 1771766096580,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"add-to-favorites\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-favorites\" id=\"btn-add-to-favorites\" class=\"btn btn-warning\">...</button>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766096580,
+          "stop": 1771766096580,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [],
+      "links": [],
+      "hostId": "a-birzgal.local",
+      "threadId": "pid-90852-worker-main",
+      "sourceMetadata": {
+        "readerId": "allure2",
+        "metadata": {
+          "originalFileName": "3f0d1966-97b9-4acf-a69b-fe4f092ca1bc-result.json"
+        }
+      },
+      "titlePath": [
+        "cypress",
+        "e2e",
+        "spec.cy.ts",
+        "E2E tests of practicesoftwaretesting site",
+        "tests of product page"
+      ],
+      "environment": "default"
+    },
+    {
+      "id": "7e0c691679f9483175017d1dfdb841c0",
+      "name": "check out of stock product",
+      "testCase": {
+        "id": "ae8dc3117c0da44c26073ccb69e63b64",
+        "name": "check out of stock product",
+        "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page check out of stock product"
+      },
+      "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page check out of stock product",
+      "historyId": "ae8dc3117c0da44c26073ccb69e63b64.d41d8cd98f00b204e9800998ecf8427e",
+      "status": "broken",
+      "error": {
+        "message": "`cy.task('getPendingAllureResults')` failed with the following error:\n\nThe task 'getPendingAllureResults' was not handled in the setupNodeEvents method. The following tasks are registered: reportAllureCypressSpecMessages, reportFinalAllureCypressSpecMessages\n\nFix this in your setupNodeEvents method here:\n/Users/alexey/Documents/Typescript/cypress-practicesoft/cypress.config.ts\n\nhttps://on.cypress.io/api/task",
+        "trace": "CypressError: `cy.task('getPendingAllureResults')` failed with the following error:\n\nThe task 'getPendingAllureResults' was not handled in the setupNodeEvents method. The following tasks are registered: reportAllureCypressSpecMessages, reportFinalAllureCypressSpecMessages\n\nFix this in your setupNodeEvents method here:\n/Users/alexey/Documents/Typescript/cypress-practicesoft/cypress.config.ts\n\nhttps://on.cypress.io/api/task\n    at <unknown> (http://localhost:61932/__cypress/runner/cypress_runner.js:138703:72)\n    at tryCatcher (http://localhost:61932/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:61932/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:61932/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:61932/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:61932/__cypress/runner/cypress_runner.js:1667:18)\n    at _drainQueueStep (http://localhost:61932/__cypress/runner/cypress_runner.js:2377:12)\n    at _drainQueue (http://localhost:61932/__cypress/runner/cypress_runner.js:2370:9)\n    at Async._drainQueues (http://localhost:61932/__cypress/runner/cypress_runner.js:2386:5)\n    at Async.drainQueues (http://localhost:61932/__cypress/runner/cypress_runner.js:2256:14)\nFrom Your Spec Code:\n    at Context.eval (webpack://cypress-practicesoft/./node_modules/@shelex/cypress-allure-plugin/reporter/index.js:419:0)"
+      },
+      "start": 1771765267688,
+      "stop": 1771765267700,
+      "duration": 12,
+      "flaky": false,
+      "muted": false,
+      "known": false,
+      "hidden": true,
+      "labels": [
+        { "name": "language", "value": "javascript" },
+        { "name": "framework", "value": "cypress" },
+        { "name": "host", "value": "a-birzgal.local" },
+        { "name": "thread", "value": "pid-75090-worker-main" },
+        { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+      ],
+      "steps": [],
+      "parameters": [],
+      "links": [],
+      "hostId": "a-birzgal.local",
+      "threadId": "pid-75090-worker-main",
+      "sourceMetadata": {
+        "readerId": "allure2",
+        "metadata": {
+          "originalFileName": "e1eca146-ec2d-4152-8986-70c72312f31d-result.json"
+        }
+      },
+      "titlePath": ["cypress", "e2e", "spec.cy.ts"],
+      "environment": "default"
+    }
+  ],
+  "breadcrumbs": [
+    ["E2E tests of practicesoftwaretesting site", "tests of product page"]
+  ],
+  "retry": true,
+  "titlePath": [
+    "cypress",
+    "e2e",
+    "spec.cy.ts",
+    "E2E tests of practicesoftwaretesting site",
+    "tests of product page"
+  ],
+  "retriesCount": 2,
+  "attachments": [],
+  "order": 47
+}

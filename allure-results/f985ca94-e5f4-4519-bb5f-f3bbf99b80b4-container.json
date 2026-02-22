@@ -1,0 +1,47 @@
+{
+  "uuid": "f985ca94-e5f4-4519-bb5f-f3bbf99b80b4",
+  "name": "Cypress video",
+  "children": [
+    "f038326a-206f-4da8-8b39-3b813de8fd6e",
+    "54de339f-2c3c-4242-9c35-6658ed7a841b",
+    "94a0fbfd-1520-4ccc-b282-25b044778ce0",
+    "3a4b21ad-e19d-4293-96ac-5621691fe1a1",
+    "9301373f-5b89-4fcf-aa60-16e9bb9522dc",
+    "df48bd23-829f-4dd2-9fdc-ae54fbdf1e19",
+    "e26e1e55-f870-47f7-9254-60540cc6797e",
+    "8786afc2-bd69-41bb-8cee-442acc0fb0c2",
+    "d4c1915f-d42b-42e8-83db-bcd541c8a329",
+    "2d846a2b-0c47-4763-b6ab-48a79334e59b",
+    "4f65c189-0745-4c82-bfc8-fda15d02ef0a",
+    "8db991ff-3b54-4233-9c45-ce9700c12ee2",
+    "12037542-24a7-450a-b54b-20afa682b966",
+    "1660a68e-6d28-4972-8963-5be08545c1d9",
+    "c04806d6-545d-4693-838b-5ed5fe0120e9",
+    "8a427423-6125-4ee8-989a-1915803b08cb",
+    "6e812c9f-2ade-40d7-9ed5-9be836f6c1a7",
+    "c2741388-3fa9-4892-94e5-2147284745c1",
+    "5de42365-48be-479c-bf65-3b5b5de0049c",
+    "0d97bfcf-0792-4480-a073-778ec491d0a6",
+    "06798c0f-a1f5-4f2e-8bf8-cc8504e41746"
+  ],
+  "befores": [],
+  "afters": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Cypress video",
+          "source": "92114ed1-bfc2-4cbc-9b5d-364e653a7fa7-attachment.mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "parameters": [],
+      "start": 1771766412281,
+      "name": "Cypress video",
+      "stop": 1771766412321
+    }
+  ]
+}

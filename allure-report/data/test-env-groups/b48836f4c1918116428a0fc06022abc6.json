@@ -1,0 +1,7 @@
+{
+  "id": "b48836f4c1918116428a0fc06022abc6",
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site [Flacky] check searching by name of product",
+  "name": "[Flacky] check searching by name of product",
+  "status": "broken",
+  "testResultsByEnv": { "default": "95ea53fc5747cb3ec3b70c5f23d3442e" }
+}

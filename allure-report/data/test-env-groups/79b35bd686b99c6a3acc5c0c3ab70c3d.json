@@ -1,0 +1,7 @@
+{
+  "id": "79b35bd686b99c6a3acc5c0c3ab70c3d",
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site test of purchasing with different methods check payment with cash in delivery method",
+  "name": "check payment with cash in delivery method",
+  "status": "broken",
+  "testResultsByEnv": { "default": "f0bbe9b49a898c00739963fed99a7071" }
+}

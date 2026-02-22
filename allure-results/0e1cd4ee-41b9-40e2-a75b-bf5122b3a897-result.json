@@ -1,0 +1,516 @@
+{
+  "uuid": "0e1cd4ee-41b9-40e2-a75b-bf5122b3a897",
+  "name": "check alert if product is alsready added to favorites",
+  "historyId": "177e58f4b319c9293ad28f542a880b08:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Timed out retrying after 4000ms: expected '[ <div.ng-tns-c969959638-1.toast-message.ng-star-inserted>, 1 more... ]' to have text ' Product already in your favorites list. ', but the text was ' Product already in your favorites list.  Product added to your favorites list. '",
+    "trace": "AssertionError: Timed out retrying after 4000ms: expected '[ <div.ng-tns-c969959638-1.toast-message.ng-star-inserted>, 1 more... ]' to have text ' Product already in your favorites list. ', but the text was ' Product already in your favorites list.  Product added to your favorites list. '\n    at Context.eval (webpack://cypress-practicesoft/./cypress/e2e/spec.cy.ts:105:38)",
+    "actual": "' Product already in your favorites list.  Product added to your favorites list. '",
+    "expected": "' Product already in your favorites list. '"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Resolved Url",
+          "value": "https://practicesoftwaretesting.com/auth/login"
+        },
+        { "name": "Redirects", "value": "[]" },
+        {
+          "name": "Cookies Set",
+          "value": "[{\"domain\":\".practicesoftwaretesting.com\",\"httpOnly\":true,\"name\":\"cf_clearance\",\"path\":\"/\",\"sameSite\":\"no_restriction\",\"secure\":..."
+        }
+      ],
+      "start": 1771766086246,
+      "name": "visit https://practicesoftwaretesting.com/auth/login",
+      "stop": 1771766086344
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"email\"]" },
+        {
+          "name": "Yielded",
+          "value": "<input _ngcontent-ng-c713820125=\"\" formcontrolname=\"email\" id=\"email\" data-test=\"email\" type=\"email\" aria-required=\"true\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your email\" aria-invalid=\"false\">"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766086344,
+      "name": "get [data-test=\"email\"]",
+      "stop": 1771766086398
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<input _ngcontent-ng-c713820125=\"\" formcontrolname=\"email\" id=\"email\" data-test=\"email\" type=\"email\" aria-required=\"true\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your email\" aria-invalid=\"false\">"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":500,\"y\":483}" },
+        { "name": "Typed", "value": "customer2@practicesoftwaretesting.com" }
+      ],
+      "start": 1771766086398,
+      "name": "type customer2@practicesoftwaretesting.com",
+      "stop": 1771766086940
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"password\"]" },
+        {
+          "name": "Yielded",
+          "value": "<input class=\"form-control\" id=\"password\" type=\"password\" placeholder=\"Your password\" data-test=\"password\" aria-invalid=\"false\">"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766086940,
+      "name": "get [data-test=\"password\"]",
+      "stop": 1771766086940
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<input class=\"form-control\" id=\"password\" type=\"password\" placeholder=\"Your password\" data-test=\"password\" aria-invalid=\"false\">"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":477,\"y\":561}" },
+        { "name": "Typed", "value": "welcome01" }
+      ],
+      "start": 1771766086941,
+      "name": "type welcome01",
+      "stop": 1771766087165
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"login-submit\"]" },
+        {
+          "name": "Yielded",
+          "value": "<input _ngcontent-ng-c713820125=\"\" type=\"submit\" data-test=\"login-submit\" aria-label=\"Login\" class=\"btnSubmit\" value=\"Login\">"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766087165,
+      "name": "get [data-test=\"login-submit\"]",
+      "stop": 1771766087165
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<input _ngcontent-ng-c713820125=\"\" type=\"submit\" data-test=\"login-submit\" aria-label=\"Login\" class=\"btnSubmit\" value=\"Login\">"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":417,\"y\":612}" }
+      ],
+      "start": 1771766087166,
+      "name": "click",
+      "stop": 1771766087235
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Waited For", "value": "loggedIn" },
+        {
+          "name": "Yielded",
+          "value": "{\"id\":\"interceptedRequest288\",\"browserRequestId\":\"FF78FBC177B39D2F81B12FC963F22939\",\"routeId\":\"1771766087236-115\",\"request\":{\"he..."
+        }
+      ],
+      "start": 1771766087237,
+      "name": "wait @loggedIn",
+      "stop": 1771766088049
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"nav-home\"]" },
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c1334646923=\"\" data-test=\"nav-home\" aria-current=\"page\" href=\"/\" class=\"nav-link active\">Home</a>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766088049,
+      "name": "get [data-test=\"nav-home\"]",
+      "stop": 1771766088137
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c1334646923=\"\" data-test=\"nav-home\" aria-current=\"page\" href=\"/\" class=\"nav-link active\">Home</a>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":690,\"y\":133}" }
+      ],
+      "start": 1771766088138,
+      "name": "click",
+      "stop": 1771766088208
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "ul.pagination" },
+        { "name": "Yielded", "value": "<ul class=\"pagination\">...</ul>" },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766088241,
+      "name": "get ul.pagination",
+      "stop": 1771766090439
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Content", "value": "{}" },
+        { "name": "Applied To", "value": "<ul class=\"pagination\">...</ul>" },
+        {
+          "name": "Yielded",
+          "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-2\">2</a>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766090440,
+      "name": "contains a.page-link, /^2$/",
+      "stop": 1771766090441
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-2\">2</a>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":357,\"y\":2436}" }
+      ],
+      "start": 1771766090441,
+      "name": "click",
+      "stop": 1771766090512
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            { "name": "actual", "value": "2" },
+            { "name": "expected", "value": "2" },
+            {
+              "name": "subject",
+              "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-2\">2</a>"
+            }
+          ],
+          "start": 1771766090513,
+          "name": "assert expected <a.page-link> to have text '2'",
+          "stop": 1771766090513
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "li.page-item.active a.page-link" },
+        {
+          "name": "Yielded",
+          "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-2\">2</a>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766090512,
+      "name": "get li.page-item.active a.page-link",
+      "stop": 1771766090513
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ96Z99ZRQYWCC46BHAXC\" href=\"/product/01KJ2PZ96Z99ZRQYWCC46BHAXC\">...</a>"
+            }
+          ],
+          "start": 1771766090516,
+          "name": "assert expected [ <a.card>, 8 more... ] to have property length",
+          "stop": 1771766090517
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "a.card" },
+        {
+          "name": "Yielded",
+          "value": "[{\"__ngContext__\":36,\"__zone_symbol__clickfalse\":null,\"__zone_symbol__ON_PROPERTYclick\":null},{\"__ngContext__\":37,\"__zone_symbol..."
+        },
+        { "name": "Elements", "value": "9" }
+      ],
+      "start": 1771766090514,
+      "name": "get a.card",
+      "stop": 1771766090517
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "6" },
+        {
+          "name": "Applied To",
+          "value": "[{\"__ngContext__\":36,\"__zone_symbol__clickfalse\":null,\"__zone_symbol__ON_PROPERTYclick\":null},{\"__ngContext__\":37,\"__zone_symbol..."
+        },
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ97BT0M5KCV8S04NATH5\" href=\"/product/01KJ2PZ97BT0M5KCV8S04NATH5\">...</a>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766090517,
+      "name": "eq 6",
+      "stop": 1771766090518
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ97BT0M5KCV8S04NATH5\" href=\"/product/01KJ2PZ97BT0M5KCV8S04NATH5\">...</a>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":448,\"y\":1822}" },
+        {
+          "name": "Actual Element Clicked",
+          "value": "<img _ngcontent-ng-c3901630365=\"\" loading=\"lazy\" class=\"card-img-top\" alt=\"Hammer\" src=\"assets/img/products/hammer02.avif\">"
+        }
+      ],
+      "start": 1771766090518,
+      "name": "click",
+      "stop": 1771766090592
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"add-to-favorites\"]" },
+        {
+          "name": "Yielded",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-favorites\" id=\"btn-add-to-favorites\" class=\"btn btn-warning\">...</button>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766090593,
+      "name": "get [data-test=\"add-to-favorites\"]",
+      "stop": 1771766091296
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-favorites\" id=\"btn-add-to-favorites\" class=\"btn btn-warning\">...</button>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":736,\"y\":839}" }
+      ],
+      "start": 1771766091297,
+      "name": "click",
+      "stop": 1771766091367
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"add-to-favorites\"]" },
+        {
+          "name": "Yielded",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-favorites\" id=\"btn-add-to-favorites\" class=\"btn btn-warning\">...</button>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766091368,
+      "name": "get [data-test=\"add-to-favorites\"]",
+      "stop": 1771766091368
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-favorites\" id=\"btn-add-to-favorites\" class=\"btn btn-warning\">...</button>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":736,\"y\":839}" }
+      ],
+      "start": 1771766091368,
+      "name": "click",
+      "stop": 1771766091437
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Timed out retrying after 4000ms: expected '[ <div.ng-tns-c969959638-1.toast-message.ng-star-inserted>, 1 more... ]' to have text ' Product already in your favorites list. ', but the text was ' Product already in your favorites list.  Product added to your favorites list. '",
+        "trace": "AssertionError: Timed out retrying after 4000ms: expected '[ <div.ng-tns-c969959638-1.toast-message.ng-star-inserted>, 1 more... ]' to have text ' Product already in your favorites list. ', but the text was ' Product already in your favorites list.  Product added to your favorites list. '\n    at Context.eval (webpack://cypress-practicesoft/./cypress/e2e/spec.cy.ts:105:38)",
+        "actual": "' Product already in your favorites list.  Product added to your favorites list. '",
+        "expected": "' Product already in your favorites list. '"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Timed out retrying after 4000ms: expected '[ <div.ng-tns-c969959638-1.toast-message.ng-star-inserted>, 1 more... ]' to have text ' Product already in your favorites list. ', but the text was ' Product already in your favorites list.  Product added to your favorites list. '",
+            "trace": "AssertionError: Timed out retrying after 4000ms: expected '[ <div.ng-tns-c969959638-1.toast-message.ng-star-inserted>, 1 more... ]' to have text ' Product already in your favorites list. ', but the text was ' Product already in your favorites list.  Product added to your favorites list. '\n    at Context.eval (webpack://cypress-practicesoft/./cypress/e2e/spec.cy.ts:105:38)",
+            "actual": "' Product already in your favorites list.  Product added to your favorites list. '",
+            "expected": "' Product already in your favorites list. '"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<div role=\"alert\" class=\"ng-tns-c969959638-1 toast-message ng-star-inserted\" aria-label=\"Product already in your favorites list.\" style=\"\">Product...</div>"
+            }
+          ],
+          "start": 1771766091439,
+          "name": "assert expected '[role=\"alert\"]' to have text '&nbsp;Product already in your favorites list.&nbsp;', but the text was ''",
+          "stop": 1771766095426
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[role=\"alert\"]" },
+        {
+          "name": "Yielded",
+          "value": "[{\"__ngContext__\":84},{\"__ngContext__\":80}]"
+        },
+        { "name": "Elements", "value": "2" }
+      ],
+      "start": 1771766091438,
+      "name": "get [role=\"alert\"]",
+      "stop": 1771766095426
+    }
+  ],
+  "attachments": [
+    {
+      "name": "E2E tests of practicesoftwaretesting site -- tests of product page -- check alert if product is alsready added to favorites (failed) (2).png",
+      "source": "689fdf5b-a001-49cd-8098-32e3c1d9bfcd-attachment.png",
+      "type": "image/png"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "cypress" },
+    {
+      "name": "parentSuite",
+      "value": "E2E tests of practicesoftwaretesting site"
+    },
+    { "name": "suite", "value": "tests of product page" },
+    { "name": "host", "value": "a-birzgal.local" },
+    { "name": "thread", "value": "pid-90852-worker-main" },
+    { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+  ],
+  "links": [],
+  "start": 1771766086104,
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page check alert if product is alsready added to favorites",
+  "titlePath": [
+    "cypress",
+    "e2e",
+    "spec.cy.ts",
+    "E2E tests of practicesoftwaretesting site",
+    "tests of product page"
+  ],
+  "testCaseId": "177e58f4b319c9293ad28f542a880b08",
+  "stop": 1771766095584
+}

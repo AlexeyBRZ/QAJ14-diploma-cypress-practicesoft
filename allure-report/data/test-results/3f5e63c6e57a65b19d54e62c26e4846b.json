@@ -1,0 +1,2163 @@
+{
+  "id": "3f5e63c6e57a65b19d54e62c26e4846b",
+  "name": "check payment with cash in delivery method",
+  "start": 1771766340236,
+  "stop": 1771766351718,
+  "duration": 11482,
+  "status": "passed",
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site test of purchasing with different methods check payment with cash in delivery method",
+  "historyId": "79b35bd686b99c6a3acc5c0c3ab70c3d.d41d8cd98f00b204e9800998ecf8427e",
+  "flaky": false,
+  "muted": false,
+  "known": false,
+  "hidden": false,
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "cypress" },
+    {
+      "name": "parentSuite",
+      "value": "E2E tests of practicesoftwaretesting site"
+    },
+    { "name": "suite", "value": "test of purchasing with different methods" },
+    { "name": "host", "value": "a-birzgal.local" },
+    { "name": "thread", "value": "pid-95817-worker-main" },
+    { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+  ],
+  "groupedLabels": {
+    "language": ["javascript"],
+    "framework": ["cypress"],
+    "parentSuite": ["E2E tests of practicesoftwaretesting site"],
+    "suite": ["test of purchasing with different methods"],
+    "host": ["a-birzgal.local"],
+    "thread": ["pid-95817-worker-main"],
+    "package": ["cypress.e2e.spec.cy.ts"]
+  },
+  "parameters": [],
+  "links": [],
+  "steps": [
+    {
+      "stepId": "6e940d34e7cfc9ca8456855c69371cfd",
+      "name": "get [data-test=\"nav-home\"]",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"nav-home\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c1334646923=\"\" data-test=\"nav-home\" aria-current=\"page\" href=\"/\" class=\"nav-link active\">Home</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766342065,
+      "stop": 1771766342120,
+      "duration": 55,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "373166106e15532096ae5a2435c294f2",
+      "name": "click",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c1334646923=\"\" data-test=\"nav-home\" aria-current=\"page\" href=\"/\" class=\"nav-link active\">Home</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":690,\"y\":133}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766342120,
+      "stop": 1771766342192,
+      "duration": 72,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "0d3b85832e084cae4e57b8f6825ba0b4",
+      "name": "get ul.pagination",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "ul.pagination",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<ul class=\"pagination\">...</ul>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766342231,
+      "stop": 1771766343652,
+      "duration": 1421,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "3689d9825c07deeb489b0daf0ab97315",
+      "name": "contains a.page-link, /^3$/",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Content",
+          "value": "{}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<ul class=\"pagination\">...</ul>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-3\">3</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766343652,
+      "stop": 1771766343653,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "6073c18eb7554f2fe1bdbd0e334a9758",
+      "name": "click",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-3\">3</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":391,\"y\":2436}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766343653,
+      "stop": 1771766343723,
+      "duration": 70,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "e28b9b34ab7c929a743220c16aecffd0",
+      "name": "get li.page-item.active a.page-link",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "e8fc93e32359f136e5446b540937afb1",
+          "name": "assert expected <a.page-link> to have text '3'",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "3",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "3",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-3\">3</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766343725,
+          "stop": 1771766343725,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "li.page-item.active a.page-link",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-3\">3</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766343724,
+      "stop": 1771766343725,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "29980e921b2c738bc8d59cef57252872",
+      "name": "get a.card",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "9890b8fb85ee65268c4dd02695a8b873",
+          "name": "assert expected [ <a.card>, 8 more... ] to have property length",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ96Z99ZRQYWCC46BHAXC\" href=\"/product/01KJ2PZ96Z99ZRQYWCC46BHAXC\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766343727,
+          "stop": 1771766343727,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "a.card",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "[{\"__ngContext__\":83,\"__zone_symbol__clickfalse\":null,\"__zone_symbol__ON_PROPERTYclick\":null},{\"__ngContext__\":84,\"__zone_symbol...",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "9",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766343725,
+      "stop": 1771766343727,
+      "duration": 2,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "8a0933cf04130ce9739148006a443911",
+      "name": "eq 4",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "4",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "[{\"__ngContext__\":83,\"__zone_symbol__clickfalse\":null,\"__zone_symbol__ON_PROPERTYclick\":null},{\"__ngContext__\":84,\"__zone_symbol...",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ978T2W2855KHB94Z6PY\" href=\"/product/01KJ2PZ978T2W2855KHB94Z6PY\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766343728,
+      "stop": 1771766343728,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "ef3a2455e97cec460b845163e110ccfb",
+      "name": "click",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ978T2W2855KHB94Z6PY\" href=\"/product/01KJ2PZ978T2W2855KHB94Z6PY\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":448,\"y\":1420}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Actual Element Clicked",
+          "value": "<img _ngcontent-ng-c3901630365=\"\" loading=\"lazy\" class=\"card-img-top\" alt=\"Slip Joint Pliers\" src=\"assets/img/products/pliers05.avif\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766343728,
+      "stop": 1771766343802,
+      "duration": 74,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "7ea717431c93e207952802dab9ff0fd5",
+      "name": "get [data-test=\"add-to-cart\"]",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"add-to-cart\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-cart\" id=\"btn-add-to-cart\" class=\"btn-success btn\">...</button>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766343803,
+      "stop": 1771766345152,
+      "duration": 1349,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "e0c286a3cdd06c9774a0300477c7bf3e",
+      "name": "click",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-cart\" id=\"btn-add-to-cart\" class=\"btn-success btn\">...</button>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":579,\"y\":671}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766345153,
+      "stop": 1771766345223,
+      "duration": 70,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "31863c3ecedb17edb99de13dfdb85e9d",
+      "name": "get [data-test=\"nav-cart\"]",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"nav-cart\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c1334646923=\"\" data-test=\"nav-cart\" aria-label=\"cart\" routerlink=\"/checkout\" class=\"nav-link\" href=\"/checkout\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766345224,
+      "stop": 1771766346989,
+      "duration": 1765,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "69c0829a3f96285352f7cec5f3ce2232",
+      "name": "click",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c1334646923=\"\" data-test=\"nav-cart\" aria-label=\"cart\" routerlink=\"/checkout\" class=\"nav-link\" href=\"/checkout\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":877,\"y\":133}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Actual Element Clicked",
+          "value": "<path fill=\"currentColor\" d=\"M24-16C10.7-16 0-5.3 0 8S10.7 32 24 32l45.3 0c3.9 0 7.2 2.8 7.9 6.6l52.1 286.3c6.2 34.2 36 59.1 70.8 59.1L456 384c13.3 0 24-10.7 24-24s-10.7-24-24-24l-255.9 0c-11.6 0-21.5-8.3-23.6-19.7l-5.1-28.3 303.6 0c30.8 0 57.2-21.9 62.9-52.2L568.9 69.9C572.6 50.2 557.5 32 537.4 32l-412.7 0-.4-2c-4.8-26.6-28-46-55.1-46L24-16zM208 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm224 0a48 48 0 1 0 0-96 48 48 0 1 0 0 96z\"></path>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766346990,
+      "stop": 1771766347064,
+      "duration": 74,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "76099105d85e04a98bb8ebc7c830d980",
+      "name": "get [data-test=\"proceed-1\"]",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"proceed-1\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<button _ngcontent-ng-c2628374919=\"\" data-test=\"proceed-1\" type=\"button\" awnextstep=\"\" class=\"btn btn-success\">Proceed...</button>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766347065,
+      "stop": 1771766347501,
+      "duration": 436,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "7d642926b0df57ddc1390eebdf533dc4",
+      "name": "click",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<button _ngcontent-ng-c2628374919=\"\" data-test=\"proceed-1\" type=\"button\" awnextstep=\"\" class=\"btn btn-success\">Proceed...</button>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":879,\"y\":443}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766347501,
+      "stop": 1771766347574,
+      "duration": 73,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "795ecfb72fa18632cf5cb54e77637e59",
+      "name": "get [data-test=\"proceed-2\"]",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"proceed-2\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<button data-test=\"proceed-2\" type=\"button\" awnextstep=\"\" class=\"btn btn-success\">Proceed...</button>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766347575,
+      "stop": 1771766347575,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "4c512b3a8f5ad57f274fda5ca29dd6b3",
+      "name": "click",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<button data-test=\"proceed-2\" type=\"button\" awnextstep=\"\" class=\"btn btn-success\">Proceed...</button>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":633,\"y\":354}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766347576,
+      "stop": 1771766347654,
+      "duration": 78,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "0e55454294f3b83fab7384abd9f2a053",
+      "name": "get [data-test=\"street\"]",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"street\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<input formcontrolname=\"street\" data-test=\"street\" id=\"street\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your Street *\" data-gtm-form-interact-field-id=\"0\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766347654,
+      "stop": 1771766347655,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "d5153c18a3cf2fcb6e69fab907130eb8",
+      "name": "clear",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<input formcontrolname=\"street\" data-test=\"street\" id=\"street\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your Street *\" data-gtm-form-interact-field-id=\"0\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":499,\"y\":331}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766347655,
+      "stop": 1771766347805,
+      "duration": 150,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "e5d544b5f2d407ffe33b538ea0b2db8f",
+      "name": "type test Street 33",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Typed",
+          "value": "test Street 33",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<input formcontrolname=\"street\" data-test=\"street\" id=\"street\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your Street *\" data-gtm-form-interact-field-id=\"0\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766347806,
+      "stop": 1771766348017,
+      "duration": 211,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "6ccaaf20f4c726cb1d8eb69c3909233f",
+      "name": "get [data-test=\"city\"]",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"city\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<input formcontrolname=\"city\" data-test=\"city\" id=\"city\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your City *\" data-gtm-form-interact-field-id=\"1\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766348017,
+      "stop": 1771766348018,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "d7bc1890c6f251c8268ebcd840bca304",
+      "name": "clear",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<input formcontrolname=\"city\" data-test=\"city\" id=\"city\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your City *\" data-gtm-form-interact-field-id=\"1\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":499,\"y\":385}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766348018,
+      "stop": 1771766348173,
+      "duration": 155,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "d80aaf557d5cd837141e34c86075ad4d",
+      "name": "type Libreville",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Typed",
+          "value": "Libreville",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<input formcontrolname=\"city\" data-test=\"city\" id=\"city\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your City *\" data-gtm-form-interact-field-id=\"1\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766348174,
+      "stop": 1771766348343,
+      "duration": 169,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "6db896afe875afd86afb10f289994f89",
+      "name": "get [data-test=\"state\"]",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"state\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<input formcontrolname=\"state\" data-test=\"state\" id=\"state\" type=\"text\" class=\"form-control ng-dirty ng-touched ng-invalid\" placeholder=\"State *\" data-gtm-form-interact-field-id=\"2\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766348343,
+      "stop": 1771766348344,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "261683380893264fcfa3b5dbd0fad377",
+      "name": "clear",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<input formcontrolname=\"state\" data-test=\"state\" id=\"state\" type=\"text\" class=\"form-control ng-dirty ng-touched ng-invalid\" placeholder=\"State *\" data-gtm-form-interact-field-id=\"2\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":499,\"y\":439}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766348344,
+      "stop": 1771766348504,
+      "duration": 160,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "f94fbc310731213a5418f721c5f2de84",
+      "name": "type State",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Typed",
+          "value": "State",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<input formcontrolname=\"state\" data-test=\"state\" id=\"state\" type=\"text\" class=\"form-control ng-dirty ng-touched ng-invalid\" placeholder=\"State *\" data-gtm-form-interact-field-id=\"2\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766348504,
+      "stop": 1771766348615,
+      "duration": 111,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "fecf2ac800defa20552ec773c88999d8",
+      "name": "get [data-test=\"country\"]",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"country\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<input formcontrolname=\"country\" data-test=\"country\" id=\"country\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your country *\" data-gtm-form-interact-field-id=\"3\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766348615,
+      "stop": 1771766348616,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "d41f397da2250b4237f0f0be39758c35",
+      "name": "clear",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<input formcontrolname=\"country\" data-test=\"country\" id=\"country\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your country *\" data-gtm-form-interact-field-id=\"3\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":499,\"y\":493}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766348616,
+      "stop": 1771766348773,
+      "duration": 157,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "8fdfeeabf144a9ba0c2224caa2b9bfbd",
+      "name": "type Gabon",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Typed",
+          "value": "Gabon",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<input formcontrolname=\"country\" data-test=\"country\" id=\"country\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your country *\" data-gtm-form-interact-field-id=\"3\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766348774,
+      "stop": 1771766348884,
+      "duration": 110,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "324cfc7645ce03cbcbf23eb9248254f6",
+      "name": "get [data-test=\"postal_code\"]",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"postal_code\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<input formcontrolname=\"postal_code\" data-test=\"postal_code\" id=\"postal_code\" type=\"text\" class=\"form-control ng-dirty ng-touched ng-invalid\" placeholder=\"Your Postcode *\" data-gtm-form-interact-field-id=\"4\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766348884,
+      "stop": 1771766348885,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "ee0963bf868c4eea5b138e0d1193b624",
+      "name": "clear",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<input formcontrolname=\"postal_code\" data-test=\"postal_code\" id=\"postal_code\" type=\"text\" class=\"form-control ng-dirty ng-touched ng-invalid\" placeholder=\"Your Postcode *\" data-gtm-form-interact-field-id=\"4\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":499,\"y\":547}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766348885,
+      "stop": 1771766349033,
+      "duration": 148,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "0393c4f0da01fea452bee7eb8d68fcdc",
+      "name": "type 34CT",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Typed",
+          "value": "34CT",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<input formcontrolname=\"postal_code\" data-test=\"postal_code\" id=\"postal_code\" type=\"text\" class=\"form-control ng-dirty ng-touched ng-invalid\" placeholder=\"Your Postcode *\" data-gtm-form-interact-field-id=\"4\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766349034,
+      "stop": 1771766349133,
+      "duration": 99,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "5102251b49a94a04ee1ac0519de550fd",
+      "name": "get [data-test=\"proceed-3\"]",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"proceed-3\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<button data-test=\"proceed-3\" type=\"button\" awnextstep=\"\" class=\"btn btn-success\" disabled=\"\">Proceed...</button>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766349133,
+      "stop": 1771766349134,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "6c6cc575fbeef9eec33008fc831897a5",
+      "name": "click",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<button data-test=\"proceed-3\" type=\"button\" awnextstep=\"\" class=\"btn btn-success\" disabled=\"\">Proceed...</button>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":633,\"y\":601}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766349134,
+      "stop": 1771766349205,
+      "duration": 71,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "734881985da75d684fc6eb41e5676382",
+      "name": "get [data-test=\"payment-method\"]",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "c9c38854f46e699225240150275e5ebe",
+          "name": "assert expected <select#payment-method.form-select.ng-untouched.ng-pristine.ng-invalid> to exist in the DOM",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "<select#payment-method.form-select.ng-untouched.ng-pristine.ng-invalid>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "<select#payment-method.form-select.ng-untouched.ng-pristine.ng-invalid>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<select data-test=\"payment-method\" id=\"payment-method\" formcontrolname=\"payment_method\" class=\"form-select ng-dirty ng-valid ng-touched\" data-gtm-form-interact-field-id=\"5\">...</select>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766349206,
+          "stop": 1771766349207,
+          "duration": 1,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "6c917a771022daa61af9c5686d452267",
+          "name": "assert expected <select#payment-method.form-select.ng-untouched.ng-pristine.ng-invalid> not to be disabled",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<select data-test=\"payment-method\" id=\"payment-method\" formcontrolname=\"payment_method\" class=\"form-select ng-dirty ng-valid ng-touched\" data-gtm-form-interact-field-id=\"5\">...</select>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766349207,
+          "stop": 1771766349207,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"payment-method\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<select data-test=\"payment-method\" id=\"payment-method\" formcontrolname=\"payment_method\" class=\"form-select ng-dirty ng-valid ng-touched\" data-gtm-form-interact-field-id=\"5\">...</select>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766349205,
+      "stop": 1771766349207,
+      "duration": 2,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "0549725e11316a42fda5264ce7909c08",
+      "name": "select cash-on-delivery",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<select data-test=\"payment-method\" id=\"payment-method\" formcontrolname=\"payment_method\" class=\"form-select ng-dirty ng-valid ng-touched\" data-gtm-form-interact-field-id=\"5\">...</select>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":499,\"y\":331}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Selected",
+          "value": "[\"cash-on-delivery\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766349208,
+      "stop": 1771766349335,
+      "duration": 127,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "6d5b6bc201aa597f3795c61ecf65470a",
+      "name": "get [data-test=\"finish\"]",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"finish\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<button data-test=\"finish\" type=\"button\" class=\"btn btn-success\">Confirm</button>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766349335,
+      "stop": 1771766349336,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "343594cdefe17c001ea9465066b2d6b3",
+      "name": "click",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<button data-test=\"finish\" type=\"button\" class=\"btn btn-success\">Confirm</button>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":680,\"y\":385}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766349336,
+      "stop": 1771766349414,
+      "duration": 78,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "df03ebd418cfc1d7ec8b1b9bfb3674d0",
+      "name": "get [data-test=\"payment-success-message\"]",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "4999dc716262167d8c943b8246d8e425",
+          "name": "assert expected [data-test=\"payment-success-message\"] to have text Payment was successful, but the text was ''",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "Payment was successful",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "Payment was successful",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<div data-test=\"payment-success-message\" class=\"help-block\">Payment...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766349415,
+          "stop": 1771766351718,
+          "duration": 2303,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"payment-success-message\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<div data-test=\"payment-success-message\" class=\"help-block\">Payment...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766349415,
+      "stop": 1771766351718,
+      "duration": 2303,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    }
+  ],
+  "error": {},
+  "testCase": {
+    "id": "79b35bd686b99c6a3acc5c0c3ab70c3d",
+    "name": "check payment with cash in delivery method",
+    "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site test of purchasing with different methods check payment with cash in delivery method"
+  },
+  "environment": "default",
+  "setup": [
+    {
+      "id": "2125d75efa278990571213ad9c33f661",
+      "type": "before",
+      "name": "\"before each\" hook",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "5da7bdc95163bde3ff5c27803a7b1861",
+          "name": "visit https://practicesoftwaretesting.com/",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Resolved Url",
+              "value": "https://practicesoftwaretesting.com/",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Redirects",
+              "value": "[]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Cookies Set",
+              "value": "[{\"domain\":\".practicesoftwaretesting.com\",\"httpOnly\":true,\"name\":\"cf_clearance\",\"path\":\"/\",\"sameSite\":\"no_restriction\",\"secure\":...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766340246,
+          "stop": 1771766340425,
+          "duration": 179,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "994e46d318539d3ce7046e33f104665c",
+          "name": "clearLocalStorage",
+          "status": "passed",
+          "steps": [],
+          "parameters": [],
+          "start": 1771766340425,
+          "stop": 1771766340425,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "cabf3758413601caa7eea901459d5c55",
+          "name": "clearCookies",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "null",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Cleared Cookies",
+              "value": "[{\"name\":\"cf_clearance\",\"value\":\"j6Wg_PY2h0XxZOlhFSdUfTKeJ7SUrHbuxk6eoDU23vw-1771766292-1.2.1.1-xdnq3ybPeJRY7Bdx7sYYwbUqkeXQV5Wq...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Num Cookies",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766340425,
+          "stop": 1771766340430,
+          "duration": 5,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "duration": 194
+    },
+    {
+      "id": "c542ba31a41581238fe267a7d9c3b140",
+      "type": "before",
+      "name": "\"before each\" hook",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "c7d12f6e89db3b588b56c960fac9a322",
+          "name": "visit https://practicesoftwaretesting.com/auth/login",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Resolved Url",
+              "value": "https://practicesoftwaretesting.com/auth/login",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Redirects",
+              "value": "[]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Cookies Set",
+              "value": "[{\"domain\":\".practicesoftwaretesting.com\",\"httpOnly\":true,\"name\":\"cf_clearance\",\"path\":\"/\",\"sameSite\":\"no_restriction\",\"secure\":...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766340432,
+          "stop": 1771766340589,
+          "duration": 157,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "520b590b23b7bcfa06defbc4e0b96f05",
+          "name": "get [data-test=\"email\"]",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"email\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<input _ngcontent-ng-c713820125=\"\" formcontrolname=\"email\" id=\"email\" data-test=\"email\" type=\"email\" aria-required=\"true\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your email\" aria-invalid=\"false\">",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766340589,
+          "stop": 1771766340659,
+          "duration": 70,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "bb2b06a3a603c7d8b1fa98cd07f7fe3f",
+          "name": "type customer2@practicesoftwaretesting.com",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Applied To",
+              "value": "<input _ngcontent-ng-c713820125=\"\" formcontrolname=\"email\" id=\"email\" data-test=\"email\" type=\"email\" aria-required=\"true\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your email\" aria-invalid=\"false\">",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Coords",
+              "value": "{\"x\":500,\"y\":483}",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Typed",
+              "value": "customer2@practicesoftwaretesting.com",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766340660,
+          "stop": 1771766341200,
+          "duration": 540,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "91a44b2e4cbc82ddc4fe28902e770a26",
+          "name": "get [data-test=\"password\"]",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"password\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<input class=\"form-control\" id=\"password\" type=\"password\" placeholder=\"Your password\" data-test=\"password\" aria-invalid=\"false\">",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766341201,
+          "stop": 1771766341201,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "6650b4a2b5d3bb84860011bda3d7ceb4",
+          "name": "type welcome01",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Applied To",
+              "value": "<input class=\"form-control\" id=\"password\" type=\"password\" placeholder=\"Your password\" data-test=\"password\" aria-invalid=\"false\">",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Coords",
+              "value": "{\"x\":477,\"y\":561}",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Typed",
+              "value": "welcome01",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766341201,
+          "stop": 1771766341426,
+          "duration": 225,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "ca2323a924b332a471827bf1905a3aa7",
+          "name": "get [data-test=\"login-submit\"]",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"login-submit\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<input _ngcontent-ng-c713820125=\"\" type=\"submit\" data-test=\"login-submit\" aria-label=\"Login\" class=\"btnSubmit\" value=\"Login\">",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766341427,
+          "stop": 1771766341427,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "2e68244bf3f6b34fa0dfad613ecf5dae",
+          "name": "click",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Applied To",
+              "value": "<input _ngcontent-ng-c713820125=\"\" type=\"submit\" data-test=\"login-submit\" aria-label=\"Login\" class=\"btnSubmit\" value=\"Login\">",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Coords",
+              "value": "{\"x\":417,\"y\":612}",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766341427,
+          "stop": 1771766341498,
+          "duration": 71,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "de5bd716c0e6d0bbe6f001b5094c7984",
+          "name": "wait @loggedIn",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Waited For",
+              "value": "loggedIn",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "{\"id\":\"interceptedRequest430\",\"browserRequestId\":\"2E5BEB2D135C14D2BFBE6F0573287D8E\",\"routeId\":\"1771766341499-174\",\"request\":{\"he...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766341501,
+          "stop": 1771766342062,
+          "duration": 561,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "duration": 1631
+    }
+  ],
+  "teardown": [
+    {
+      "id": "d945c34d3e21590e9571b3df27347591",
+      "type": "after",
+      "name": "\"after each\" hook",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "23efee0dcc0c0263c1df1f99d5a67a97",
+          "name": "visit https://practicesoftwaretesting.com/account",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Resolved Url",
+              "value": "https://practicesoftwaretesting.com/account",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Redirects",
+              "value": "[]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Cookies Set",
+              "value": "[{\"domain\":\".practicesoftwaretesting.com\",\"httpOnly\":true,\"name\":\"cf_clearance\",\"path\":\"/\",\"sameSite\":\"no_restriction\",\"secure\":...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766351727,
+          "stop": 1771766351906,
+          "duration": 179,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "a868396eb7d35cc824102fdeade8e310",
+          "name": "get [data-test=\"nav-menu\"]",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"nav-menu\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c1334646923=\"\" href=\"#\" data-test=\"nav-menu\" id=\"menu\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" class=\"nav-link dropdown-toggle\">Jack Howe</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766351907,
+          "stop": 1771766353309,
+          "duration": 1402,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "7b6cc87702c79e1638e1a50379fcc16a",
+          "name": "click",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Applied To",
+              "value": "<a _ngcontent-ng-c1334646923=\"\" href=\"#\" data-test=\"nav-menu\" id=\"menu\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" class=\"nav-link dropdown-toggle\">Jack Howe</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Coords",
+              "value": "{\"x\":792,\"y\":133}",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766353310,
+          "stop": 1771766353381,
+          "duration": 71,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "44ccad8d3b3bd98c220cae32ffc7624e",
+          "name": "get [data-test=\"nav-sign-out\"]",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"nav-sign-out\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c1334646923=\"\" data-test=\"nav-sign-out\" class=\"dropdown-item\">Sign out</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766353382,
+          "stop": 1771766353382,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "ca5fd091eb5ad69fd6bdbbf803488ac9",
+          "name": "click",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Applied To",
+              "value": "<a _ngcontent-ng-c1334646923=\"\" data-test=\"nav-sign-out\" class=\"dropdown-item\">Sign out</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Coords",
+              "value": "{\"x\":816,\"y\":357}",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766353383,
+          "stop": 1771766353453,
+          "duration": 70,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "duration": 1770
+    },
+    {
+      "id": "b7a4cf8106624256f0cd48aa9d7e4794",
+      "type": "after",
+      "name": "Cypress video",
+      "status": "passed",
+      "steps": [
+        {
+          "link": {
+            "used": true,
+            "missed": false,
+            "id": "7acc2591be960ff122555f2c0e46fdf4",
+            "originalFileName": "92114ed1-bfc2-4cbc-9b5d-364e653a7fa7-attachment.mp4",
+            "ext": ".mp4",
+            "contentType": "video/mp4",
+            "contentLength": 63562655,
+            "name": "Cypress video"
+          },
+          "type": "attachment"
+        }
+      ],
+      "duration": 40
+    }
+  ],
+  "history": [],
+  "retries": [
+    {
+      "id": "f0bbe9b49a898c00739963fed99a7071",
+      "name": "check payment with cash in delivery method",
+      "testCase": {
+        "id": "79b35bd686b99c6a3acc5c0c3ab70c3d",
+        "name": "check payment with cash in delivery method",
+        "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site test of purchasing with different methods check payment with cash in delivery method"
+      },
+      "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site test of purchasing with different methods check payment with cash in delivery method",
+      "historyId": "79b35bd686b99c6a3acc5c0c3ab70c3d.d41d8cd98f00b204e9800998ecf8427e",
+      "status": "broken",
+      "error": {
+        "message": "`cy.task('getPendingAllureResults')` failed with the following error:\n\nThe task 'getPendingAllureResults' was not handled in the setupNodeEvents method. The following tasks are registered: reportAllureCypressSpecMessages, reportFinalAllureCypressSpecMessages\n\nFix this in your setupNodeEvents method here:\n/Users/alexey/Documents/Typescript/cypress-practicesoft/cypress.config.ts\n\nhttps://on.cypress.io/api/task",
+        "trace": "CypressError: `cy.task('getPendingAllureResults')` failed with the following error:\n\nThe task 'getPendingAllureResults' was not handled in the setupNodeEvents method. The following tasks are registered: reportAllureCypressSpecMessages, reportFinalAllureCypressSpecMessages\n\nFix this in your setupNodeEvents method here:\n/Users/alexey/Documents/Typescript/cypress-practicesoft/cypress.config.ts\n\nhttps://on.cypress.io/api/task\n    at <unknown> (http://localhost:61932/__cypress/runner/cypress_runner.js:138703:72)\n    at tryCatcher (http://localhost:61932/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:61932/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:61932/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:61932/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:61932/__cypress/runner/cypress_runner.js:1667:18)\n    at _drainQueueStep (http://localhost:61932/__cypress/runner/cypress_runner.js:2377:12)\n    at _drainQueue (http://localhost:61932/__cypress/runner/cypress_runner.js:2370:9)\n    at Async._drainQueues (http://localhost:61932/__cypress/runner/cypress_runner.js:2386:5)\n    at Async.drainQueues (http://localhost:61932/__cypress/runner/cypress_runner.js:2256:14)\nFrom Your Spec Code:\n    at Context.eval (webpack://cypress-practicesoft/./node_modules/@shelex/cypress-allure-plugin/reporter/index.js:419:0)"
+      },
+      "start": 1771765267688,
+      "stop": 1771765267701,
+      "duration": 13,
+      "flaky": false,
+      "muted": false,
+      "known": false,
+      "hidden": true,
+      "labels": [
+        { "name": "language", "value": "javascript" },
+        { "name": "framework", "value": "cypress" },
+        { "name": "host", "value": "a-birzgal.local" },
+        { "name": "thread", "value": "pid-75090-worker-main" },
+        { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+      ],
+      "steps": [],
+      "parameters": [],
+      "links": [],
+      "hostId": "a-birzgal.local",
+      "threadId": "pid-75090-worker-main",
+      "sourceMetadata": {
+        "readerId": "allure2",
+        "metadata": {
+          "originalFileName": "6534da6a-c05f-4188-be69-da7bead32372-result.json"
+        }
+      },
+      "titlePath": ["cypress", "e2e", "spec.cy.ts"],
+      "environment": "default"
+    }
+  ],
+  "breadcrumbs": [
+    [
+      "E2E tests of practicesoftwaretesting site",
+      "test of purchasing with different methods"
+    ]
+  ],
+  "retry": true,
+  "titlePath": [
+    "cypress",
+    "e2e",
+    "spec.cy.ts",
+    "E2E tests of practicesoftwaretesting site",
+    "test of purchasing with different methods"
+  ],
+  "retriesCount": 1,
+  "attachments": [],
+  "order": 50
+}

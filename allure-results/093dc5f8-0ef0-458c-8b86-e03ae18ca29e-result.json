@@ -1,0 +1,191 @@
+{
+  "uuid": "093dc5f8-0ef0-458c-8b86-e03ae18ca29e",
+  "name": "check alert if product is added to cart",
+  "historyId": "a020a9a8af8af83165ec72d55aaf3341:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ96Z99ZRQYWCC46BHAXC\" href=\"/product/01KJ2PZ96Z99ZRQYWCC46BHAXC\">...</a>"
+            }
+          ],
+          "start": 1771766075365,
+          "name": "assert expected { Object (length, prevObject, ...) } to have property length",
+          "stop": 1771766075756
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "a.card" },
+        {
+          "name": "Yielded",
+          "value": "[{\"__ngContext__\":83,\"__zone_symbol__clickfalse\":null,\"__zone_symbol__ON_PROPERTYclick\":null},{\"__ngContext__\":84,\"__zone_symbol..."
+        },
+        { "name": "Elements", "value": "9" }
+      ],
+      "start": 1771766075365,
+      "name": "get a.card",
+      "stop": 1771766075756
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "5" },
+        {
+          "name": "Applied To",
+          "value": "[{\"__ngContext__\":83,\"__zone_symbol__clickfalse\":null,\"__zone_symbol__ON_PROPERTYclick\":null},{\"__ngContext__\":84,\"__zone_symbol..."
+        },
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ97979T8FK7349HCQD4H\" href=\"/product/01KJ2PZ97979T8FK7349HCQD4H\">...</a>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766075756,
+      "name": "eq 5",
+      "stop": 1771766075756
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ97979T8FK7349HCQD4H\" href=\"/product/01KJ2PZ97979T8FK7349HCQD4H\">...</a>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":791,\"y\":1420}" },
+        {
+          "name": "Actual Element Clicked",
+          "value": "<img _ngcontent-ng-c3901630365=\"\" loading=\"lazy\" class=\"card-img-top\" alt=\"Claw Hammer with Shock Reduction Grip\" src=\"assets/img/products/hammer01.avif\">"
+        }
+      ],
+      "start": 1771766075757,
+      "name": "click",
+      "stop": 1771766075830
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"add-to-cart\"]" },
+        {
+          "name": "Yielded",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-cart\" id=\"btn-add-to-cart\" class=\"btn-success btn\">...</button>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766075830,
+      "name": "get [data-test=\"add-to-cart\"]",
+      "stop": 1771766076164
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-cart\" id=\"btn-add-to-cart\" class=\"btn-success btn\">...</button>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":579,\"y\":835}" }
+      ],
+      "start": 1771766076164,
+      "name": "click",
+      "stop": 1771766076235
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            { "name": "actual", "value": " Product added to shopping cart. " },
+            {
+              "name": "expected",
+              "value": " Product added to shopping cart. "
+            },
+            {
+              "name": "subject",
+              "value": "<div role=\"alert\" class=\"ng-tns-c969959638-0 toast-message ng-star-inserted\" aria-label=\"Product added to shopping cart.\" style=\"\">Product...</div>"
+            }
+          ],
+          "start": 1771766076236,
+          "name": "assert expected '[role=\"alert\"]' to have text '&nbsp;Product added to shopping cart.&nbsp;', but the text was ''",
+          "stop": 1771766078811
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[role=\"alert\"]" },
+        {
+          "name": "Yielded",
+          "value": "<div role=\"alert\" class=\"ng-tns-c969959638-0 toast-message ng-star-inserted\" aria-label=\"Product added to shopping cart.\" style=\"\">Product...</div>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766076235,
+      "name": "get [role=\"alert\"]",
+      "stop": 1771766078811
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "cypress" },
+    {
+      "name": "parentSuite",
+      "value": "E2E tests of practicesoftwaretesting site"
+    },
+    { "name": "suite", "value": "tests of product page" },
+    { "name": "host", "value": "a-birzgal.local" },
+    { "name": "thread", "value": "pid-90852-worker-main" },
+    { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+  ],
+  "links": [],
+  "start": 1771766075267,
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page check alert if product is added to cart",
+  "titlePath": [
+    "cypress",
+    "e2e",
+    "spec.cy.ts",
+    "E2E tests of practicesoftwaretesting site",
+    "tests of product page"
+  ],
+  "testCaseId": "a020a9a8af8af83165ec72d55aaf3341",
+  "stop": 1771766078812
+}

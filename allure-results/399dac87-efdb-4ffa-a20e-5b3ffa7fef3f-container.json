@@ -1,0 +1,113 @@
+{
+  "uuid": "399dac87-efdb-4ffa-a20e-5b3ffa7fef3f",
+  "name": "\"after each\" hook",
+  "children": ["1660a68e-6d28-4972-8963-5be08545c1d9"],
+  "befores": [],
+  "afters": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "Resolved Url",
+              "value": "https://practicesoftwaretesting.com/account"
+            },
+            { "name": "Redirects", "value": "[]" },
+            {
+              "name": "Cookies Set",
+              "value": "[{\"domain\":\".practicesoftwaretesting.com\",\"httpOnly\":true,\"name\":\"cf_clearance\",\"path\":\"/\",\"sameSite\":\"no_restriction\",\"secure\":..."
+            }
+          ],
+          "start": 1771766380379,
+          "name": "visit https://practicesoftwaretesting.com/account",
+          "stop": 1771766380546
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            { "name": "Selector", "value": "[data-test=\"nav-menu\"]" },
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c1334646923=\"\" href=\"#\" data-test=\"nav-menu\" id=\"menu\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" class=\"nav-link dropdown-toggle\">Jack Howe</a>"
+            },
+            { "name": "Elements", "value": "1" }
+          ],
+          "start": 1771766380546,
+          "name": "get [data-test=\"nav-menu\"]",
+          "stop": 1771766380932
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "Applied To",
+              "value": "<a _ngcontent-ng-c1334646923=\"\" href=\"#\" data-test=\"nav-menu\" id=\"menu\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\" class=\"nav-link dropdown-toggle\">Jack Howe</a>"
+            },
+            { "name": "Elements", "value": "1" },
+            { "name": "Coords", "value": "{\"x\":792,\"y\":133}" }
+          ],
+          "start": 1771766380933,
+          "name": "click",
+          "stop": 1771766381004
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            { "name": "Selector", "value": "[data-test=\"nav-sign-out\"]" },
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c1334646923=\"\" data-test=\"nav-sign-out\" class=\"dropdown-item\">Sign out</a>"
+            },
+            { "name": "Elements", "value": "1" }
+          ],
+          "start": 1771766381004,
+          "name": "get [data-test=\"nav-sign-out\"]",
+          "stop": 1771766381004
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "Applied To",
+              "value": "<a _ngcontent-ng-c1334646923=\"\" data-test=\"nav-sign-out\" class=\"dropdown-item\">Sign out</a>"
+            },
+            { "name": "Elements", "value": "1" },
+            { "name": "Coords", "value": "{\"x\":816,\"y\":357}" }
+          ],
+          "start": 1771766381005,
+          "name": "click",
+          "stop": 1771766381077
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1771766380378,
+      "name": "\"after each\" hook",
+      "stop": 1771766381121
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+{
+  "id": "d3b2029e013546a83099e96ebc496a33",
+  "name": "check possibility to clean search field by x button",
+  "start": 1771766301036,
+  "stop": 1771766301619,
+  "duration": 583,
+  "status": "passed",
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site check possibility to clean search field by x button",
+  "historyId": "1cd41f35fcfbe8e83a23dc82fc51ba98.d41d8cd98f00b204e9800998ecf8427e",
+  "flaky": false,
+  "muted": false,
+  "known": false,
+  "hidden": false,
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "cypress" },
+    {
+      "name": "parentSuite",
+      "value": "E2E tests of practicesoftwaretesting site"
+    },
+    { "name": "host", "value": "a-birzgal.local" },
+    { "name": "thread", "value": "pid-95817-worker-main" },
+    { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+  ],
+  "groupedLabels": {
+    "language": ["javascript"],
+    "framework": ["cypress"],
+    "parentSuite": ["E2E tests of practicesoftwaretesting site"],
+    "host": ["a-birzgal.local"],
+    "thread": ["pid-95817-worker-main"],
+    "package": ["cypress.e2e.spec.cy.ts"]
+  },
+  "parameters": [],
+  "links": [],
+  "steps": [
+    {
+      "stepId": "bdb92e5a03acf369eac4d74e36f51e94",
+      "name": "get [data-test=\"search-query\"]",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"search-query\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<input _ngcontent-ng-c3901630365=\"\" formcontrolname=\"query\" id=\"search-query\" data-test=\"search-query\" type=\"text\" class=\"form-control ng-untouched ng-pristine ng-invalid\" placeholder=\"Search\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766301197,
+      "stop": 1771766301250,
+      "duration": 53,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "888d2af69e48472aa89bf9723b635af6",
+      "name": "clear",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<input _ngcontent-ng-c3901630365=\"\" formcontrolname=\"query\" id=\"search-query\" data-test=\"search-query\" type=\"text\" class=\"form-control ng-untouched ng-pristine ng-invalid\" placeholder=\"Search\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":139,\"y\":767}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766301250,
+      "stop": 1771766301393,
+      "duration": 143,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "c4346d6c30c73ec6d84348551e02f078",
+      "name": "type testInput",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Typed",
+          "value": "testInput",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<input _ngcontent-ng-c3901630365=\"\" formcontrolname=\"query\" id=\"search-query\" data-test=\"search-query\" type=\"text\" class=\"form-control ng-untouched ng-pristine ng-invalid\" placeholder=\"Search\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766301394,
+      "stop": 1771766301550,
+      "duration": 156,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "0326f3d2756933896a93a8ddacbd2380",
+      "name": "assert expected <input#search-query.form-control.ng-untouched.ng-dirty.ng-valid> to have value testInput",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "actual",
+          "value": "testInput",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "expected",
+          "value": "testInput",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "subject",
+          "value": "<input _ngcontent-ng-c3901630365=\"\" formcontrolname=\"query\" id=\"search-query\" data-test=\"search-query\" type=\"text\" class=\"form-control ng-untouched ng-pristine ng-invalid\" placeholder=\"Search\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766301550,
+      "stop": 1771766301550,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "f72493a0d916431868ee76b782cf84e0",
+      "name": "get [data-test=\"search-reset\"]",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"search-reset\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<button _ngcontent-ng-c3901630365=\"\" type=\"reset\" data-test=\"search-reset\" class=\"btn btn-warning\">X</button>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766301550,
+      "stop": 1771766301551,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "13f38283456b5032e5a1cbbad5a663f8",
+      "name": "click",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<button _ngcontent-ng-c3901630365=\"\" type=\"reset\" data-test=\"search-reset\" class=\"btn btn-warning\">X</button>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":49,\"y\":815}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766301551,
+      "stop": 1771766301620,
+      "duration": 69,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "8d3fa7cf3499be446ac007c3bccc79bb",
+      "name": "get [data-test=\"search-reset\"]",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "a29f36324576bd6af4361149bc666b39",
+          "name": "assert expected <button.btn.btn-warning> to have value ''",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<button _ngcontent-ng-c3901630365=\"\" type=\"reset\" data-test=\"search-reset\" class=\"btn btn-warning\">X</button>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766301622,
+          "stop": 1771766301622,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"search-reset\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<button _ngcontent-ng-c3901630365=\"\" type=\"reset\" data-test=\"search-reset\" class=\"btn btn-warning\">X</button>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766301621,
+      "stop": 1771766301621,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    }
+  ],
+  "error": {},
+  "testCase": {
+    "id": "1cd41f35fcfbe8e83a23dc82fc51ba98",
+    "name": "check possibility to clean search field by x button",
+    "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site check possibility to clean search field by x button"
+  },
+  "environment": "default",
+  "setup": [
+    {
+      "id": "7a3fcc9d9926e7504f559c52609352b7",
+      "type": "before",
+      "name": "\"before each\" hook",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "1d02f3940b3ba4e214eecf20faa3f1ea",
+          "name": "visit https://practicesoftwaretesting.com/",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Resolved Url",
+              "value": "https://practicesoftwaretesting.com/",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Redirects",
+              "value": "[]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Cookies Set",
+              "value": "[{\"domain\":\".practicesoftwaretesting.com\",\"httpOnly\":true,\"name\":\"cf_clearance\",\"path\":\"/\",\"sameSite\":\"no_restriction\",\"secure\":...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766301046,
+          "stop": 1771766301190,
+          "duration": 144,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "f9760275a8845a00584cdc07ae227391",
+          "name": "clearLocalStorage",
+          "status": "passed",
+          "steps": [],
+          "parameters": [],
+          "start": 1771766301190,
+          "stop": 1771766301190,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "036591a8688f0b51eaa39dc638a48e26",
+          "name": "clearCookies",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "null",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Cleared Cookies",
+              "value": "[{\"name\":\"cf_clearance\",\"value\":\"j6Wg_PY2h0XxZOlhFSdUfTKeJ7SUrHbuxk6eoDU23vw-1771766292-1.2.1.1-xdnq3ybPeJRY7Bdx7sYYwbUqkeXQV5Wq...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Num Cookies",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766301191,
+          "stop": 1771766301196,
+          "duration": 5,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "duration": 157
+    }
+  ],
+  "teardown": [
+    {
+      "id": "b7a4cf8106624256f0cd48aa9d7e4794",
+      "type": "after",
+      "name": "Cypress video",
+      "status": "passed",
+      "steps": [
+        {
+          "link": {
+            "used": true,
+            "missed": false,
+            "id": "7acc2591be960ff122555f2c0e46fdf4",
+            "originalFileName": "92114ed1-bfc2-4cbc-9b5d-364e653a7fa7-attachment.mp4",
+            "ext": ".mp4",
+            "contentType": "video/mp4",
+            "contentLength": 63562655,
+            "name": "Cypress video"
+          },
+          "type": "attachment"
+        }
+      ],
+      "duration": 40
+    }
+  ],
+  "history": [],
+  "retries": [
+    {
+      "id": "f496826269d0400cf86e602bf73ac52f",
+      "name": "check possibility to clean search field by x button",
+      "testCase": {
+        "id": "1cd41f35fcfbe8e83a23dc82fc51ba98",
+        "name": "check possibility to clean search field by x button",
+        "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site check possibility to clean search field by x button"
+      },
+      "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site check possibility to clean search field by x button",
+      "historyId": "1cd41f35fcfbe8e83a23dc82fc51ba98.d41d8cd98f00b204e9800998ecf8427e",
+      "status": "passed",
+      "error": {},
+      "start": 1771766073444,
+      "stop": 1771766073970,
+      "duration": 526,
+      "flaky": false,
+      "muted": false,
+      "known": false,
+      "hidden": true,
+      "labels": [
+        { "name": "language", "value": "javascript" },
+        { "name": "framework", "value": "cypress" },
+        {
+          "name": "parentSuite",
+          "value": "E2E tests of practicesoftwaretesting site"
+        },
+        { "name": "host", "value": "a-birzgal.local" },
+        { "name": "thread", "value": "pid-90852-worker-main" },
+        { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+      ],
+      "steps": [
+        {
+          "stepId": "4fb37cf4fb381b1575ed4f27b29be4fc",
+          "name": "get [data-test=\"search-query\"]",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"search-query\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<input _ngcontent-ng-c3901630365=\"\" formcontrolname=\"query\" id=\"search-query\" data-test=\"search-query\" type=\"text\" class=\"form-control ng-untouched ng-pristine ng-invalid\" placeholder=\"Search\">",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766073542,
+          "stop": 1771766073596,
+          "duration": 54,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "92c8febef43684b5cdd95f3d365fd36e",
+          "name": "clear",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Applied To",
+              "value": "<input _ngcontent-ng-c3901630365=\"\" formcontrolname=\"query\" id=\"search-query\" data-test=\"search-query\" type=\"text\" class=\"form-control ng-untouched ng-pristine ng-invalid\" placeholder=\"Search\">",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Coords",
+              "value": "{\"x\":139,\"y\":767}",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766073597,
+          "stop": 1771766073741,
+          "duration": 144,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "63fd53f0af6c1856a6a90a7d0350e1b6",
+          "name": "type testInput",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Typed",
+              "value": "testInput",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<input _ngcontent-ng-c3901630365=\"\" formcontrolname=\"query\" id=\"search-query\" data-test=\"search-query\" type=\"text\" class=\"form-control ng-untouched ng-pristine ng-invalid\" placeholder=\"Search\">",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766073742,
+          "stop": 1771766073895,
+          "duration": 153,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "727891712ef54b40304e580d299d2e82",
+          "name": "assert expected <input#search-query.form-control.ng-untouched.ng-dirty.ng-valid> to have value testInput",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "testInput",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "testInput",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<input _ngcontent-ng-c3901630365=\"\" formcontrolname=\"query\" id=\"search-query\" data-test=\"search-query\" type=\"text\" class=\"form-control ng-untouched ng-pristine ng-invalid\" placeholder=\"Search\">",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766073895,
+          "stop": 1771766073895,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "ff1b5ed14145e64865ecc4a4cab7038b",
+          "name": "get [data-test=\"search-reset\"]",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"search-reset\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<button _ngcontent-ng-c3901630365=\"\" type=\"reset\" data-test=\"search-reset\" class=\"btn btn-warning\">X</button>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766073895,
+          "stop": 1771766073895,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "751876df997d2631e96023ad587b6df8",
+          "name": "click",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Applied To",
+              "value": "<button _ngcontent-ng-c3901630365=\"\" type=\"reset\" data-test=\"search-reset\" class=\"btn btn-warning\">X</button>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Coords",
+              "value": "{\"x\":49,\"y\":815}",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766073895,
+          "stop": 1771766073969,
+          "duration": 74,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "016260c567f0ed54fb3fecf06cc46052",
+          "name": "get [data-test=\"search-reset\"]",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "971df453b1879702497dff83e7ad5531",
+              "name": "assert expected <button.btn.btn-warning> to have value ''",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "expected",
+                  "value": "",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "subject",
+                  "value": "<button _ngcontent-ng-c3901630365=\"\" type=\"reset\" data-test=\"search-reset\" class=\"btn btn-warning\">X</button>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766073971,
+              "stop": 1771766073971,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"search-reset\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<button _ngcontent-ng-c3901630365=\"\" type=\"reset\" data-test=\"search-reset\" class=\"btn btn-warning\">X</button>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766073970,
+          "stop": 1771766073970,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [],
+      "links": [],
+      "hostId": "a-birzgal.local",
+      "threadId": "pid-90852-worker-main",
+      "sourceMetadata": {
+        "readerId": "allure2",
+        "metadata": {
+          "originalFileName": "34da4da3-0ec1-41cc-941f-9596b2dc53c4-result.json"
+        }
+      },
+      "titlePath": [
+        "cypress",
+        "e2e",
+        "spec.cy.ts",
+        "E2E tests of practicesoftwaretesting site"
+      ],
+      "environment": "default"
+    },
+    {
+      "id": "adea597ff268871195f523facafa69aa",
+      "name": "check possibility to clean search field by x button",
+      "testCase": {
+        "id": "1cd41f35fcfbe8e83a23dc82fc51ba98",
+        "name": "check possibility to clean search field by x button",
+        "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site check possibility to clean search field by x button"
+      },
+      "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site check possibility to clean search field by x button",
+      "historyId": "1cd41f35fcfbe8e83a23dc82fc51ba98.d41d8cd98f00b204e9800998ecf8427e",
+      "status": "broken",
+      "error": {
+        "message": "`cy.task('getPendingAllureResults')` failed with the following error:\n\nThe task 'getPendingAllureResults' was not handled in the setupNodeEvents method. The following tasks are registered: reportAllureCypressSpecMessages, reportFinalAllureCypressSpecMessages\n\nFix this in your setupNodeEvents method here:\n/Users/alexey/Documents/Typescript/cypress-practicesoft/cypress.config.ts\n\nhttps://on.cypress.io/api/task",
+        "trace": "CypressError: `cy.task('getPendingAllureResults')` failed with the following error:\n\nThe task 'getPendingAllureResults' was not handled in the setupNodeEvents method. The following tasks are registered: reportAllureCypressSpecMessages, reportFinalAllureCypressSpecMessages\n\nFix this in your setupNodeEvents method here:\n/Users/alexey/Documents/Typescript/cypress-practicesoft/cypress.config.ts\n\nhttps://on.cypress.io/api/task\n    at <unknown> (http://localhost:61932/__cypress/runner/cypress_runner.js:138703:72)\n    at tryCatcher (http://localhost:61932/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:61932/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:61932/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:61932/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:61932/__cypress/runner/cypress_runner.js:1667:18)\n    at _drainQueueStep (http://localhost:61932/__cypress/runner/cypress_runner.js:2377:12)\n    at _drainQueue (http://localhost:61932/__cypress/runner/cypress_runner.js:2370:9)\n    at Async._drainQueues (http://localhost:61932/__cypress/runner/cypress_runner.js:2386:5)\n    at Async.drainQueues (http://localhost:61932/__cypress/runner/cypress_runner.js:2256:14)\nFrom Your Spec Code:\n    at Context.eval (webpack://cypress-practicesoft/./node_modules/@shelex/cypress-allure-plugin/reporter/index.js:419:0)"
+      },
+      "start": 1771765267688,
+      "stop": 1771765267698,
+      "duration": 10,
+      "flaky": false,
+      "muted": false,
+      "known": false,
+      "hidden": true,
+      "labels": [
+        { "name": "language", "value": "javascript" },
+        { "name": "framework", "value": "cypress" },
+        { "name": "host", "value": "a-birzgal.local" },
+        { "name": "thread", "value": "pid-75090-worker-main" },
+        { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+      ],
+      "steps": [],
+      "parameters": [],
+      "links": [],
+      "hostId": "a-birzgal.local",
+      "threadId": "pid-75090-worker-main",
+      "sourceMetadata": {
+        "readerId": "allure2",
+        "metadata": {
+          "originalFileName": "1d748d44-f0d4-4949-b2f0-7a385b989f59-result.json"
+        }
+      },
+      "titlePath": ["cypress", "e2e", "spec.cy.ts"],
+      "environment": "default"
+    }
+  ],
+  "breadcrumbs": [["E2E tests of practicesoftwaretesting site"]],
+  "retry": true,
+  "titlePath": [
+    "cypress",
+    "e2e",
+    "spec.cy.ts",
+    "E2E tests of practicesoftwaretesting site"
+  ],
+  "retriesCount": 2,
+  "attachments": [],
+  "order": 42
+}

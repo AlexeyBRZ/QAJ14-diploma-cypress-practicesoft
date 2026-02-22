@@ -1,0 +1,70 @@
+{
+  "uuid": "d986d5e4-8299-4f37-849d-66c812a74d04",
+  "name": "\"before each\" hook",
+  "children": ["9301373f-5b89-4fcf-aa60-16e9bb9522dc"],
+  "befores": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "Resolved Url",
+              "value": "https://practicesoftwaretesting.com/"
+            },
+            { "name": "Redirects", "value": "[]" },
+            {
+              "name": "Cookies Set",
+              "value": "[{\"domain\":\".practicesoftwaretesting.com\",\"httpOnly\":true,\"name\":\"cf_clearance\",\"path\":\"/\",\"sameSite\":\"no_restriction\",\"secure\":..."
+            }
+          ],
+          "start": 1771766301647,
+          "name": "visit https://practicesoftwaretesting.com/",
+          "stop": 1771766301728
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1771766301729,
+          "name": "clearLocalStorage",
+          "stop": 1771766301729
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            { "name": "Yielded", "value": "null" },
+            {
+              "name": "Cleared Cookies",
+              "value": "[{\"name\":\"cf_clearance\",\"value\":\"j6Wg_PY2h0XxZOlhFSdUfTKeJ7SUrHbuxk6eoDU23vw-1771766292-1.2.1.1-xdnq3ybPeJRY7Bdx7sYYwbUqkeXQV5Wq..."
+            },
+            { "name": "Num Cookies", "value": "1" }
+          ],
+          "start": 1771766301729,
+          "name": "clearCookies",
+          "stop": 1771766301733
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1771766301643,
+      "name": "\"before each\" hook",
+      "stop": 1771766301733
+    }
+  ],
+  "afters": []
+}

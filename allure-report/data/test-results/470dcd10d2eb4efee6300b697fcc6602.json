@@ -1,0 +1,254 @@
+{
+  "id": "470dcd10d2eb4efee6300b697fcc6602",
+  "name": "check site logo visible on the main page",
+  "start": 1771766251304,
+  "stop": 1771766255799,
+  "duration": 4495,
+  "status": "failed",
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site check site logo visible on the main page",
+  "historyId": "bee02c0a06bc146fd5f1bab0eda3655c.d41d8cd98f00b204e9800998ecf8427e",
+  "flaky": false,
+  "muted": false,
+  "known": false,
+  "hidden": true,
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "cypress" },
+    {
+      "name": "parentSuite",
+      "value": "E2E tests of practicesoftwaretesting site"
+    },
+    { "name": "host", "value": "a-birzgal.local" },
+    { "name": "thread", "value": "pid-94276-worker-main" },
+    { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+  ],
+  "groupedLabels": {
+    "language": ["javascript"],
+    "framework": ["cypress"],
+    "parentSuite": ["E2E tests of practicesoftwaretesting site"],
+    "host": ["a-birzgal.local"],
+    "thread": ["pid-94276-worker-main"],
+    "package": ["cypress.e2e.spec.cy.ts"]
+  },
+  "parameters": [],
+  "links": [],
+  "steps": [
+    {
+      "stepId": "d00325bc85c68ac91a7f762229d68e5f",
+      "name": "get [class=navbar-brand]",
+      "status": "failed",
+      "steps": [
+        {
+          "stepId": "7e0d1a313a2cd175d0847c5a4a9b73b3",
+          "name": "assert expected [class=navbar-brand] to be enabled",
+          "status": "failed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<a _ngcontent-ng-c1334646923=\"\" href=\"/\" class=\"navbar-brand\" title=\"Practice Software Testing - Toolshop\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766251610,
+          "stop": 1771766255606,
+          "duration": 3996,
+          "type": "step",
+          "message": "Timed out retrying after 4000ms: expected '<a.navbar-brand>' to be 'enabled'",
+          "trace": "AssertionError: Timed out retrying after 4000ms: expected '<a.navbar-brand>' to be 'enabled'\n    at Context.eval (webpack://cypress-practicesoft/./cypress/e2e/spec.cy.ts:13:30)",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[class=navbar-brand]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c1334646923=\"\" href=\"/\" class=\"navbar-brand\" title=\"Practice Software Testing - Toolshop\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766251607,
+      "stop": 1771766255606,
+      "duration": 3999,
+      "type": "step",
+      "message": "Timed out retrying after 4000ms: expected '<a.navbar-brand>' to be 'enabled'",
+      "trace": "AssertionError: Timed out retrying after 4000ms: expected '<a.navbar-brand>' to be 'enabled'\n    at Context.eval (webpack://cypress-practicesoft/./cypress/e2e/spec.cy.ts:13:30)",
+      "hasSimilarErrorInSubSteps": true
+    },
+    {
+      "link": {
+        "id": "a6e999bf16d37fd9afbda2aab77aa36a",
+        "originalFileName": "c31229d0-fb0b-4c86-b067-dc25087e228f-attachment.png",
+        "ext": ".png",
+        "name": "E2E tests of practicesoftwaretesting site -- check site logo visible on the main page (failed) (1).png",
+        "contentType": "image/png",
+        "used": true,
+        "missed": false,
+        "contentLength": 1246838
+      },
+      "type": "attachment"
+    }
+  ],
+  "error": {
+    "message": "Timed out retrying after 4000ms: expected '<a.navbar-brand>' to be 'enabled'",
+    "trace": "AssertionError: Timed out retrying after 4000ms: expected '<a.navbar-brand>' to be 'enabled'\n    at Context.eval (webpack://cypress-practicesoft/./cypress/e2e/spec.cy.ts:13:30)"
+  },
+  "testCase": {
+    "id": "bee02c0a06bc146fd5f1bab0eda3655c",
+    "name": "check site logo visible on the main page",
+    "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site check site logo visible on the main page"
+  },
+  "environment": "default",
+  "setup": [
+    {
+      "id": "2da1482affde0fcdfc817cbc531baa4d",
+      "type": "before",
+      "name": "\"before each\" hook",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "dec61eeeedf0843c942d939ba0d9d12c",
+          "name": "visit https://practicesoftwaretesting.com/",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Resolved Url",
+              "value": "https://practicesoftwaretesting.com/",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Redirects",
+              "value": "[]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Cookies Set",
+              "value": "[]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766251314,
+          "stop": 1771766251597,
+          "duration": 283,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "c3ece3336c799f6ebc9028f5d35c2421",
+          "name": "clearLocalStorage",
+          "status": "passed",
+          "steps": [],
+          "parameters": [],
+          "start": 1771766251598,
+          "stop": 1771766251598,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "e826b239cb7d9f46498841c6117b8775",
+          "name": "clearCookies",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "null",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Note",
+              "value": "No cookies were found or removed.",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766251598,
+          "stop": 1771766251605,
+          "duration": 7,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "duration": 301
+    }
+  ],
+  "teardown": [
+    {
+      "id": "e966293ac7871184bbcce29027d821e8",
+      "type": "after",
+      "name": "Cypress video",
+      "status": "passed",
+      "steps": [
+        {
+          "link": {
+            "id": "260f017e117ba328db13046538e51ca5",
+            "originalFileName": "d5801cd6-1168-482c-b6b9-d732cdeb0368-attachment.mp4",
+            "ext": ".mp4",
+            "name": "Cypress video",
+            "contentType": "video/mp4",
+            "used": true,
+            "missed": false,
+            "contentLength": 1667190
+          },
+          "type": "attachment"
+        }
+      ],
+      "duration": 2
+    }
+  ],
+  "history": [],
+  "retries": [],
+  "breadcrumbs": [["E2E tests of practicesoftwaretesting site"]],
+  "retry": false,
+  "titlePath": [
+    "cypress",
+    "e2e",
+    "spec.cy.ts",
+    "E2E tests of practicesoftwaretesting site"
+  ],
+  "retriesCount": 0,
+  "attachments": [
+    {
+      "link": {
+        "id": "a6e999bf16d37fd9afbda2aab77aa36a",
+        "originalFileName": "c31229d0-fb0b-4c86-b067-dc25087e228f-attachment.png",
+        "ext": ".png",
+        "name": "E2E tests of practicesoftwaretesting site -- check site logo visible on the main page (failed) (1).png",
+        "contentType": "image/png",
+        "used": true,
+        "missed": false,
+        "contentLength": 1246838
+      },
+      "type": "attachment"
+    }
+  ],
+  "order": 38
+}

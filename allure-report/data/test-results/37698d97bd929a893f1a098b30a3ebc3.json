@@ -1,0 +1,4139 @@
+{
+  "id": "37698d97bd929a893f1a098b30a3ebc3",
+  "name": "check sorting by eco-friendly label",
+  "start": 1771766404921,
+  "stop": 1771766405504,
+  "duration": 583,
+  "status": "passed",
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site check sorting of products check sorting by eco-friendly label",
+  "historyId": "d80af8a985e889114d69c9718c539b67.d41d8cd98f00b204e9800998ecf8427e",
+  "flaky": false,
+  "muted": false,
+  "known": false,
+  "hidden": false,
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "cypress" },
+    {
+      "name": "parentSuite",
+      "value": "E2E tests of practicesoftwaretesting site"
+    },
+    { "name": "suite", "value": "check sorting of products" },
+    { "name": "host", "value": "a-birzgal.local" },
+    { "name": "thread", "value": "pid-95817-worker-main" },
+    { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+  ],
+  "groupedLabels": {
+    "language": ["javascript"],
+    "framework": ["cypress"],
+    "parentSuite": ["E2E tests of practicesoftwaretesting site"],
+    "suite": ["check sorting of products"],
+    "host": ["a-birzgal.local"],
+    "thread": ["pid-95817-worker-main"],
+    "package": ["cypress.e2e.spec.cy.ts"]
+  },
+  "parameters": [],
+  "links": [],
+  "steps": [
+    {
+      "stepId": "513cde81dc1267da75c982738a8c3c22",
+      "name": "get [data-test=\"eco-friendly-filter\"]",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"eco-friendly-filter\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<input _ngcontent-ng-c3901630365=\"\" type=\"checkbox\" name=\"eco_friendly\" data-test=\"eco-friendly-filter\" class=\"icheck\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405092,
+      "stop": 1771766405149,
+      "duration": 57,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "2f892c205536f1774d160fb5b649b25c",
+      "name": "click",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<input _ngcontent-ng-c3901630365=\"\" type=\"checkbox\" name=\"eco_friendly\" data-test=\"eco-friendly-filter\" class=\"icheck\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":38,\"y\":1062}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405149,
+      "stop": 1771766405219,
+      "duration": 70,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "c93ad5aa6b277aa3a3f9ecce5a0e4895",
+      "name": "wait @ecoFilter",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Waited For",
+          "value": "ecoFilter",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "{\"id\":\"interceptedRequest884\",\"browserRequestId\":\"97125.1883\",\"routeId\":\"1771766405219-525\",\"request\":{\"headers\":{\"host\":\"api.pr...",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405221,
+      "stop": 1771766405478,
+      "duration": 257,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "65309afaee0af36a42d31309b8228c80",
+      "name": "get a.card",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "5b456eed5c078a77216b9b115a31f4fa",
+          "name": "assert expected [ <a.card>, 8 more... ] to have property length",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ97NKMXGEH3EW300AX2H\" href=\"/product/01KJ2PZ97NKMXGEH3EW300AX2H\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405481,
+          "stop": 1771766405481,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "a.card",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "[{\"__ngContext__\":36,\"__zone_symbol__clickfalse\":[null]},{\"__ngContext__\":37,\"__zone_symbol__clickfalse\":[null]},{\"__ngContext__...",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "9",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405479,
+      "stop": 1771766405481,
+      "duration": 2,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "2d81ea41ead1b2f98b613d325f70e23b",
+      "name": "wrap <a.card>",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ97NKMXGEH3EW300AX2H\" href=\"/product/01KJ2PZ97NKMXGEH3EW300AX2H\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405483,
+      "stop": 1771766405483,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "1eb8c1083035bf68a490a841fb57521d",
+      "name": "find [data-test=\"eco-badge\"]",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "5af881db509dda63f3c1277990779145",
+          "name": "assert expected <span.eco-badge.position-absolute.top-0.end-0.m-2> to exist in the DOM",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405484,
+          "stop": 1771766405484,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"eco-badge\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ97NKMXGEH3EW300AX2H\" href=\"/product/01KJ2PZ97NKMXGEH3EW300AX2H\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405483,
+      "stop": 1771766405484,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "0ea3a34ffa4d055b5161bd997eb4735a",
+      "name": "wrap <a.card>",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ9887HNEYA25J2KRM92W\" href=\"/product/01KJ2PZ9887HNEYA25J2KRM92W\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405484,
+      "stop": 1771766405484,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "a23e8d40c6b308471d2955811bff2bcb",
+      "name": "find [data-test=\"eco-badge\"]",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "d9abe6c641d689c3694572d63d899fc1",
+          "name": "assert expected <span.eco-badge.position-absolute.top-0.end-0.m-2> to exist in the DOM",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405485,
+          "stop": 1771766405485,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"eco-badge\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ9887HNEYA25J2KRM92W\" href=\"/product/01KJ2PZ9887HNEYA25J2KRM92W\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405484,
+      "stop": 1771766405485,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "d0aee7a57ea07431d3e6d187a4d792f4",
+      "name": "wrap <a.card>",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ989DJB0G8GS1PD8AN6Z\" href=\"/product/01KJ2PZ989DJB0G8GS1PD8AN6Z\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405485,
+      "stop": 1771766405485,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "56c445dfed18eac827091dc9a8c50f9c",
+      "name": "find [data-test=\"eco-badge\"]",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "e4065ef0b3ebe6985a08dd485b7b2fa9",
+          "name": "assert expected <span.eco-badge.position-absolute.top-0.end-0.m-2> to exist in the DOM",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405486,
+          "stop": 1771766405486,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"eco-badge\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ989DJB0G8GS1PD8AN6Z\" href=\"/product/01KJ2PZ989DJB0G8GS1PD8AN6Z\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405485,
+      "stop": 1771766405486,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "488345d90e18ec70fbd3fb558ec6f595",
+      "name": "wrap <a.card>",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98B5YG5EXZWYTDYQEGT\" href=\"/product/01KJ2PZ98B5YG5EXZWYTDYQEGT\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405486,
+      "stop": 1771766405486,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "527e0bf54da1bebb0bb0ee798a74f5b0",
+      "name": "find [data-test=\"eco-badge\"]",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "e4065ef0b3ebe6985a08dd485b7b2fa9",
+          "name": "assert expected <span.eco-badge.position-absolute.top-0.end-0.m-2> to exist in the DOM",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405486,
+          "stop": 1771766405486,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"eco-badge\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98B5YG5EXZWYTDYQEGT\" href=\"/product/01KJ2PZ98B5YG5EXZWYTDYQEGT\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405486,
+      "stop": 1771766405486,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "e9959f3cf0d7fddf7aacb944c6620753",
+      "name": "wrap <a.card>",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98CHVCFNCDMACE4VVXK\" href=\"/product/01KJ2PZ98CHVCFNCDMACE4VVXK\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405487,
+      "stop": 1771766405487,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "5f0ec290cf9a8b57bd9e48eb120fd8f3",
+      "name": "find [data-test=\"eco-badge\"]",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "ace033936aa55db06a3e135c521096e0",
+          "name": "assert expected <span.eco-badge.position-absolute.top-0.end-0.m-2> to exist in the DOM",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405487,
+          "stop": 1771766405487,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"eco-badge\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98CHVCFNCDMACE4VVXK\" href=\"/product/01KJ2PZ98CHVCFNCDMACE4VVXK\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405487,
+      "stop": 1771766405487,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "e9959f3cf0d7fddf7aacb944c6620753",
+      "name": "wrap <a.card>",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98E54YJ83SVXBA86BZ0\" href=\"/product/01KJ2PZ98E54YJ83SVXBA86BZ0\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405487,
+      "stop": 1771766405487,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "dac0056f1269055f711476f1b22847a5",
+      "name": "find [data-test=\"eco-badge\"]",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "8a83a241024d31a92a7396612e052bd5",
+          "name": "assert expected <span.eco-badge.position-absolute.top-0.end-0.m-2> to exist in the DOM",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405488,
+          "stop": 1771766405488,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"eco-badge\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98E54YJ83SVXBA86BZ0\" href=\"/product/01KJ2PZ98E54YJ83SVXBA86BZ0\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405488,
+      "stop": 1771766405488,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "80d3d651175bfca840edd6a552948b8a",
+      "name": "wrap <a.card>",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98G47P9CTDB7482GS10\" href=\"/product/01KJ2PZ98G47P9CTDB7482GS10\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405489,
+      "stop": 1771766405489,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "d805fe74b86e6aa234d44f4514b1fd50",
+      "name": "find [data-test=\"eco-badge\"]",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "42f592574297c65458c325f6c8a85f29",
+          "name": "assert expected <span.eco-badge.position-absolute.top-0.end-0.m-2> to exist in the DOM",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405490,
+          "stop": 1771766405490,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"eco-badge\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98G47P9CTDB7482GS10\" href=\"/product/01KJ2PZ98G47P9CTDB7482GS10\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405489,
+      "stop": 1771766405490,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "7ac127c47e2b0c2c96e2c05cb4b18c39",
+      "name": "wrap <a.card>",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98V2FH4G7PD06BK43CM\" href=\"/product/01KJ2PZ98V2FH4G7PD06BK43CM\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405490,
+      "stop": 1771766405490,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "b067decbb5926a5257ee7d9fee873247",
+      "name": "find [data-test=\"eco-badge\"]",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "42f592574297c65458c325f6c8a85f29",
+          "name": "assert expected <span.eco-badge.position-absolute.top-0.end-0.m-2> to exist in the DOM",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405490,
+          "stop": 1771766405490,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"eco-badge\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98V2FH4G7PD06BK43CM\" href=\"/product/01KJ2PZ98V2FH4G7PD06BK43CM\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405490,
+      "stop": 1771766405490,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "41a4834828d5447aa7aa732c586e3458",
+      "name": "wrap <a.card>",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98XKVW9YGMNGX9VZVGX\" href=\"/product/01KJ2PZ98XKVW9YGMNGX9VZVGX\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405491,
+      "stop": 1771766405491,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "abec84f87b6127a360c0278c7900fb2c",
+      "name": "find [data-test=\"eco-badge\"]",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "cd46c290a7f4283330055cf2c1c620e7",
+          "name": "assert expected <span.eco-badge.position-absolute.top-0.end-0.m-2> to exist in the DOM",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405491,
+          "stop": 1771766405491,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"eco-badge\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98XKVW9YGMNGX9VZVGX\" href=\"/product/01KJ2PZ98XKVW9YGMNGX9VZVGX\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405491,
+      "stop": 1771766405491,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "535c0ab7ef8718631c1ab0c2e55a8a1f",
+      "name": "get [data-test=\"co2-rating-badge\"]",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "a8ab3527b521f09aceec8ef1c0431a76",
+          "name": "assert expected [ <div.co2-rating-scale>, 8 more... ] to have property length",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405493,
+          "stop": 1771766405494,
+          "duration": 1,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"co2-rating-badge\"]",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "[{\"__ngContext__\":47},{\"__ngContext__\":50},{\"__ngContext__\":53},{\"__ngContext__\":56},{\"__ngContext__\":59},{\"__ngContext__\":62},{...",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "9",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405491,
+      "stop": 1771766405494,
+      "duration": 3,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "7383ab72ce3c185b122e45757e1a1b9a",
+      "name": "wrap <div.co2-rating-scale>",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Yielded",
+          "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405496,
+      "stop": 1771766405496,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "fef39cccc677ef706aede9ab0c0899f6",
+      "name": "find .co2-letter.active",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "1a34285acfb7755e3e1a22d8888a456a",
+          "name": "assert expected <span.co2-letter.active.rating-b> to have text B",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "B",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "B",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405497,
+          "stop": 1771766405497,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": ".co2-letter.active",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405496,
+      "stop": 1771766405497,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "24f99bb4a859d0e2d0330240659fccbd",
+      "name": "wrap <div.co2-rating-scale>",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Yielded",
+          "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405497,
+      "stop": 1771766405497,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "2c773afe5b9dcf37b27e9307fc5f932c",
+      "name": "find .co2-letter.active",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "1a34285acfb7755e3e1a22d8888a456a",
+          "name": "assert expected <span.co2-letter.active.rating-b> to have text B",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "B",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "B",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405497,
+          "stop": 1771766405497,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": ".co2-letter.active",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405497,
+      "stop": 1771766405497,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "b3a12d20f136f9732e46774e45c7c2a8",
+      "name": "wrap <div.co2-rating-scale>",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Yielded",
+          "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405498,
+      "stop": 1771766405498,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "beee752b987333b337038ff08d427bd9",
+      "name": "find .co2-letter.active",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "07ab341706b1bbbae38419664a2991ad",
+          "name": "assert expected <span.co2-letter.active.rating-b> to have text B",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "B",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "B",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405498,
+          "stop": 1771766405498,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": ".co2-letter.active",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405498,
+      "stop": 1771766405498,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "b3a12d20f136f9732e46774e45c7c2a8",
+      "name": "wrap <div.co2-rating-scale>",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Yielded",
+          "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405498,
+      "stop": 1771766405498,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "3c683d6065271d9b0a4c58ae300118ef",
+      "name": "find .co2-letter.active",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "bac8da7b67a471f52bd76f939b30efe1",
+          "name": "assert expected <span.co2-letter.active.rating-b> to have text B",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "B",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "B",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405499,
+          "stop": 1771766405499,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": ".co2-letter.active",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405499,
+      "stop": 1771766405499,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "22407c781bca11ba9d6b88a1d497cd7b",
+      "name": "wrap <div.co2-rating-scale>",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Yielded",
+          "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405499,
+      "stop": 1771766405499,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "3c683d6065271d9b0a4c58ae300118ef",
+      "name": "find .co2-letter.active",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "b6b52cd06abf4cbc6f3a65eda2b80cbc",
+          "name": "assert expected <span.co2-letter.active.rating-b> to have text B",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "B",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "B",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405500,
+          "stop": 1771766405500,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": ".co2-letter.active",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405499,
+      "stop": 1771766405500,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "a713a1440bd0f4af644280df2e793bc8",
+      "name": "wrap <div.co2-rating-scale>",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Yielded",
+          "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405500,
+      "stop": 1771766405500,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "c2e9f3b0693aabdb31b78bedf159ecab",
+      "name": "find .co2-letter.active",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "18161b13d0e918cfb6e1d8b6775f57f1",
+          "name": "assert expected <span.co2-letter.active.rating-b> to have text B",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "B",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "B",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405501,
+          "stop": 1771766405501,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": ".co2-letter.active",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405500,
+      "stop": 1771766405501,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "257afda8cd0c273a50e9333c18762258",
+      "name": "wrap <div.co2-rating-scale>",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Yielded",
+          "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405501,
+      "stop": 1771766405501,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "37daeb6d2d9eedcea8cd44efbd9fd8af",
+      "name": "find .co2-letter.active",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "bbd0918481cc37e4da760843f728c9a8",
+          "name": "assert expected <span.co2-letter.active.rating-b> to have text B",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "B",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "B",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405502,
+          "stop": 1771766405502,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": ".co2-letter.active",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405502,
+      "stop": 1771766405502,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "aba3fcce3f30c82122095576b3115efc",
+      "name": "wrap <div.co2-rating-scale>",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Yielded",
+          "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405502,
+      "stop": 1771766405502,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "37daeb6d2d9eedcea8cd44efbd9fd8af",
+      "name": "find .co2-letter.active",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "8f4df3d414ddb924c60205540da70d44",
+          "name": "assert expected <span.co2-letter.active.rating-b> to have text B",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "B",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "B",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405503,
+          "stop": 1771766405503,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": ".co2-letter.active",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405502,
+      "stop": 1771766405503,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "d5efa092d0ad7b87b19d64d6e429c445",
+      "name": "wrap <div.co2-rating-scale>",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Yielded",
+          "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405503,
+      "stop": 1771766405503,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "7e307282f607da3e78334f861b3ad83e",
+      "name": "find .co2-letter.active",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "a91d24caede3246d34586d22325581dd",
+          "name": "assert expected <span.co2-letter.active.rating-b> to have text B",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "B",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "B",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405504,
+          "stop": 1771766405504,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": ".co2-letter.active",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766405503,
+      "stop": 1771766405504,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    }
+  ],
+  "error": {},
+  "testCase": {
+    "id": "d80af8a985e889114d69c9718c539b67",
+    "name": "check sorting by eco-friendly label",
+    "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site check sorting of products check sorting by eco-friendly label"
+  },
+  "environment": "default",
+  "setup": [
+    {
+      "id": "95b0da0413c00daf66754a3618b1fa7f",
+      "type": "before",
+      "name": "\"before each\" hook",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "1687dfc1512f328e277a434e6c65ef1f",
+          "name": "visit https://practicesoftwaretesting.com/",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Resolved Url",
+              "value": "https://practicesoftwaretesting.com/",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Redirects",
+              "value": "[]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Cookies Set",
+              "value": "[{\"domain\":\".practicesoftwaretesting.com\",\"httpOnly\":true,\"name\":\"cf_clearance\",\"path\":\"/\",\"sameSite\":\"no_restriction\",\"secure\":...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766404929,
+          "stop": 1771766405084,
+          "duration": 155,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "25be9aab64c3acde8b3ead563cbfa88b",
+          "name": "clearLocalStorage",
+          "status": "passed",
+          "steps": [],
+          "parameters": [],
+          "start": 1771766405084,
+          "stop": 1771766405084,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "1de49d4f818507e4f02aef6e6d1bd933",
+          "name": "clearCookies",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "null",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Cleared Cookies",
+              "value": "[{\"name\":\"cf_clearance\",\"value\":\"j6Wg_PY2h0XxZOlhFSdUfTKeJ7SUrHbuxk6eoDU23vw-1771766292-1.2.1.1-xdnq3ybPeJRY7Bdx7sYYwbUqkeXQV5Wq...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Num Cookies",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766405084,
+          "stop": 1771766405091,
+          "duration": 7,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "duration": 170
+    }
+  ],
+  "teardown": [
+    {
+      "id": "b7a4cf8106624256f0cd48aa9d7e4794",
+      "type": "after",
+      "name": "Cypress video",
+      "status": "passed",
+      "steps": [
+        {
+          "link": {
+            "used": true,
+            "missed": false,
+            "id": "7acc2591be960ff122555f2c0e46fdf4",
+            "originalFileName": "92114ed1-bfc2-4cbc-9b5d-364e653a7fa7-attachment.mp4",
+            "ext": ".mp4",
+            "contentType": "video/mp4",
+            "contentLength": 63562655,
+            "name": "Cypress video"
+          },
+          "type": "attachment"
+        }
+      ],
+      "duration": 40
+    }
+  ],
+  "history": [],
+  "retries": [
+    {
+      "id": "5310a3f941965e239e208569f6280ea4",
+      "name": "check sorting by eco-friendly label",
+      "testCase": {
+        "id": "d80af8a985e889114d69c9718c539b67",
+        "name": "check sorting by eco-friendly label",
+        "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site check sorting of products check sorting by eco-friendly label"
+      },
+      "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site check sorting of products check sorting by eco-friendly label",
+      "historyId": "d80af8a985e889114d69c9718c539b67.d41d8cd98f00b204e9800998ecf8427e",
+      "status": "passed",
+      "error": {},
+      "start": 1771766107429,
+      "stop": 1771766109175,
+      "duration": 1746,
+      "flaky": false,
+      "muted": false,
+      "known": false,
+      "hidden": true,
+      "labels": [
+        { "name": "language", "value": "javascript" },
+        { "name": "framework", "value": "cypress" },
+        {
+          "name": "parentSuite",
+          "value": "E2E tests of practicesoftwaretesting site"
+        },
+        { "name": "suite", "value": "check sorting of products" },
+        { "name": "host", "value": "a-birzgal.local" },
+        { "name": "thread", "value": "pid-90852-worker-main" },
+        { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+      ],
+      "steps": [
+        {
+          "stepId": "e16bef743f10a1d35c608f27c3a3aa8f",
+          "name": "get [data-test=\"eco-friendly-filter\"]",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"eco-friendly-filter\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<input _ngcontent-ng-c3901630365=\"\" type=\"checkbox\" name=\"eco_friendly\" data-test=\"eco-friendly-filter\" class=\"icheck\">",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766107618,
+          "stop": 1771766107724,
+          "duration": 106,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "1fa10399072246c6e501be1cb2a7cdfa",
+          "name": "click",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Applied To",
+              "value": "<input _ngcontent-ng-c3901630365=\"\" type=\"checkbox\" name=\"eco_friendly\" data-test=\"eco-friendly-filter\" class=\"icheck\">",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Coords",
+              "value": "{\"x\":38,\"y\":1062}",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766107724,
+          "stop": 1771766107795,
+          "duration": 71,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "324b0ea307da95b18d15186955855aab",
+          "name": "wait @ecoFilter",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Waited For",
+              "value": "ecoFilter",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "{\"id\":\"interceptedRequest418\",\"browserRequestId\":\"92156.939\",\"routeId\":\"1771766107795-128\",\"request\":{\"headers\":{\"host\":\"api.pra...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766107797,
+          "stop": 1771766109147,
+          "duration": 1350,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "242874d7a09253ca57f817c17d7ba08d",
+          "name": "get a.card",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "13670ef0f84985ada7fe365f6dbd270f",
+              "name": "assert expected [ <a.card>, 8 more... ] to have property length",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "subject",
+                  "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ97NKMXGEH3EW300AX2H\" href=\"/product/01KJ2PZ97NKMXGEH3EW300AX2H\">...</a>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766109151,
+              "stop": 1771766109152,
+              "duration": 1,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "a.card",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "[{\"__ngContext__\":64,\"__zone_symbol__clickfalse\":[null]},{\"__ngContext__\":65,\"__zone_symbol__clickfalse\":[null]},{\"__ngContext__...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "9",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109148,
+          "stop": 1771766109152,
+          "duration": 4,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "58c05b97eebbb7aef7d460544a1d9b44",
+          "name": "wrap <a.card>",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ97NKMXGEH3EW300AX2H\" href=\"/product/01KJ2PZ97NKMXGEH3EW300AX2H\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109153,
+          "stop": 1771766109153,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "edf1bf5fca245ebb7f38bd955587a3cb",
+          "name": "find [data-test=\"eco-badge\"]",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "106c30bf54ba2f78f82a5e05a87f6b23",
+              "name": "assert expected <span.eco-badge.position-absolute.top-0.end-0.m-2> to exist in the DOM",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "expected",
+                  "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "subject",
+                  "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766109154,
+              "stop": 1771766109154,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"eco-badge\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ97NKMXGEH3EW300AX2H\" href=\"/product/01KJ2PZ97NKMXGEH3EW300AX2H\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109153,
+          "stop": 1771766109154,
+          "duration": 1,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "0da68269982a793a92c58e1589c2c044",
+          "name": "wrap <a.card>",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ9887HNEYA25J2KRM92W\" href=\"/product/01KJ2PZ9887HNEYA25J2KRM92W\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109154,
+          "stop": 1771766109154,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "2fcacdda2fa9501f785b4dc50fbaf4fe",
+          "name": "find [data-test=\"eco-badge\"]",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "28ee6e0517e0702210947cbecad0f03b",
+              "name": "assert expected <span.eco-badge.position-absolute.top-0.end-0.m-2> to exist in the DOM",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "expected",
+                  "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "subject",
+                  "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766109155,
+              "stop": 1771766109155,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"eco-badge\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ9887HNEYA25J2KRM92W\" href=\"/product/01KJ2PZ9887HNEYA25J2KRM92W\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109154,
+          "stop": 1771766109155,
+          "duration": 1,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "50bcc8e6be3b7e9870261091c5b4c23c",
+          "name": "wrap <a.card>",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ989DJB0G8GS1PD8AN6Z\" href=\"/product/01KJ2PZ989DJB0G8GS1PD8AN6Z\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109155,
+          "stop": 1771766109155,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "8c71f3ac37943c33a92a1b196301f7ba",
+          "name": "find [data-test=\"eco-badge\"]",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "f6533b385760d2af8e4b1fb4c03ec7f8",
+              "name": "assert expected <span.eco-badge.position-absolute.top-0.end-0.m-2> to exist in the DOM",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "expected",
+                  "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "subject",
+                  "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766109156,
+              "stop": 1771766109156,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"eco-badge\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ989DJB0G8GS1PD8AN6Z\" href=\"/product/01KJ2PZ989DJB0G8GS1PD8AN6Z\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109155,
+          "stop": 1771766109156,
+          "duration": 1,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "8df26d8d315b39d4c33e8131fd5a5ffb",
+          "name": "wrap <a.card>",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98B5YG5EXZWYTDYQEGT\" href=\"/product/01KJ2PZ98B5YG5EXZWYTDYQEGT\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109156,
+          "stop": 1771766109156,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "5cea6c68e9c729c2ac06177cf993fdc6",
+          "name": "find [data-test=\"eco-badge\"]",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "f6533b385760d2af8e4b1fb4c03ec7f8",
+              "name": "assert expected <span.eco-badge.position-absolute.top-0.end-0.m-2> to exist in the DOM",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "expected",
+                  "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "subject",
+                  "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766109156,
+              "stop": 1771766109156,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"eco-badge\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98B5YG5EXZWYTDYQEGT\" href=\"/product/01KJ2PZ98B5YG5EXZWYTDYQEGT\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109156,
+          "stop": 1771766109156,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "e74e890123703edf9215e5aae99b8350",
+          "name": "wrap <a.card>",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98CHVCFNCDMACE4VVXK\" href=\"/product/01KJ2PZ98CHVCFNCDMACE4VVXK\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109157,
+          "stop": 1771766109157,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "f9bb096d3ef61b26721903f3d23f6b71",
+          "name": "find [data-test=\"eco-badge\"]",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "4267fe36915b5316a8e1d91f4248e7a7",
+              "name": "assert expected <span.eco-badge.position-absolute.top-0.end-0.m-2> to exist in the DOM",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "expected",
+                  "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "subject",
+                  "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766109157,
+              "stop": 1771766109157,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"eco-badge\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98CHVCFNCDMACE4VVXK\" href=\"/product/01KJ2PZ98CHVCFNCDMACE4VVXK\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109157,
+          "stop": 1771766109157,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "e74e890123703edf9215e5aae99b8350",
+          "name": "wrap <a.card>",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98E54YJ83SVXBA86BZ0\" href=\"/product/01KJ2PZ98E54YJ83SVXBA86BZ0\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109157,
+          "stop": 1771766109157,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "7a1f38b9f23950f1855a5eeca4a9f163",
+          "name": "find [data-test=\"eco-badge\"]",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "96d92c2ca7b6061c3fa9758e2077d103",
+              "name": "assert expected <span.eco-badge.position-absolute.top-0.end-0.m-2> to exist in the DOM",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "expected",
+                  "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "subject",
+                  "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766109158,
+              "stop": 1771766109158,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"eco-badge\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98E54YJ83SVXBA86BZ0\" href=\"/product/01KJ2PZ98E54YJ83SVXBA86BZ0\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109158,
+          "stop": 1771766109158,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "619db3b2a88170728231c7fa3ef84500",
+          "name": "wrap <a.card>",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98G47P9CTDB7482GS10\" href=\"/product/01KJ2PZ98G47P9CTDB7482GS10\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109158,
+          "stop": 1771766109158,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "7a1f38b9f23950f1855a5eeca4a9f163",
+          "name": "find [data-test=\"eco-badge\"]",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "fdb96617a44481777416583a00c748fa",
+              "name": "assert expected <span.eco-badge.position-absolute.top-0.end-0.m-2> to exist in the DOM",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "expected",
+                  "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "subject",
+                  "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766109159,
+              "stop": 1771766109159,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"eco-badge\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98G47P9CTDB7482GS10\" href=\"/product/01KJ2PZ98G47P9CTDB7482GS10\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109158,
+          "stop": 1771766109159,
+          "duration": 1,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "a20b3dfed6c52ce55ea803e1c4461864",
+          "name": "wrap <a.card>",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98V2FH4G7PD06BK43CM\" href=\"/product/01KJ2PZ98V2FH4G7PD06BK43CM\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109159,
+          "stop": 1771766109159,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "9e2ebf639a5e791e92c08876ae215d51",
+          "name": "find [data-test=\"eco-badge\"]",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "1f559a441052ac0140a606965601d5fe",
+              "name": "assert expected <span.eco-badge.position-absolute.top-0.end-0.m-2> to exist in the DOM",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "expected",
+                  "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "subject",
+                  "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766109160,
+              "stop": 1771766109160,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"eco-badge\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98V2FH4G7PD06BK43CM\" href=\"/product/01KJ2PZ98V2FH4G7PD06BK43CM\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109159,
+          "stop": 1771766109160,
+          "duration": 1,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "79c5208d50d33a377eb2c8814a80a56a",
+          "name": "wrap <a.card>",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98XKVW9YGMNGX9VZVGX\" href=\"/product/01KJ2PZ98XKVW9YGMNGX9VZVGX\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109160,
+          "stop": 1771766109160,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "4bc33e2c884315d4c3ac6860e2db7320",
+          "name": "find [data-test=\"eco-badge\"]",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "1f559a441052ac0140a606965601d5fe",
+              "name": "assert expected <span.eco-badge.position-absolute.top-0.end-0.m-2> to exist in the DOM",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "expected",
+                  "value": "<span.eco-badge.position-absolute.top-0.end-0.m-2>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "subject",
+                  "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766109160,
+              "stop": 1771766109160,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"eco-badge\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ98XKVW9YGMNGX9VZVGX\" href=\"/product/01KJ2PZ98XKVW9YGMNGX9VZVGX\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" data-test=\"eco-badge\" class=\"eco-badge position-absolute top-0 end-0 m-2\">...</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109160,
+          "stop": 1771766109160,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "7a4c41bc1d012b0487cf2f827202a7b9",
+          "name": "get [data-test=\"co2-rating-badge\"]",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "f1d2ab84c84f8dcc895d64550c20359c",
+              "name": "assert expected [ <div.co2-rating-scale>, 8 more... ] to have property length",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "subject",
+                  "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766109163,
+              "stop": 1771766109163,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "[data-test=\"co2-rating-badge\"]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "[{\"__ngContext__\":75},{\"__ngContext__\":78},{\"__ngContext__\":81},{\"__ngContext__\":84},{\"__ngContext__\":87},{\"__ngContext__\":90},{...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "9",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109161,
+          "stop": 1771766109163,
+          "duration": 2,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "401dd1a4b96a6cd2edf8810f8b967cec",
+          "name": "wrap <div.co2-rating-scale>",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109165,
+          "stop": 1771766109165,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "a028e66cc713bb75e8b3cfc70f8a93a5",
+          "name": "find .co2-letter.active",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "87e5205d350cfe6d2fdbdf88dfa98688",
+              "name": "assert expected <span.co2-letter.active.rating-b> to have text B",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "B",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "expected",
+                  "value": "B",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "subject",
+                  "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766109166,
+              "stop": 1771766109166,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": ".co2-letter.active",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109165,
+          "stop": 1771766109166,
+          "duration": 1,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "daf34e395caf568dd6e11c7b2502d4eb",
+          "name": "wrap <div.co2-rating-scale>",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109166,
+          "stop": 1771766109166,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "5b22b05f9b17f42bfa88fabe147bc08d",
+          "name": "find .co2-letter.active",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "bbd3b62f1b6ddf4e750d4b484c960a5d",
+              "name": "assert expected <span.co2-letter.active.rating-b> to have text B",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "B",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "expected",
+                  "value": "B",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "subject",
+                  "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766109167,
+              "stop": 1771766109167,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": ".co2-letter.active",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109166,
+          "stop": 1771766109167,
+          "duration": 1,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "5d73f187af03316592afc3bad8ea702e",
+          "name": "wrap <div.co2-rating-scale>",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109167,
+          "stop": 1771766109167,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "f141b460159191f3dd976e25d95b1f89",
+          "name": "find .co2-letter.active",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "aa0d734274640c2965196ec5dfe4686b",
+              "name": "assert expected <span.co2-letter.active.rating-b> to have text B",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "B",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "expected",
+                  "value": "B",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "subject",
+                  "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766109168,
+              "stop": 1771766109168,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": ".co2-letter.active",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109167,
+          "stop": 1771766109168,
+          "duration": 1,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "511d2da86d6774eccc6dc711e828500e",
+          "name": "wrap <div.co2-rating-scale>",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109168,
+          "stop": 1771766109168,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "83a91332e90b92828ce05b8e42ebb72c",
+          "name": "find .co2-letter.active",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "aa0d734274640c2965196ec5dfe4686b",
+              "name": "assert expected <span.co2-letter.active.rating-b> to have text B",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "B",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "expected",
+                  "value": "B",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "subject",
+                  "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766109168,
+              "stop": 1771766109168,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": ".co2-letter.active",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109168,
+          "stop": 1771766109168,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "511d2da86d6774eccc6dc711e828500e",
+          "name": "wrap <div.co2-rating-scale>",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109168,
+          "stop": 1771766109169,
+          "duration": 1,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "724b0a1795343197072e996eb1c1faf7",
+          "name": "find .co2-letter.active",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "5665f308d234fb227db6e8eb7e77a160",
+              "name": "assert expected <span.co2-letter.active.rating-b> to have text B",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "B",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "expected",
+                  "value": "B",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "subject",
+                  "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766109169,
+              "stop": 1771766109169,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": ".co2-letter.active",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109169,
+          "stop": 1771766109169,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "6f13ee0a5de6d764e003397916102ca5",
+          "name": "wrap <div.co2-rating-scale>",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109169,
+          "stop": 1771766109169,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "724b0a1795343197072e996eb1c1faf7",
+          "name": "find .co2-letter.active",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "86351cbc2c15d5e585c0c42417b30e7a",
+              "name": "assert expected <span.co2-letter.active.rating-b> to have text B",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "B",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "expected",
+                  "value": "B",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "subject",
+                  "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766109170,
+              "stop": 1771766109170,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": ".co2-letter.active",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109169,
+          "stop": 1771766109170,
+          "duration": 1,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "6b4e43ed03ee4cb4a9731ef9b7511c22",
+          "name": "wrap <div.co2-rating-scale>",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109170,
+          "stop": 1771766109170,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "ee6106ae0bc9643b80363a9c4ddb5a2e",
+          "name": "find .co2-letter.active",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "87c482540e4737bfc2d21dbfc18acf00",
+              "name": "assert expected <span.co2-letter.active.rating-b> to have text B",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "B",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "expected",
+                  "value": "B",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "subject",
+                  "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766109171,
+              "stop": 1771766109171,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": ".co2-letter.active",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109170,
+          "stop": 1771766109171,
+          "duration": 1,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "ede6bce8552b277cfc7f27e5583664ca",
+          "name": "wrap <div.co2-rating-scale>",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109171,
+          "stop": 1771766109171,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "64d72488a7d898d3724469af2332248f",
+          "name": "find .co2-letter.active",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "b329ef7a248dd565621cc35462abe84b",
+              "name": "assert expected <span.co2-letter.active.rating-b> to have text B",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "B",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "expected",
+                  "value": "B",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "subject",
+                  "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766109172,
+              "stop": 1771766109172,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": ".co2-letter.active",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109171,
+          "stop": 1771766109172,
+          "duration": 1,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "f4cd54e1b6ba01513d6c2528b0138f12",
+          "name": "wrap <div.co2-rating-scale>",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109172,
+          "stop": 1771766109172,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "aa11c535824dc41267bf1809b28c6662",
+          "name": "find .co2-letter.active",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "b329ef7a248dd565621cc35462abe84b",
+              "name": "assert expected <span.co2-letter.active.rating-b> to have text B",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "B",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "expected",
+                  "value": "B",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "subject",
+                  "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766109172,
+              "stop": 1771766109172,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": ".co2-letter.active",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<div _ngcontent-ng-c3901630365=\"\" data-test=\"co2-rating-badge\" class=\"co2-rating-scale\" title=\"A = most environmentally friendly, E = higher environmental impact\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<span _ngcontent-ng-c3901630365=\"\" class=\"co2-letter active rating-b\">B</span>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766109172,
+          "stop": 1771766109172,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [],
+      "links": [],
+      "hostId": "a-birzgal.local",
+      "threadId": "pid-90852-worker-main",
+      "sourceMetadata": {
+        "readerId": "allure2",
+        "metadata": {
+          "originalFileName": "e30bd154-6971-4c36-ada8-fc4e3603eac3-result.json"
+        }
+      },
+      "titlePath": [
+        "cypress",
+        "e2e",
+        "spec.cy.ts",
+        "E2E tests of practicesoftwaretesting site",
+        "check sorting of products"
+      ],
+      "environment": "default"
+    },
+    {
+      "id": "0de5b400f84ff96e4c7dda0b0893b2b2",
+      "name": "check sorting by eco-friendly label",
+      "testCase": {
+        "id": "d80af8a985e889114d69c9718c539b67",
+        "name": "check sorting by eco-friendly label",
+        "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site check sorting of products check sorting by eco-friendly label"
+      },
+      "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site check sorting of products check sorting by eco-friendly label",
+      "historyId": "d80af8a985e889114d69c9718c539b67.d41d8cd98f00b204e9800998ecf8427e",
+      "status": "broken",
+      "error": {
+        "message": "`cy.task('getPendingAllureResults')` failed with the following error:\n\nThe task 'getPendingAllureResults' was not handled in the setupNodeEvents method. The following tasks are registered: reportAllureCypressSpecMessages, reportFinalAllureCypressSpecMessages\n\nFix this in your setupNodeEvents method here:\n/Users/alexey/Documents/Typescript/cypress-practicesoft/cypress.config.ts\n\nhttps://on.cypress.io/api/task",
+        "trace": "CypressError: `cy.task('getPendingAllureResults')` failed with the following error:\n\nThe task 'getPendingAllureResults' was not handled in the setupNodeEvents method. The following tasks are registered: reportAllureCypressSpecMessages, reportFinalAllureCypressSpecMessages\n\nFix this in your setupNodeEvents method here:\n/Users/alexey/Documents/Typescript/cypress-practicesoft/cypress.config.ts\n\nhttps://on.cypress.io/api/task\n    at <unknown> (http://localhost:61932/__cypress/runner/cypress_runner.js:138703:72)\n    at tryCatcher (http://localhost:61932/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:61932/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:61932/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:61932/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:61932/__cypress/runner/cypress_runner.js:1667:18)\n    at _drainQueueStep (http://localhost:61932/__cypress/runner/cypress_runner.js:2377:12)\n    at _drainQueue (http://localhost:61932/__cypress/runner/cypress_runner.js:2370:9)\n    at Async._drainQueues (http://localhost:61932/__cypress/runner/cypress_runner.js:2386:5)\n    at Async.drainQueues (http://localhost:61932/__cypress/runner/cypress_runner.js:2256:14)\nFrom Your Spec Code:\n    at Context.eval (webpack://cypress-practicesoft/./node_modules/@shelex/cypress-allure-plugin/reporter/index.js:419:0)"
+      },
+      "start": 1771765267688,
+      "stop": 1771765267702,
+      "duration": 14,
+      "flaky": false,
+      "muted": false,
+      "known": false,
+      "hidden": true,
+      "labels": [
+        { "name": "language", "value": "javascript" },
+        { "name": "framework", "value": "cypress" },
+        { "name": "host", "value": "a-birzgal.local" },
+        { "name": "thread", "value": "pid-75090-worker-main" },
+        { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+      ],
+      "steps": [],
+      "parameters": [],
+      "links": [],
+      "hostId": "a-birzgal.local",
+      "threadId": "pid-75090-worker-main",
+      "sourceMetadata": {
+        "readerId": "allure2",
+        "metadata": {
+          "originalFileName": "dc116fb5-c26f-40e9-b345-a06883b83e1f-result.json"
+        }
+      },
+      "titlePath": ["cypress", "e2e", "spec.cy.ts"],
+      "environment": "default"
+    }
+  ],
+  "breadcrumbs": [
+    ["E2E tests of practicesoftwaretesting site", "check sorting of products"]
+  ],
+  "retry": true,
+  "titlePath": [
+    "cypress",
+    "e2e",
+    "spec.cy.ts",
+    "E2E tests of practicesoftwaretesting site",
+    "check sorting of products"
+  ],
+  "retriesCount": 2,
+  "attachments": [],
+  "order": 55
+}

@@ -1,0 +1,1747 @@
+{
+  "id": "2f4e5f33e336dc5c910826057a085224",
+  "name": "check if there are related products on product page",
+  "start": 1771766329117,
+  "stop": 1771766332528,
+  "duration": 3411,
+  "status": "passed",
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page check if there are related products on product page",
+  "historyId": "41ba1a340b56c77883d66f0b7296c8ba.d41d8cd98f00b204e9800998ecf8427e",
+  "flaky": false,
+  "muted": false,
+  "known": false,
+  "hidden": false,
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "cypress" },
+    {
+      "name": "parentSuite",
+      "value": "E2E tests of practicesoftwaretesting site"
+    },
+    { "name": "suite", "value": "tests of product page" },
+    { "name": "host", "value": "a-birzgal.local" },
+    { "name": "thread", "value": "pid-95817-worker-main" },
+    { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+  ],
+  "groupedLabels": {
+    "language": ["javascript"],
+    "framework": ["cypress"],
+    "parentSuite": ["E2E tests of practicesoftwaretesting site"],
+    "suite": ["tests of product page"],
+    "host": ["a-birzgal.local"],
+    "thread": ["pid-95817-worker-main"],
+    "package": ["cypress.e2e.spec.cy.ts"]
+  },
+  "parameters": [],
+  "links": [],
+  "steps": [
+    {
+      "stepId": "29f5a92e88d7de7ca020a7f080cb3210",
+      "name": "get ul.pagination",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "ul.pagination",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<ul class=\"pagination\">...</ul>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766329314,
+      "stop": 1771766332017,
+      "duration": 2703,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "218938e0c4db15dfa4e4c00029d1275b",
+      "name": "contains a.page-link, /^3$/",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Content",
+          "value": "{}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<ul class=\"pagination\">...</ul>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-3\">3</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766332017,
+      "stop": 1771766332018,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "0fd1382d6456edee385bb69aa4214c22",
+      "name": "click",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-3\">3</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":391,\"y\":2436}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766332019,
+      "stop": 1771766332089,
+      "duration": 70,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "df26c1e60a05fc743dc9330137d7e5ca",
+      "name": "get li.page-item.active a.page-link",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "7d9e696aae65ad1b2a65f08aafd074e2",
+          "name": "assert expected <a.page-link> to have text '3'",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "3",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "expected",
+              "value": "3",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "subject",
+              "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-3\">3</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766332091,
+          "stop": 1771766332091,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "li.page-item.active a.page-link",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-3\">3</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766332090,
+      "stop": 1771766332091,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "b05607a3944572096fbd25e1eead7a6a",
+      "name": "get a.card",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "9f275bc6ddd382022081300f5f79429e",
+          "name": "assert expected [ <a.card>, 8 more... ] to have property length",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ96Z99ZRQYWCC46BHAXC\" href=\"/product/01KJ2PZ96Z99ZRQYWCC46BHAXC\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766332093,
+          "stop": 1771766332094,
+          "duration": 1,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "a.card",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "[{\"__ngContext__\":83,\"__zone_symbol__clickfalse\":null,\"__zone_symbol__ON_PROPERTYclick\":null},{\"__ngContext__\":84,\"__zone_symbol...",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "9",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766332091,
+      "stop": 1771766332094,
+      "duration": 3,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "fac48b8da2786443c4aeb504bad3b6c5",
+      "name": "eq 3",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "3",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "[{\"__ngContext__\":83,\"__zone_symbol__clickfalse\":null,\"__zone_symbol__ON_PROPERTYclick\":null},{\"__ngContext__\":84,\"__zone_symbol...",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ976PRSABG03NKX5WY7N\" href=\"/product/01KJ2PZ976PRSABG03NKX5WY7N\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766332094,
+      "stop": 1771766332094,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "46343dcf471112ce1b8e4eee6ab8db8d",
+      "name": "click",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ976PRSABG03NKX5WY7N\" href=\"/product/01KJ2PZ976PRSABG03NKX5WY7N\">...</a>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Coords",
+          "value": "{\"x\":791,\"y\":1018}",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Actual Element Clicked",
+          "value": "<img _ngcontent-ng-c3901630365=\"\" loading=\"lazy\" class=\"card-img-top\" alt=\"Long Nose Pliers\" src=\"assets/img/products/pliers04.avif\">",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766332094,
+      "stop": 1771766332171,
+      "duration": 77,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "49b818fdd4c970d6d85613f1b518f8e7",
+      "name": "contains Related products",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Content",
+          "value": "Related products",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<body>...</body>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<h2 _ngcontent-ng-c1676758761=\"\">Related...</h2>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766332172,
+      "stop": 1771766332174,
+      "duration": 2,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "2430222cdfdd95e1318ae808a3d8ef73",
+      "name": "assert expected <h2> to be visible",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "subject",
+          "value": "<h2 _ngcontent-ng-c1676758761=\"\">Related...</h2>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766332174,
+      "stop": 1771766332174,
+      "duration": 0,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "9e91956c5eab6338993302114470a9cc",
+      "name": "parent",
+      "status": "passed",
+      "steps": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Applied To",
+          "value": "<h2 _ngcontent-ng-c1676758761=\"\">Related...</h2>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Yielded",
+          "value": "<div _ngcontent-ng-c1676758761=\"\" class=\"row\">...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        },
+        {
+          "name": "Elements",
+          "value": "1",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766332174,
+      "stop": 1771766332175,
+      "duration": 1,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    },
+    {
+      "stepId": "d742c88ab2de94aa6980972d3f450f27",
+      "name": "within",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "1f90a798fa57522b047f6dcf90c4f3ed",
+          "name": "get a.card",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "bcb0868092ccea0d8f8b252179457f83",
+              "name": "assert expected { Object (length, prevObject, ...) } to have property length",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "subject",
+                  "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ96Z99ZRQYWCC46BHAXC\">...</a>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766332177,
+              "stop": 1771766332523,
+              "duration": 346,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "a.card",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "[{\"__ngContext__\":111,\"__zone_symbol__clickfalse\":[null]},{\"__ngContext__\":112,\"__zone_symbol__clickfalse\":[null]},{\"__ngContext...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "4",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766332176,
+          "stop": 1771766332523,
+          "duration": 347,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "72be9763fe65f18f6765c1a5702f15cc",
+          "name": "wrap <a.card>",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "6267ffbcf83aaa88592ea9d31ebf4598",
+              "name": "assert expected <a.card> to have attribute href",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "subject",
+                  "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ96Z99ZRQYWCC46BHAXC\">...</a>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766332525,
+              "stop": 1771766332526,
+              "duration": 1,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            },
+            {
+              "stepId": "45c298a70cbc66dbbeffedb1b49399bd",
+              "name": "assert expected /product/01KJ2PZ96Z99ZRQYWCC46BHAXC to include /product/",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "/product/01KJ2PZ96Z99ZRQYWCC46BHAXC",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766332526,
+              "stop": 1771766332526,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ96Z99ZRQYWCC46BHAXC\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766332524,
+          "stop": 1771766332526,
+          "duration": 2,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "a45e2b9ca4cea05566f778aa99966840",
+          "name": "wrap <a.card>",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "365189e5d3413579ab55792b530f9d33",
+              "name": "assert expected <a.card> to have attribute href",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "subject",
+                  "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ9730FDWSPX1SS0819X3\">...</a>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766332527,
+              "stop": 1771766332527,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            },
+            {
+              "stepId": "6e3b7a4e40735b5075b2b6d51dde8224",
+              "name": "assert expected /product/01KJ2PZ9730FDWSPX1SS0819X3 to include /product/",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "/product/01KJ2PZ9730FDWSPX1SS0819X3",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766332527,
+              "stop": 1771766332527,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ9730FDWSPX1SS0819X3\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766332526,
+          "stop": 1771766332527,
+          "duration": 1,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "120f21764a39f465e879ac5d113b37a0",
+          "name": "wrap <a.card>",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "ca13dd43aec9dc2f13e583043817dd15",
+              "name": "assert expected <a.card> to have attribute href",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "subject",
+                  "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ974GAFW2Y8GMYVV2AE3\">...</a>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766332528,
+              "stop": 1771766332528,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            },
+            {
+              "stepId": "5974aab7cd8e4a0f4312cae4a5253d79",
+              "name": "assert expected /product/01KJ2PZ974GAFW2Y8GMYVV2AE3 to include /product/",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "/product/01KJ2PZ974GAFW2Y8GMYVV2AE3",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766332528,
+              "stop": 1771766332528,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ974GAFW2Y8GMYVV2AE3\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766332527,
+          "stop": 1771766332528,
+          "duration": 1,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "bd184766749e11f327484e6594024518",
+          "name": "wrap <a.card>",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "ca13dd43aec9dc2f13e583043817dd15",
+              "name": "assert expected <a.card> to have attribute href",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "subject",
+                  "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ978T2W2855KHB94Z6PY\">...</a>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766332528,
+              "stop": 1771766332529,
+              "duration": 1,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            },
+            {
+              "stepId": "0f5d7cef1033196296f154494171d490",
+              "name": "assert expected /product/01KJ2PZ978T2W2855KHB94Z6PY to include /product/",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "/product/01KJ2PZ978T2W2855KHB94Z6PY",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766332529,
+              "stop": 1771766332529,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ978T2W2855KHB94Z6PY\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766332528,
+          "stop": 1771766332528,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Yielded",
+          "value": "<div _ngcontent-ng-c1676758761=\"\" class=\"row\">...</div>",
+          "hidden": false,
+          "excluded": false,
+          "masked": false
+        }
+      ],
+      "start": 1771766332175,
+      "stop": 1771766332528,
+      "duration": 353,
+      "type": "step",
+      "hasSimilarErrorInSubSteps": false
+    }
+  ],
+  "error": {},
+  "testCase": {
+    "id": "41ba1a340b56c77883d66f0b7296c8ba",
+    "name": "check if there are related products on product page",
+    "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page check if there are related products on product page"
+  },
+  "environment": "default",
+  "setup": [
+    {
+      "id": "6f612d77be9a9bb3c0a994109295b9df",
+      "type": "before",
+      "name": "\"before each\" hook",
+      "status": "passed",
+      "steps": [
+        {
+          "stepId": "320effe266affa4aeb38bd8e8beba7c8",
+          "name": "visit https://practicesoftwaretesting.com/",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Resolved Url",
+              "value": "https://practicesoftwaretesting.com/",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Redirects",
+              "value": "[]",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Cookies Set",
+              "value": "[{\"domain\":\".practicesoftwaretesting.com\",\"httpOnly\":true,\"name\":\"cf_clearance\",\"path\":\"/\",\"sameSite\":\"no_restriction\",\"secure\":...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766329126,
+          "stop": 1771766329307,
+          "duration": 181,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "5bae3f7d3774ff5d8dc3104aa2541cff",
+          "name": "clearLocalStorage",
+          "status": "passed",
+          "steps": [],
+          "parameters": [],
+          "start": 1771766329308,
+          "stop": 1771766329308,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "6e179c51c9a509bb294f9d6c005fbe48",
+          "name": "clearCookies",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "null",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Cleared Cookies",
+              "value": "[{\"name\":\"cf_clearance\",\"value\":\"j6Wg_PY2h0XxZOlhFSdUfTKeJ7SUrHbuxk6eoDU23vw-1771766292-1.2.1.1-xdnq3ybPeJRY7Bdx7sYYwbUqkeXQV5Wq...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Num Cookies",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766329308,
+          "stop": 1771766329312,
+          "duration": 4,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "duration": 193
+    }
+  ],
+  "teardown": [
+    {
+      "id": "b7a4cf8106624256f0cd48aa9d7e4794",
+      "type": "after",
+      "name": "Cypress video",
+      "status": "passed",
+      "steps": [
+        {
+          "link": {
+            "used": true,
+            "missed": false,
+            "id": "7acc2591be960ff122555f2c0e46fdf4",
+            "originalFileName": "92114ed1-bfc2-4cbc-9b5d-364e653a7fa7-attachment.mp4",
+            "ext": ".mp4",
+            "contentType": "video/mp4",
+            "contentLength": 63562655,
+            "name": "Cypress video"
+          },
+          "type": "attachment"
+        }
+      ],
+      "duration": 40
+    }
+  ],
+  "history": [],
+  "retries": [
+    {
+      "id": "8e4e50511a8db13161e37bef68e15a1f",
+      "name": "check if there are related products on product page",
+      "testCase": {
+        "id": "41ba1a340b56c77883d66f0b7296c8ba",
+        "name": "check if there are related products on product page",
+        "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page check if there are related products on product page"
+      },
+      "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page check if there are related products on product page",
+      "historyId": "41ba1a340b56c77883d66f0b7296c8ba.d41d8cd98f00b204e9800998ecf8427e",
+      "status": "passed",
+      "error": {},
+      "start": 1771766096605,
+      "stop": 1771766100083,
+      "duration": 3478,
+      "flaky": false,
+      "muted": false,
+      "known": false,
+      "hidden": true,
+      "labels": [
+        { "name": "language", "value": "javascript" },
+        { "name": "framework", "value": "cypress" },
+        {
+          "name": "parentSuite",
+          "value": "E2E tests of practicesoftwaretesting site"
+        },
+        { "name": "suite", "value": "tests of product page" },
+        { "name": "host", "value": "a-birzgal.local" },
+        { "name": "thread", "value": "pid-90852-worker-main" },
+        { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+      ],
+      "steps": [
+        {
+          "stepId": "8101eef1f8a3cad8466962eff954e00f",
+          "name": "get ul.pagination",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "ul.pagination",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<ul class=\"pagination\">...</ul>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766096704,
+          "stop": 1771766098461,
+          "duration": 1757,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "c111d5cc997f5f22b4f4fd4d613e8bd2",
+          "name": "contains a.page-link, /^3$/",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Content",
+              "value": "{}",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<ul class=\"pagination\">...</ul>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-3\">3</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766098462,
+          "stop": 1771766098462,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "ae80d38c9f05c668eadde87133acd1af",
+          "name": "click",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Applied To",
+              "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-3\">3</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Coords",
+              "value": "{\"x\":391,\"y\":2436}",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766098463,
+          "stop": 1771766098534,
+          "duration": 71,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "7730010bb5656e0857bd97287e268120",
+          "name": "get li.page-item.active a.page-link",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "1024416ae0687f08987e243823c9a6d0",
+              "name": "assert expected <a.page-link> to have text '3'",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "3",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "expected",
+                  "value": "3",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "subject",
+                  "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-3\">3</a>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766098535,
+              "stop": 1771766098535,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "li.page-item.active a.page-link",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-3\">3</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766098534,
+          "stop": 1771766098535,
+          "duration": 1,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "7ed1f35eb00c05f2698572250244078d",
+          "name": "get a.card",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "3b24ca0c5da7e8dafef465c4e6ab8e2f",
+              "name": "assert expected [ <a.card>, 8 more... ] to have property length",
+              "status": "passed",
+              "steps": [],
+              "parameters": [
+                {
+                  "name": "subject",
+                  "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ96Z99ZRQYWCC46BHAXC\" href=\"/product/01KJ2PZ96Z99ZRQYWCC46BHAXC\">...</a>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766098537,
+              "stop": 1771766098538,
+              "duration": 1,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "a.card",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "[{\"__ngContext__\":39,\"__zone_symbol__clickfalse\":null,\"__zone_symbol__ON_PROPERTYclick\":null},{\"__ngContext__\":40,\"__zone_symbol...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "9",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766098535,
+          "stop": 1771766098538,
+          "duration": 3,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "931b98bfe61aa7d886ed71607d95e20a",
+          "name": "eq 3",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "3",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "[{\"__ngContext__\":39,\"__zone_symbol__clickfalse\":null,\"__zone_symbol__ON_PROPERTYclick\":null},{\"__ngContext__\":40,\"__zone_symbol...",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ976PRSABG03NKX5WY7N\" href=\"/product/01KJ2PZ976PRSABG03NKX5WY7N\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766098538,
+          "stop": 1771766098538,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "1468dc99b18b5f88582ac2e74ef8c20f",
+          "name": "click",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Applied To",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ976PRSABG03NKX5WY7N\" href=\"/product/01KJ2PZ976PRSABG03NKX5WY7N\">...</a>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Coords",
+              "value": "{\"x\":791,\"y\":1018}",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Actual Element Clicked",
+              "value": "<img _ngcontent-ng-c3901630365=\"\" loading=\"lazy\" class=\"card-img-top\" alt=\"Long Nose Pliers\" src=\"assets/img/products/pliers04.avif\">",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766098539,
+          "stop": 1771766098613,
+          "duration": 74,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "05074594aa8cb346fa3a81fc6d6e18ea",
+          "name": "contains Related products",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Content",
+              "value": "Related products",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<body>...</body>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<h2 _ngcontent-ng-c1676758761=\"\">Related...</h2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766098613,
+          "stop": 1771766098615,
+          "duration": 2,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "076720b9528599ebbd3f4efd6f6e11a9",
+          "name": "assert expected <h2> to be visible",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<h2 _ngcontent-ng-c1676758761=\"\">Related...</h2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766098615,
+          "stop": 1771766098615,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "84dedf7f1c9f209811abeb6efb489e6c",
+          "name": "parent",
+          "status": "passed",
+          "steps": [],
+          "parameters": [
+            {
+              "name": "Selector",
+              "value": "",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Applied To",
+              "value": "<h2 _ngcontent-ng-c1676758761=\"\">Related...</h2>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Yielded",
+              "value": "<div _ngcontent-ng-c1676758761=\"\" class=\"row\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            },
+            {
+              "name": "Elements",
+              "value": "1",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766098615,
+          "stop": 1771766098615,
+          "duration": 0,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        },
+        {
+          "stepId": "1415c86ef96f994cbd7f61b893195ccc",
+          "name": "within",
+          "status": "passed",
+          "steps": [
+            {
+              "stepId": "60984d1956e5c52f818d3aa12dea45d2",
+              "name": "get a.card",
+              "status": "passed",
+              "steps": [
+                {
+                  "stepId": "bc692abecdc6e156a46c24b5cb8c6be4",
+                  "name": "assert expected { Object (length, prevObject, ...) } to have property length",
+                  "status": "passed",
+                  "steps": [],
+                  "parameters": [
+                    {
+                      "name": "subject",
+                      "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ96Z99ZRQYWCC46BHAXC\">...</a>",
+                      "hidden": false,
+                      "excluded": false,
+                      "masked": false
+                    }
+                  ],
+                  "start": 1771766098617,
+                  "stop": 1771766100077,
+                  "duration": 1460,
+                  "type": "step",
+                  "hasSimilarErrorInSubSteps": false
+                }
+              ],
+              "parameters": [
+                {
+                  "name": "Selector",
+                  "value": "a.card",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "Yielded",
+                  "value": "[{\"__ngContext__\":76,\"__zone_symbol__clickfalse\":[null]},{\"__ngContext__\":77,\"__zone_symbol__clickfalse\":[null]},{\"__ngContext__...",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                },
+                {
+                  "name": "Elements",
+                  "value": "4",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766098616,
+              "stop": 1771766100077,
+              "duration": 1461,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            },
+            {
+              "stepId": "3f66959bc2623951c4020062c9553ed7",
+              "name": "wrap <a.card>",
+              "status": "passed",
+              "steps": [
+                {
+                  "stepId": "f82ebf6b00d0044b9a197226904c27d1",
+                  "name": "assert expected <a.card> to have attribute href",
+                  "status": "passed",
+                  "steps": [],
+                  "parameters": [
+                    {
+                      "name": "subject",
+                      "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ96Z99ZRQYWCC46BHAXC\">...</a>",
+                      "hidden": false,
+                      "excluded": false,
+                      "masked": false
+                    }
+                  ],
+                  "start": 1771766100079,
+                  "stop": 1771766100080,
+                  "duration": 1,
+                  "type": "step",
+                  "hasSimilarErrorInSubSteps": false
+                },
+                {
+                  "stepId": "131709affac431126a063125b1e5382f",
+                  "name": "assert expected /product/01KJ2PZ96Z99ZRQYWCC46BHAXC to include /product/",
+                  "status": "passed",
+                  "steps": [],
+                  "parameters": [
+                    {
+                      "name": "actual",
+                      "value": "/product/01KJ2PZ96Z99ZRQYWCC46BHAXC",
+                      "hidden": false,
+                      "excluded": false,
+                      "masked": false
+                    }
+                  ],
+                  "start": 1771766100080,
+                  "stop": 1771766100080,
+                  "duration": 0,
+                  "type": "step",
+                  "hasSimilarErrorInSubSteps": false
+                }
+              ],
+              "parameters": [
+                {
+                  "name": "Yielded",
+                  "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ96Z99ZRQYWCC46BHAXC\">...</a>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766100079,
+              "stop": 1771766100080,
+              "duration": 1,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            },
+            {
+              "stepId": "a4f62c7f9bf405c47f7949252c879d7d",
+              "name": "wrap <a.card>",
+              "status": "passed",
+              "steps": [
+                {
+                  "stepId": "9ffb859f8ec2828a1b93f06793cb9967",
+                  "name": "assert expected <a.card> to have attribute href",
+                  "status": "passed",
+                  "steps": [],
+                  "parameters": [
+                    {
+                      "name": "subject",
+                      "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ9730FDWSPX1SS0819X3\">...</a>",
+                      "hidden": false,
+                      "excluded": false,
+                      "masked": false
+                    }
+                  ],
+                  "start": 1771766100080,
+                  "stop": 1771766100081,
+                  "duration": 1,
+                  "type": "step",
+                  "hasSimilarErrorInSubSteps": false
+                },
+                {
+                  "stepId": "7b142c8946dbbfebbe2486397fd78d75",
+                  "name": "assert expected /product/01KJ2PZ9730FDWSPX1SS0819X3 to include /product/",
+                  "status": "passed",
+                  "steps": [],
+                  "parameters": [
+                    {
+                      "name": "actual",
+                      "value": "/product/01KJ2PZ9730FDWSPX1SS0819X3",
+                      "hidden": false,
+                      "excluded": false,
+                      "masked": false
+                    }
+                  ],
+                  "start": 1771766100081,
+                  "stop": 1771766100081,
+                  "duration": 0,
+                  "type": "step",
+                  "hasSimilarErrorInSubSteps": false
+                }
+              ],
+              "parameters": [
+                {
+                  "name": "Yielded",
+                  "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ9730FDWSPX1SS0819X3\">...</a>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766100080,
+              "stop": 1771766100081,
+              "duration": 1,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            },
+            {
+              "stepId": "da896dd414477ab9274c634a931f9b66",
+              "name": "wrap <a.card>",
+              "status": "passed",
+              "steps": [
+                {
+                  "stepId": "c20b3ba6e23a3b1023f1c058bc5606d4",
+                  "name": "assert expected <a.card> to have attribute href",
+                  "status": "passed",
+                  "steps": [],
+                  "parameters": [
+                    {
+                      "name": "subject",
+                      "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ974GAFW2Y8GMYVV2AE3\">...</a>",
+                      "hidden": false,
+                      "excluded": false,
+                      "masked": false
+                    }
+                  ],
+                  "start": 1771766100081,
+                  "stop": 1771766100082,
+                  "duration": 1,
+                  "type": "step",
+                  "hasSimilarErrorInSubSteps": false
+                },
+                {
+                  "stepId": "36dd0378d2a88e741be2dcf005c86b3b",
+                  "name": "assert expected /product/01KJ2PZ974GAFW2Y8GMYVV2AE3 to include /product/",
+                  "status": "passed",
+                  "steps": [],
+                  "parameters": [
+                    {
+                      "name": "actual",
+                      "value": "/product/01KJ2PZ974GAFW2Y8GMYVV2AE3",
+                      "hidden": false,
+                      "excluded": false,
+                      "masked": false
+                    }
+                  ],
+                  "start": 1771766100082,
+                  "stop": 1771766100082,
+                  "duration": 0,
+                  "type": "step",
+                  "hasSimilarErrorInSubSteps": false
+                }
+              ],
+              "parameters": [
+                {
+                  "name": "Yielded",
+                  "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ974GAFW2Y8GMYVV2AE3\">...</a>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766100081,
+              "stop": 1771766100082,
+              "duration": 1,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            },
+            {
+              "stepId": "7bfff1b12a5e39739264eaee4442d8f1",
+              "name": "wrap <a.card>",
+              "status": "passed",
+              "steps": [
+                {
+                  "stepId": "7b38623f53b9fedc4ddf65f95da54238",
+                  "name": "assert expected <a.card> to have attribute href",
+                  "status": "passed",
+                  "steps": [],
+                  "parameters": [
+                    {
+                      "name": "subject",
+                      "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ978T2W2855KHB94Z6PY\">...</a>",
+                      "hidden": false,
+                      "excluded": false,
+                      "masked": false
+                    }
+                  ],
+                  "start": 1771766100082,
+                  "stop": 1771766100082,
+                  "duration": 0,
+                  "type": "step",
+                  "hasSimilarErrorInSubSteps": false
+                },
+                {
+                  "stepId": "cf17e20cb9b55e82cfe18636160b2014",
+                  "name": "assert expected /product/01KJ2PZ978T2W2855KHB94Z6PY to include /product/",
+                  "status": "passed",
+                  "steps": [],
+                  "parameters": [
+                    {
+                      "name": "actual",
+                      "value": "/product/01KJ2PZ978T2W2855KHB94Z6PY",
+                      "hidden": false,
+                      "excluded": false,
+                      "masked": false
+                    }
+                  ],
+                  "start": 1771766100082,
+                  "stop": 1771766100082,
+                  "duration": 0,
+                  "type": "step",
+                  "hasSimilarErrorInSubSteps": false
+                }
+              ],
+              "parameters": [
+                {
+                  "name": "Yielded",
+                  "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ978T2W2855KHB94Z6PY\">...</a>",
+                  "hidden": false,
+                  "excluded": false,
+                  "masked": false
+                }
+              ],
+              "start": 1771766100082,
+              "stop": 1771766100082,
+              "duration": 0,
+              "type": "step",
+              "hasSimilarErrorInSubSteps": false
+            }
+          ],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<div _ngcontent-ng-c1676758761=\"\" class=\"row\">...</div>",
+              "hidden": false,
+              "excluded": false,
+              "masked": false
+            }
+          ],
+          "start": 1771766098615,
+          "stop": 1771766100083,
+          "duration": 1468,
+          "type": "step",
+          "hasSimilarErrorInSubSteps": false
+        }
+      ],
+      "parameters": [],
+      "links": [],
+      "hostId": "a-birzgal.local",
+      "threadId": "pid-90852-worker-main",
+      "sourceMetadata": {
+        "readerId": "allure2",
+        "metadata": {
+          "originalFileName": "a1607a7c-6e1a-4044-8d3a-eef0b8cca61c-result.json"
+        }
+      },
+      "titlePath": [
+        "cypress",
+        "e2e",
+        "spec.cy.ts",
+        "E2E tests of practicesoftwaretesting site",
+        "tests of product page"
+      ],
+      "environment": "default"
+    },
+    {
+      "id": "b9752fd3b0827c7782793ba8d6901dc0",
+      "name": "check if there are related products on product page",
+      "testCase": {
+        "id": "41ba1a340b56c77883d66f0b7296c8ba",
+        "name": "check if there are related products on product page",
+        "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page check if there are related products on product page"
+      },
+      "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page check if there are related products on product page",
+      "historyId": "41ba1a340b56c77883d66f0b7296c8ba.d41d8cd98f00b204e9800998ecf8427e",
+      "status": "broken",
+      "error": {
+        "message": "`cy.task('getPendingAllureResults')` failed with the following error:\n\nThe task 'getPendingAllureResults' was not handled in the setupNodeEvents method. The following tasks are registered: reportAllureCypressSpecMessages, reportFinalAllureCypressSpecMessages\n\nFix this in your setupNodeEvents method here:\n/Users/alexey/Documents/Typescript/cypress-practicesoft/cypress.config.ts\n\nhttps://on.cypress.io/api/task",
+        "trace": "CypressError: `cy.task('getPendingAllureResults')` failed with the following error:\n\nThe task 'getPendingAllureResults' was not handled in the setupNodeEvents method. The following tasks are registered: reportAllureCypressSpecMessages, reportFinalAllureCypressSpecMessages\n\nFix this in your setupNodeEvents method here:\n/Users/alexey/Documents/Typescript/cypress-practicesoft/cypress.config.ts\n\nhttps://on.cypress.io/api/task\n    at <unknown> (http://localhost:61932/__cypress/runner/cypress_runner.js:138703:72)\n    at tryCatcher (http://localhost:61932/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:61932/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:61932/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:61932/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:61932/__cypress/runner/cypress_runner.js:1667:18)\n    at _drainQueueStep (http://localhost:61932/__cypress/runner/cypress_runner.js:2377:12)\n    at _drainQueue (http://localhost:61932/__cypress/runner/cypress_runner.js:2370:9)\n    at Async._drainQueues (http://localhost:61932/__cypress/runner/cypress_runner.js:2386:5)\n    at Async.drainQueues (http://localhost:61932/__cypress/runner/cypress_runner.js:2256:14)\nFrom Your Spec Code:\n    at Context.eval (webpack://cypress-practicesoft/./node_modules/@shelex/cypress-allure-plugin/reporter/index.js:419:0)"
+      },
+      "start": 1771765267688,
+      "stop": 1771765267700,
+      "duration": 12,
+      "flaky": false,
+      "muted": false,
+      "known": false,
+      "hidden": true,
+      "labels": [
+        { "name": "language", "value": "javascript" },
+        { "name": "framework", "value": "cypress" },
+        { "name": "host", "value": "a-birzgal.local" },
+        { "name": "thread", "value": "pid-75090-worker-main" },
+        { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+      ],
+      "steps": [],
+      "parameters": [],
+      "links": [],
+      "hostId": "a-birzgal.local",
+      "threadId": "pid-75090-worker-main",
+      "sourceMetadata": {
+        "readerId": "allure2",
+        "metadata": {
+          "originalFileName": "8d642e86-f0ba-4a85-9a28-2e984c677d9b-result.json"
+        }
+      },
+      "titlePath": ["cypress", "e2e", "spec.cy.ts"],
+      "environment": "default"
+    }
+  ],
+  "breadcrumbs": [
+    ["E2E tests of practicesoftwaretesting site", "tests of product page"]
+  ],
+  "retry": true,
+  "titlePath": [
+    "cypress",
+    "e2e",
+    "spec.cy.ts",
+    "E2E tests of practicesoftwaretesting site",
+    "tests of product page"
+  ],
+  "retriesCount": 2,
+  "attachments": [],
+  "order": 48
+}

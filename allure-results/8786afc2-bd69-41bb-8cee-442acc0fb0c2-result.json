@@ -1,0 +1,503 @@
+{
+  "uuid": "8786afc2-bd69-41bb-8cee-442acc0fb0c2",
+  "name": "check alert if product is alsready added to favorites",
+  "historyId": "177e58f4b319c9293ad28f542a880b08:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Resolved Url",
+          "value": "https://practicesoftwaretesting.com/auth/login"
+        },
+        { "name": "Redirects", "value": "[]" },
+        {
+          "name": "Cookies Set",
+          "value": "[{\"domain\":\".practicesoftwaretesting.com\",\"httpOnly\":true,\"name\":\"cf_clearance\",\"path\":\"/\",\"sameSite\":\"no_restriction\",\"secure\":..."
+        }
+      ],
+      "start": 1771766318868,
+      "name": "visit https://practicesoftwaretesting.com/auth/login",
+      "stop": 1771766319010
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"email\"]" },
+        {
+          "name": "Yielded",
+          "value": "<input _ngcontent-ng-c713820125=\"\" formcontrolname=\"email\" id=\"email\" data-test=\"email\" type=\"email\" aria-required=\"true\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your email\" aria-invalid=\"false\">"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766319011,
+      "name": "get [data-test=\"email\"]",
+      "stop": 1771766319064
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<input _ngcontent-ng-c713820125=\"\" formcontrolname=\"email\" id=\"email\" data-test=\"email\" type=\"email\" aria-required=\"true\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your email\" aria-invalid=\"false\">"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":500,\"y\":483}" },
+        { "name": "Typed", "value": "customer2@practicesoftwaretesting.com" }
+      ],
+      "start": 1771766319064,
+      "name": "type customer2@practicesoftwaretesting.com",
+      "stop": 1771766319603
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"password\"]" },
+        {
+          "name": "Yielded",
+          "value": "<input class=\"form-control\" id=\"password\" type=\"password\" placeholder=\"Your password\" data-test=\"password\" aria-invalid=\"false\">"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766319604,
+      "name": "get [data-test=\"password\"]",
+      "stop": 1771766319604
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<input class=\"form-control\" id=\"password\" type=\"password\" placeholder=\"Your password\" data-test=\"password\" aria-invalid=\"false\">"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":477,\"y\":561}" },
+        { "name": "Typed", "value": "welcome01" }
+      ],
+      "start": 1771766319605,
+      "name": "type welcome01",
+      "stop": 1771766319827
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"login-submit\"]" },
+        {
+          "name": "Yielded",
+          "value": "<input _ngcontent-ng-c713820125=\"\" type=\"submit\" data-test=\"login-submit\" aria-label=\"Login\" class=\"btnSubmit\" value=\"Login\">"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766319828,
+      "name": "get [data-test=\"login-submit\"]",
+      "stop": 1771766319828
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<input _ngcontent-ng-c713820125=\"\" type=\"submit\" data-test=\"login-submit\" aria-label=\"Login\" class=\"btnSubmit\" value=\"Login\">"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":417,\"y\":612}" }
+      ],
+      "start": 1771766319829,
+      "name": "click",
+      "stop": 1771766319899
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Waited For", "value": "loggedIn" },
+        {
+          "name": "Yielded",
+          "value": "{\"id\":\"interceptedRequest291\",\"browserRequestId\":\"407E0F761F1FA1E61128DD16DF1F95EE\",\"routeId\":\"1771766319900-115\",\"request\":{\"he..."
+        }
+      ],
+      "start": 1771766319901,
+      "name": "wait @loggedIn",
+      "stop": 1771766320394
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"nav-home\"]" },
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c1334646923=\"\" data-test=\"nav-home\" aria-current=\"page\" href=\"/\" class=\"nav-link active\">Home</a>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766320394,
+      "name": "get [data-test=\"nav-home\"]",
+      "stop": 1771766320447
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c1334646923=\"\" data-test=\"nav-home\" aria-current=\"page\" href=\"/\" class=\"nav-link active\">Home</a>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":690,\"y\":133}" }
+      ],
+      "start": 1771766320448,
+      "name": "click",
+      "stop": 1771766320518
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "ul.pagination" },
+        { "name": "Yielded", "value": "<ul class=\"pagination\">...</ul>" },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766320548,
+      "name": "get ul.pagination",
+      "stop": 1771766322326
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Content", "value": "{}" },
+        { "name": "Applied To", "value": "<ul class=\"pagination\">...</ul>" },
+        {
+          "name": "Yielded",
+          "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-2\">2</a>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766322327,
+      "name": "contains a.page-link, /^2$/",
+      "stop": 1771766322328
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-2\">2</a>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":357,\"y\":2436}" }
+      ],
+      "start": 1771766322328,
+      "name": "click",
+      "stop": 1771766322398
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            { "name": "actual", "value": "2" },
+            { "name": "expected", "value": "2" },
+            {
+              "name": "subject",
+              "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-2\">2</a>"
+            }
+          ],
+          "start": 1771766322400,
+          "name": "assert expected <a.page-link> to have text '2'",
+          "stop": 1771766322400
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "li.page-item.active a.page-link" },
+        {
+          "name": "Yielded",
+          "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-2\">2</a>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766322399,
+      "name": "get li.page-item.active a.page-link",
+      "stop": 1771766322400
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ96Z99ZRQYWCC46BHAXC\" href=\"/product/01KJ2PZ96Z99ZRQYWCC46BHAXC\">...</a>"
+            }
+          ],
+          "start": 1771766322401,
+          "name": "assert expected [ <a.card>, 8 more... ] to have property length",
+          "stop": 1771766322402
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "a.card" },
+        {
+          "name": "Yielded",
+          "value": "[{\"__ngContext__\":83,\"__zone_symbol__clickfalse\":null,\"__zone_symbol__ON_PROPERTYclick\":null},{\"__ngContext__\":84,\"__zone_symbol..."
+        },
+        { "name": "Elements", "value": "9" }
+      ],
+      "start": 1771766322400,
+      "name": "get a.card",
+      "stop": 1771766322402
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "6" },
+        {
+          "name": "Applied To",
+          "value": "[{\"__ngContext__\":83,\"__zone_symbol__clickfalse\":null,\"__zone_symbol__ON_PROPERTYclick\":null},{\"__ngContext__\":84,\"__zone_symbol..."
+        },
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ97BT0M5KCV8S04NATH5\" href=\"/product/01KJ2PZ97BT0M5KCV8S04NATH5\">...</a>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766322402,
+      "name": "eq 6",
+      "stop": 1771766322403
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ97BT0M5KCV8S04NATH5\" href=\"/product/01KJ2PZ97BT0M5KCV8S04NATH5\">...</a>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":448,\"y\":1822}" },
+        {
+          "name": "Actual Element Clicked",
+          "value": "<img _ngcontent-ng-c3901630365=\"\" loading=\"lazy\" class=\"card-img-top\" alt=\"Hammer\" src=\"assets/img/products/hammer02.avif\">"
+        }
+      ],
+      "start": 1771766322403,
+      "name": "click",
+      "stop": 1771766322476
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"add-to-favorites\"]" },
+        {
+          "name": "Yielded",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-favorites\" id=\"btn-add-to-favorites\" class=\"btn btn-warning\">...</button>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766322477,
+      "name": "get [data-test=\"add-to-favorites\"]",
+      "stop": 1771766324828
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-favorites\" id=\"btn-add-to-favorites\" class=\"btn btn-warning\">...</button>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":736,\"y\":839}" }
+      ],
+      "start": 1771766324830,
+      "name": "click",
+      "stop": 1771766324901
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"add-to-favorites\"]" },
+        {
+          "name": "Yielded",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-favorites\" id=\"btn-add-to-favorites\" class=\"btn btn-warning\">...</button>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766324902,
+      "name": "get [data-test=\"add-to-favorites\"]",
+      "stop": 1771766324902
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-favorites\" id=\"btn-add-to-favorites\" class=\"btn btn-warning\">...</button>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":736,\"y\":839}" }
+      ],
+      "start": 1771766324902,
+      "name": "click",
+      "stop": 1771766324972
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": " Product already in your favorites list. "
+            },
+            {
+              "name": "expected",
+              "value": " Product already in your favorites list. "
+            },
+            {
+              "name": "subject",
+              "value": "<div role=\"alert\" class=\"ng-tns-c969959638-0 toast-message ng-star-inserted\" aria-label=\"Product already in your favorites list.\" style=\"\">Product...</div>"
+            }
+          ],
+          "start": 1771766324973,
+          "name": "assert expected '[role=\"alert\"]' to have text '&nbsp;Product already in your favorites list.&nbsp;', but the text was ''",
+          "stop": 1771766325239
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[role=\"alert\"]" },
+        {
+          "name": "Yielded",
+          "value": "<div role=\"alert\" class=\"ng-tns-c969959638-0 toast-message ng-star-inserted\" aria-label=\"Product already in your favorites list.\" style=\"\">Product...</div>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766324972,
+      "name": "get [role=\"alert\"]",
+      "stop": 1771766325239
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "cypress" },
+    {
+      "name": "parentSuite",
+      "value": "E2E tests of practicesoftwaretesting site"
+    },
+    { "name": "suite", "value": "tests of product page" },
+    { "name": "host", "value": "a-birzgal.local" },
+    { "name": "thread", "value": "pid-95817-worker-main" },
+    { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+  ],
+  "links": [],
+  "start": 1771766318707,
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page check alert if product is alsready added to favorites",
+  "titlePath": [
+    "cypress",
+    "e2e",
+    "spec.cy.ts",
+    "E2E tests of practicesoftwaretesting site",
+    "tests of product page"
+  ],
+  "testCaseId": "177e58f4b319c9293ad28f542a880b08",
+  "stop": 1771766325239
+}

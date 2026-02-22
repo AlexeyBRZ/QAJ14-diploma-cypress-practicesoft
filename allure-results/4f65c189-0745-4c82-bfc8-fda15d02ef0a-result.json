@@ -1,0 +1,362 @@
+{
+  "uuid": "4f65c189-0745-4c82-bfc8-fda15d02ef0a",
+  "name": "Check alert that only one Thor Hammer can be added to the cart",
+  "historyId": "8b2a1cdd381b6f92f396ddb58631a779:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Timed out retrying after 4000ms: Expected to find element: `[role=\"alert\"]`, but never found it.",
+    "trace": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[role=\"alert\"]`, but never found it.\n    at Context.eval (webpack://cypress-practicesoft/./cypress/e2e/spec.cy.ts:146:38)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"search-query\"]" },
+        {
+          "name": "Yielded",
+          "value": "<input _ngcontent-ng-c3901630365=\"\" formcontrolname=\"query\" id=\"search-query\" data-test=\"search-query\" type=\"text\" class=\"form-control ng-untouched ng-pristine ng-invalid\" placeholder=\"Search\">"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766332735,
+      "name": "get [data-test=\"search-query\"]",
+      "stop": 1771766332790
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<input _ngcontent-ng-c3901630365=\"\" formcontrolname=\"query\" id=\"search-query\" data-test=\"search-query\" type=\"text\" class=\"form-control ng-untouched ng-pristine ng-invalid\" placeholder=\"Search\">"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":139,\"y\":767}" }
+      ],
+      "start": 1771766332791,
+      "name": "clear",
+      "stop": 1771766332934
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Typed", "value": "Thor Hammer" },
+        {
+          "name": "Applied To",
+          "value": "<input _ngcontent-ng-c3901630365=\"\" formcontrolname=\"query\" id=\"search-query\" data-test=\"search-query\" type=\"text\" class=\"form-control ng-untouched ng-pristine ng-invalid\" placeholder=\"Search\">"
+        }
+      ],
+      "start": 1771766332934,
+      "name": "type Thor Hammer",
+      "stop": 1771766333112
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"search-submit\"]" },
+        {
+          "name": "Yielded",
+          "value": "<button _ngcontent-ng-c3901630365=\"\" type=\"submit\" data-test=\"search-submit\" class=\"btn btn-secondary\">Search</button>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766333112,
+      "name": "get [data-test=\"search-submit\"]",
+      "stop": 1771766333113
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<button _ngcontent-ng-c3901630365=\"\" type=\"submit\" data-test=\"search-submit\" class=\"btn btn-secondary\">Search</button>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":104,\"y\":815}" }
+      ],
+      "start": 1771766333113,
+      "name": "click",
+      "stop": 1771766333185
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<div _ngcontent-ng-c3901630365=\"\" class=\"container\" data-test=\"search_completed\">...</div>"
+            }
+          ],
+          "start": 1771766333186,
+          "name": "assert expected [data-test=\"search_completed\"] to be visible",
+          "stop": 1771766334483
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"search_completed\"]" },
+        {
+          "name": "Yielded",
+          "value": "<div _ngcontent-ng-c3901630365=\"\" class=\"container\" data-test=\"search_completed\">...</div>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766333185,
+      "name": "get [data-test=\"search_completed\"]",
+      "stop": 1771766334483
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ97EH9HP54N3PJ79TGQ5\" href=\"/product/01KJ2PZ97EH9HP54N3PJ79TGQ5\">...</a>"
+            }
+          ],
+          "start": 1771766334484,
+          "name": "assert expected <a.card> to have property length",
+          "stop": 1771766334484
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "a.card" },
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ97EH9HP54N3PJ79TGQ5\" href=\"/product/01KJ2PZ97EH9HP54N3PJ79TGQ5\">...</a>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766334483,
+      "name": "get a.card",
+      "stop": 1771766334484
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "0" },
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ97EH9HP54N3PJ79TGQ5\" href=\"/product/01KJ2PZ97EH9HP54N3PJ79TGQ5\">...</a>"
+        },
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ97EH9HP54N3PJ79TGQ5\" href=\"/product/01KJ2PZ97EH9HP54N3PJ79TGQ5\">...</a>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766334485,
+      "name": "eq 0",
+      "stop": 1771766334485
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ97EH9HP54N3PJ79TGQ5\" href=\"/product/01KJ2PZ97EH9HP54N3PJ79TGQ5\">...</a>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":448,\"y\":668}" },
+        {
+          "name": "Actual Element Clicked",
+          "value": "<img _ngcontent-ng-c3901630365=\"\" loading=\"lazy\" class=\"card-img-top\" alt=\"Thor Hammer\" src=\"assets/img/products/hammer04.avif\">"
+        }
+      ],
+      "start": 1771766334485,
+      "name": "click",
+      "stop": 1771766334560
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"increase-quantity\"]" },
+        {
+          "name": "Yielded",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"increase-quantity\" id=\"btn-increase-quantity\" class=\"btn btn-secondary\" aria-label=\"Increase quantity\">...</button>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766334560,
+      "name": "get [data-test=\"increase-quantity\"]",
+      "stop": 1771766335887
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"increase-quantity\" id=\"btn-increase-quantity\" class=\"btn btn-secondary\" aria-label=\"Increase quantity\">...</button>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":614,\"y\":553}" },
+        {
+          "name": "Actual Element Clicked",
+          "value": "<path fill=\"currentColor\" d=\"M256 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 160-160 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l160 0 0 160c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160 160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-160 0 0-160z\"></path>"
+        }
+      ],
+      "start": 1771766335888,
+      "name": "click",
+      "stop": 1771766335957
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"add-to-cart\"]" },
+        {
+          "name": "Yielded",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-cart\" id=\"btn-add-to-cart\" class=\"btn-success btn\">...</button>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771766335958,
+      "name": "get [data-test=\"add-to-cart\"]",
+      "stop": 1771766335958
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-cart\" id=\"btn-add-to-cart\" class=\"btn-success btn\">...</button>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":579,\"y\":599}" }
+      ],
+      "start": 1771766335958,
+      "name": "click",
+      "stop": 1771766336031
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Timed out retrying after 4000ms: Expected to find element: `[role=\"alert\"]`, but never found it.",
+        "trace": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[role=\"alert\"]`, but never found it.\n    at Context.eval (webpack://cypress-practicesoft/./cypress/e2e/spec.cy.ts:146:38)"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Timed out retrying after 4000ms: Expected to find element: `[role=\"alert\"]`, but never found it.",
+            "trace": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[role=\"alert\"]`, but never found it.\n    at Context.eval (webpack://cypress-practicesoft/./cypress/e2e/spec.cy.ts:146:38)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "E2E tests of practicesoftwaretesting site -- tests of product page -- Check alert that only one Thor Hammer can be added to the cart (failed).png",
+              "source": "cfddb0b2-e112-48a9-8437-ea30a4c50f12-attachment.png",
+              "type": "image/png"
+            }
+          ],
+          "parameters": [
+            { "name": "actual", "value": "" },
+            {
+              "name": "expected",
+              "value": " You can only have one Thor Hammer in the cart. "
+            }
+          ],
+          "start": 1771766336033,
+          "name": "assert expected '[role=\"alert\"]' to have text '&nbsp;You can only have one Thor Hammer in the cart.&nbsp;', but the text was ''",
+          "stop": 1771766340205
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[role=\"alert\"]" },
+        { "name": "Elements", "value": "0" }
+      ],
+      "start": 1771766336032,
+      "name": "get [role=\"alert\"]",
+      "stop": 1771766340205
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "cypress" },
+    {
+      "name": "parentSuite",
+      "value": "E2E tests of practicesoftwaretesting site"
+    },
+    { "name": "suite", "value": "tests of product page" },
+    { "name": "host", "value": "a-birzgal.local" },
+    { "name": "thread", "value": "pid-95817-worker-main" },
+    { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+  ],
+  "links": [],
+  "start": 1771766332562,
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page Check alert that only one Thor Hammer can be added to the cart",
+  "titlePath": [
+    "cypress",
+    "e2e",
+    "spec.cy.ts",
+    "E2E tests of practicesoftwaretesting site",
+    "tests of product page"
+  ],
+  "testCaseId": "8b2a1cdd381b6f92f396ddb58631a779",
+  "stop": 1771766340205
+}

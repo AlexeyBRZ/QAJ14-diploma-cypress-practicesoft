@@ -1,0 +1,7 @@
+{
+  "id": "b9bbed74147f35033bddc38eb8af36ef",
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site test of purchasing with different methods check payment with gift card",
+  "name": "check payment with gift card",
+  "status": "failed",
+  "testResultsByEnv": { "default": "e9b0faf8e58978a4d86e05d4ec7fe914" }
+}

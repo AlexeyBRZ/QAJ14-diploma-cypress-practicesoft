@@ -1,0 +1,41 @@
+{
+  "uuid": "0bf15f40-0761-4143-be76-5f4a8a220619",
+  "name": "Cypress video",
+  "children": [
+    "cac4b57f-2357-47f9-b3a1-b2cd6729cb82",
+    "196396c5-260d-4087-b3d6-0ed63d48d52e",
+    "34da4da3-0ec1-41cc-941f-9596b2dc53c4",
+    "6e7df6e2-dffb-4b6c-b4ef-4bcdbd5c57ae",
+    "093dc5f8-0ef0-458c-8b86-e03ae18ca29e",
+    "ec53b8c4-d792-4c0e-ac52-7cf58f99e737",
+    "0e1cd4ee-41b9-40e2-a75b-bf5122b3a897",
+    "3f0d1966-97b9-4acf-a69b-fe4f092ca1bc",
+    "a1607a7c-6e1a-4044-8d3a-eef0b8cca61c",
+    "00bfc2bb-d29a-42c1-b99d-cd6c39f7ae5c",
+    "e30bd154-6971-4c36-ada8-fc4e3603eac3",
+    "a3acae0a-c705-47fd-a3cd-da804ff74804",
+    "1fbdb9d1-d12f-4497-a350-d4dffca2d91f",
+    "c0e82c90-0c98-4753-8a92-f4ef7d1c6401",
+    "7e009c41-1dd2-41df-b797-1bc3c0d463b6"
+  ],
+  "befores": [],
+  "afters": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Cypress video",
+          "source": "0c606046-d9ac-46af-846d-acdca96b525d-attachment.mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "parameters": [],
+      "start": 1771766115630,
+      "name": "Cypress video",
+      "stop": 1771766115649
+    }
+  ]
+}

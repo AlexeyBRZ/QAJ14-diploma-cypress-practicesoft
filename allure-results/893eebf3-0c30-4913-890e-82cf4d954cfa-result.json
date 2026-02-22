@@ -1,0 +1,509 @@
+{
+  "uuid": "893eebf3-0c30-4913-890e-82cf4d954cfa",
+  "name": "check if there are related products on product page",
+  "historyId": "06aea459efed0666f68cabacd62f4a17:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "ul.pagination" },
+        { "name": "Yielded", "value": "<ul class=\"pagination\">...</ul>" },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767088103,
+      "name": "get ul.pagination",
+      "stop": 1771767088548
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Content", "value": "{}" },
+        { "name": "Applied To", "value": "<ul class=\"pagination\">...</ul>" },
+        {
+          "name": "Yielded",
+          "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-3\">3</a>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767088548,
+      "name": "contains a.page-link, /^3$/",
+      "stop": 1771767088550
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-3\">3</a>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":391,\"y\":2436}" }
+      ],
+      "start": 1771767088551,
+      "name": "click",
+      "stop": 1771767088622
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            { "name": "actual", "value": "3" },
+            { "name": "expected", "value": "3" },
+            {
+              "name": "subject",
+              "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-3\">3</a>"
+            }
+          ],
+          "start": 1771767088623,
+          "name": "assert expected <a.page-link> to have text '3'",
+          "stop": 1771767088623
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "li.page-item.active a.page-link" },
+        {
+          "name": "Yielded",
+          "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-3\">3</a>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767088622,
+      "name": "get li.page-item.active a.page-link",
+      "stop": 1771767088623
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ96Z99ZRQYWCC46BHAXC\" href=\"/product/01KJ2PZ96Z99ZRQYWCC46BHAXC\">...</a>"
+            }
+          ],
+          "start": 1771767088625,
+          "name": "assert expected [ <a.card>, 8 more... ] to have property length",
+          "stop": 1771767088626
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "a.card" },
+        {
+          "name": "Yielded",
+          "value": "[{\"__ngContext__\":36,\"__zone_symbol__clickfalse\":null,\"__zone_symbol__ON_PROPERTYclick\":null},{\"__ngContext__\":37,\"__zone_symbol..."
+        },
+        { "name": "Elements", "value": "9" }
+      ],
+      "start": 1771767088623,
+      "name": "get a.card",
+      "stop": 1771767088626
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "3" },
+        {
+          "name": "Applied To",
+          "value": "[{\"__ngContext__\":36,\"__zone_symbol__clickfalse\":null,\"__zone_symbol__ON_PROPERTYclick\":null},{\"__ngContext__\":37,\"__zone_symbol..."
+        },
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ976PRSABG03NKX5WY7N\" href=\"/product/01KJ2PZ976PRSABG03NKX5WY7N\">...</a>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767088626,
+      "name": "eq 3",
+      "stop": 1771767088626
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ976PRSABG03NKX5WY7N\" href=\"/product/01KJ2PZ976PRSABG03NKX5WY7N\">...</a>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":791,\"y\":1018}" },
+        {
+          "name": "Actual Element Clicked",
+          "value": "<img _ngcontent-ng-c3901630365=\"\" loading=\"lazy\" class=\"card-img-top\" alt=\"Long Nose Pliers\" src=\"assets/img/products/pliers04.avif\">"
+        }
+      ],
+      "start": 1771767088627,
+      "name": "click",
+      "stop": 1771767088702
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Content", "value": "Related products" },
+        { "name": "Applied To", "value": "<body>...</body>" },
+        {
+          "name": "Yielded",
+          "value": "<h2 _ngcontent-ng-c1676758761=\"\">Related...</h2>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767088702,
+      "name": "contains Related products",
+      "stop": 1771767088704
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "subject",
+          "value": "<h2 _ngcontent-ng-c1676758761=\"\">Related...</h2>"
+        }
+      ],
+      "start": 1771767088704,
+      "name": "assert expected <h2> to be visible",
+      "stop": 1771767088704
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "" },
+        {
+          "name": "Applied To",
+          "value": "<h2 _ngcontent-ng-c1676758761=\"\">Related...</h2>"
+        },
+        {
+          "name": "Yielded",
+          "value": "<div _ngcontent-ng-c1676758761=\"\" class=\"row\">...</div>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767088704,
+      "name": "parent",
+      "stop": 1771767088704
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "subject",
+                  "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ96Z99ZRQYWCC46BHAXC\">...</a>"
+                }
+              ],
+              "start": 1771767088706,
+              "name": "assert expected { Object (length, prevObject, ...) } to have property length",
+              "stop": 1771767089049
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            { "name": "Selector", "value": "a.card" },
+            {
+              "name": "Yielded",
+              "value": "[{\"__ngContext__\":64,\"__zone_symbol__clickfalse\":[null]},{\"__ngContext__\":65,\"__zone_symbol__clickfalse\":[null]},{\"__ngContext__..."
+            },
+            { "name": "Elements", "value": "4" }
+          ],
+          "start": 1771767088705,
+          "name": "get a.card",
+          "stop": 1771767089049
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "subject",
+                  "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ96Z99ZRQYWCC46BHAXC\">...</a>"
+                }
+              ],
+              "start": 1771767089051,
+              "name": "assert expected <a.card> to have attribute href",
+              "stop": 1771767089052
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "/product/01KJ2PZ96Z99ZRQYWCC46BHAXC"
+                }
+              ],
+              "start": 1771767089052,
+              "name": "assert expected /product/01KJ2PZ96Z99ZRQYWCC46BHAXC to include /product/",
+              "stop": 1771767089052
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ96Z99ZRQYWCC46BHAXC\">...</a>"
+            }
+          ],
+          "start": 1771767089051,
+          "name": "wrap <a.card>",
+          "stop": 1771767089052
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "subject",
+                  "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ9730FDWSPX1SS0819X3\">...</a>"
+                }
+              ],
+              "start": 1771767089052,
+              "name": "assert expected <a.card> to have attribute href",
+              "stop": 1771767089053
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "/product/01KJ2PZ9730FDWSPX1SS0819X3"
+                }
+              ],
+              "start": 1771767089053,
+              "name": "assert expected /product/01KJ2PZ9730FDWSPX1SS0819X3 to include /product/",
+              "stop": 1771767089053
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ9730FDWSPX1SS0819X3\">...</a>"
+            }
+          ],
+          "start": 1771767089052,
+          "name": "wrap <a.card>",
+          "stop": 1771767089053
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "subject",
+                  "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ974GAFW2Y8GMYVV2AE3\">...</a>"
+                }
+              ],
+              "start": 1771767089053,
+              "name": "assert expected <a.card> to have attribute href",
+              "stop": 1771767089054
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "/product/01KJ2PZ974GAFW2Y8GMYVV2AE3"
+                }
+              ],
+              "start": 1771767089054,
+              "name": "assert expected /product/01KJ2PZ974GAFW2Y8GMYVV2AE3 to include /product/",
+              "stop": 1771767089054
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ974GAFW2Y8GMYVV2AE3\">...</a>"
+            }
+          ],
+          "start": 1771767089053,
+          "name": "wrap <a.card>",
+          "stop": 1771767089054
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "subject",
+                  "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ978T2W2855KHB94Z6PY\">...</a>"
+                }
+              ],
+              "start": 1771767089054,
+              "name": "assert expected <a.card> to have attribute href",
+              "stop": 1771767089055
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [
+                {
+                  "name": "actual",
+                  "value": "/product/01KJ2PZ978T2W2855KHB94Z6PY"
+                }
+              ],
+              "start": 1771767089055,
+              "name": "assert expected /product/01KJ2PZ978T2W2855KHB94Z6PY to include /product/",
+              "stop": 1771767089054
+            }
+          ],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "Yielded",
+              "value": "<a _ngcontent-ng-c1676758761=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" href=\"/product/01KJ2PZ978T2W2855KHB94Z6PY\">...</a>"
+            }
+          ],
+          "start": 1771767089054,
+          "name": "wrap <a.card>",
+          "stop": 1771767089054
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Yielded",
+          "value": "<div _ngcontent-ng-c1676758761=\"\" class=\"row\">...</div>"
+        }
+      ],
+      "start": 1771767088705,
+      "name": "within",
+      "stop": 1771767089054
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "cypress" },
+    {
+      "name": "parentSuite",
+      "value": "E2E tests of practicesoftwaretesting site"
+    },
+    { "name": "suite", "value": "tests of product page" },
+    { "name": "host", "value": "a-birzgal.local" },
+    { "name": "thread", "value": "pid-99271-worker-main" },
+    { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+  ],
+  "links": [],
+  "start": 1771767087989,
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page check if there are related products on product page",
+  "titlePath": [
+    "cypress",
+    "e2e",
+    "spec.cy.ts",
+    "E2E tests of practicesoftwaretesting site",
+    "tests of product page"
+  ],
+  "testCaseId": "06aea459efed0666f68cabacd62f4a17",
+  "stop": 1771767089054
+}

@@ -1,0 +1,921 @@
+{
+  "uuid": "640f44d4-4cf4-484d-b415-e21b6bf1997a",
+  "name": "check buy now pay later payment",
+  "historyId": "1498a030cbb60e32fa7dcf8fd7134998:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"nav-home\"]" },
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c1334646923=\"\" data-test=\"nav-home\" aria-current=\"page\" href=\"/\" class=\"nav-link active\">Home</a>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767141834,
+      "name": "get [data-test=\"nav-home\"]",
+      "stop": 1771767141888
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c1334646923=\"\" data-test=\"nav-home\" aria-current=\"page\" href=\"/\" class=\"nav-link active\">Home</a>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":690,\"y\":133}" }
+      ],
+      "start": 1771767141888,
+      "name": "click",
+      "stop": 1771767141958
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "ul.pagination" },
+        { "name": "Yielded", "value": "<ul class=\"pagination\">...</ul>" },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767141992,
+      "name": "get ul.pagination",
+      "stop": 1771767143997
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Content", "value": "{}" },
+        { "name": "Applied To", "value": "<ul class=\"pagination\">...</ul>" },
+        {
+          "name": "Yielded",
+          "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-3\">3</a>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767143997,
+      "name": "contains a.page-link, /^3$/",
+      "stop": 1771767143998
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-3\">3</a>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":391,\"y\":2436}" }
+      ],
+      "start": 1771767143998,
+      "name": "click",
+      "stop": 1771767144069
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            { "name": "actual", "value": "3" },
+            { "name": "expected", "value": "3" },
+            {
+              "name": "subject",
+              "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-3\">3</a>"
+            }
+          ],
+          "start": 1771767144070,
+          "name": "assert expected <a.page-link> to have text '3'",
+          "stop": 1771767144070
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "li.page-item.active a.page-link" },
+        {
+          "name": "Yielded",
+          "value": "<a role=\"button\" class=\"page-link\" aria-label=\"Page-3\">3</a>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767144069,
+      "name": "get li.page-item.active a.page-link",
+      "stop": 1771767144070
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ96Z99ZRQYWCC46BHAXC\" href=\"/product/01KJ2PZ96Z99ZRQYWCC46BHAXC\">...</a>"
+            }
+          ],
+          "start": 1771767144072,
+          "name": "assert expected [ <a.card>, 8 more... ] to have property length",
+          "stop": 1771767144073
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "a.card" },
+        {
+          "name": "Yielded",
+          "value": "[{\"__ngContext__\":36,\"__zone_symbol__clickfalse\":null,\"__zone_symbol__ON_PROPERTYclick\":null},{\"__ngContext__\":37,\"__zone_symbol..."
+        },
+        { "name": "Elements", "value": "9" }
+      ],
+      "start": 1771767144070,
+      "name": "get a.card",
+      "stop": 1771767144073
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "6" },
+        {
+          "name": "Applied To",
+          "value": "[{\"__ngContext__\":36,\"__zone_symbol__clickfalse\":null,\"__zone_symbol__ON_PROPERTYclick\":null},{\"__ngContext__\":37,\"__zone_symbol..."
+        },
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ97BT0M5KCV8S04NATH5\" href=\"/product/01KJ2PZ97BT0M5KCV8S04NATH5\">...</a>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767144073,
+      "name": "eq 6",
+      "stop": 1771767144073
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c3901630365=\"\" class=\"card\" style=\"text-decoration: none; color: black;\" data-test=\"product-01KJ2PZ97BT0M5KCV8S04NATH5\" href=\"/product/01KJ2PZ97BT0M5KCV8S04NATH5\">...</a>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":448,\"y\":1822}" },
+        {
+          "name": "Actual Element Clicked",
+          "value": "<img _ngcontent-ng-c3901630365=\"\" loading=\"lazy\" class=\"card-img-top\" alt=\"Hammer\" src=\"assets/img/products/hammer02.avif\">"
+        }
+      ],
+      "start": 1771767144074,
+      "name": "click",
+      "stop": 1771767144147
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"add-to-cart\"]" },
+        {
+          "name": "Yielded",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-cart\" id=\"btn-add-to-cart\" class=\"btn-success btn\">...</button>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767144147,
+      "name": "get [data-test=\"add-to-cart\"]",
+      "stop": 1771767145465
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<button _ngcontent-ng-c1676758761=\"\" data-test=\"add-to-cart\" id=\"btn-add-to-cart\" class=\"btn-success btn\">...</button>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":579,\"y\":839}" }
+      ],
+      "start": 1771767145466,
+      "name": "click",
+      "stop": 1771767145536
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"nav-cart\"]" },
+        {
+          "name": "Yielded",
+          "value": "<a _ngcontent-ng-c1334646923=\"\" data-test=\"nav-cart\" aria-label=\"cart\" routerlink=\"/checkout\" class=\"nav-link\" href=\"/checkout\">...</a>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767145537,
+      "name": "get [data-test=\"nav-cart\"]",
+      "stop": 1771767147288
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<a _ngcontent-ng-c1334646923=\"\" data-test=\"nav-cart\" aria-label=\"cart\" routerlink=\"/checkout\" class=\"nav-link\" href=\"/checkout\">...</a>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":877,\"y\":133}" },
+        {
+          "name": "Actual Element Clicked",
+          "value": "<path fill=\"currentColor\" d=\"M24-16C10.7-16 0-5.3 0 8S10.7 32 24 32l45.3 0c3.9 0 7.2 2.8 7.9 6.6l52.1 286.3c6.2 34.2 36 59.1 70.8 59.1L456 384c13.3 0 24-10.7 24-24s-10.7-24-24-24l-255.9 0c-11.6 0-21.5-8.3-23.6-19.7l-5.1-28.3 303.6 0c30.8 0 57.2-21.9 62.9-52.2L568.9 69.9C572.6 50.2 557.5 32 537.4 32l-412.7 0-.4-2c-4.8-26.6-28-46-55.1-46L24-16zM208 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm224 0a48 48 0 1 0 0-96 48 48 0 1 0 0 96z\"></path>"
+        }
+      ],
+      "start": 1771767147289,
+      "name": "click",
+      "stop": 1771767147363
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"proceed-1\"]" },
+        {
+          "name": "Yielded",
+          "value": "<button _ngcontent-ng-c2628374919=\"\" data-test=\"proceed-1\" type=\"button\" awnextstep=\"\" class=\"btn btn-success\">Proceed...</button>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767147363,
+      "name": "get [data-test=\"proceed-1\"]",
+      "stop": 1771767147697
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<button _ngcontent-ng-c2628374919=\"\" data-test=\"proceed-1\" type=\"button\" awnextstep=\"\" class=\"btn btn-success\">Proceed...</button>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":879,\"y\":443}" }
+      ],
+      "start": 1771767147698,
+      "name": "click",
+      "stop": 1771767147772
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"proceed-2\"]" },
+        {
+          "name": "Yielded",
+          "value": "<button data-test=\"proceed-2\" type=\"button\" awnextstep=\"\" class=\"btn btn-success\">Proceed...</button>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767147773,
+      "name": "get [data-test=\"proceed-2\"]",
+      "stop": 1771767147773
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<button data-test=\"proceed-2\" type=\"button\" awnextstep=\"\" class=\"btn btn-success\">Proceed...</button>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":633,\"y\":354}" }
+      ],
+      "start": 1771767147773,
+      "name": "click",
+      "stop": 1771767147843
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"street\"]" },
+        {
+          "name": "Yielded",
+          "value": "<input formcontrolname=\"street\" data-test=\"street\" id=\"street\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your Street *\" data-gtm-form-interact-field-id=\"0\">"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767147843,
+      "name": "get [data-test=\"street\"]",
+      "stop": 1771767147843
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<input formcontrolname=\"street\" data-test=\"street\" id=\"street\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your Street *\" data-gtm-form-interact-field-id=\"0\">"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":499,\"y\":331}" }
+      ],
+      "start": 1771767147844,
+      "name": "clear",
+      "stop": 1771767148002
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Typed", "value": "test Street 33" },
+        {
+          "name": "Applied To",
+          "value": "<input formcontrolname=\"street\" data-test=\"street\" id=\"street\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your Street *\" data-gtm-form-interact-field-id=\"0\">"
+        }
+      ],
+      "start": 1771767148003,
+      "name": "type test Street 33",
+      "stop": 1771767148213
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"city\"]" },
+        {
+          "name": "Yielded",
+          "value": "<input formcontrolname=\"city\" data-test=\"city\" id=\"city\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your City *\" data-gtm-form-interact-field-id=\"1\">"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767148213,
+      "name": "get [data-test=\"city\"]",
+      "stop": 1771767148214
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<input formcontrolname=\"city\" data-test=\"city\" id=\"city\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your City *\" data-gtm-form-interact-field-id=\"1\">"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":499,\"y\":385}" }
+      ],
+      "start": 1771767148214,
+      "name": "clear",
+      "stop": 1771767148372
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Typed", "value": "Libreville" },
+        {
+          "name": "Applied To",
+          "value": "<input formcontrolname=\"city\" data-test=\"city\" id=\"city\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your City *\" data-gtm-form-interact-field-id=\"1\">"
+        }
+      ],
+      "start": 1771767148373,
+      "name": "type Libreville",
+      "stop": 1771767148543
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"state\"]" },
+        {
+          "name": "Yielded",
+          "value": "<input formcontrolname=\"state\" data-test=\"state\" id=\"state\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"State *\" data-gtm-form-interact-field-id=\"2\">"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767148543,
+      "name": "get [data-test=\"state\"]",
+      "stop": 1771767148543
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<input formcontrolname=\"state\" data-test=\"state\" id=\"state\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"State *\" data-gtm-form-interact-field-id=\"2\">"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":499,\"y\":439}" }
+      ],
+      "start": 1771767148544,
+      "name": "clear",
+      "stop": 1771767148693
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Typed", "value": "State" },
+        {
+          "name": "Applied To",
+          "value": "<input formcontrolname=\"state\" data-test=\"state\" id=\"state\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"State *\" data-gtm-form-interact-field-id=\"2\">"
+        }
+      ],
+      "start": 1771767148694,
+      "name": "type State",
+      "stop": 1771767148802
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"country\"]" },
+        {
+          "name": "Yielded",
+          "value": "<input formcontrolname=\"country\" data-test=\"country\" id=\"country\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your country *\" data-gtm-form-interact-field-id=\"3\">"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767148803,
+      "name": "get [data-test=\"country\"]",
+      "stop": 1771767148803
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<input formcontrolname=\"country\" data-test=\"country\" id=\"country\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your country *\" data-gtm-form-interact-field-id=\"3\">"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":499,\"y\":493}" }
+      ],
+      "start": 1771767148804,
+      "name": "clear",
+      "stop": 1771767148952
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Typed", "value": "Gabon" },
+        {
+          "name": "Applied To",
+          "value": "<input formcontrolname=\"country\" data-test=\"country\" id=\"country\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your country *\" data-gtm-form-interact-field-id=\"3\">"
+        }
+      ],
+      "start": 1771767148953,
+      "name": "type Gabon",
+      "stop": 1771767149063
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"postal_code\"]" },
+        {
+          "name": "Yielded",
+          "value": "<input formcontrolname=\"postal_code\" data-test=\"postal_code\" id=\"postal_code\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your Postcode *\" data-gtm-form-interact-field-id=\"4\">"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767149063,
+      "name": "get [data-test=\"postal_code\"]",
+      "stop": 1771767149063
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<input formcontrolname=\"postal_code\" data-test=\"postal_code\" id=\"postal_code\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your Postcode *\" data-gtm-form-interact-field-id=\"4\">"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":499,\"y\":547}" }
+      ],
+      "start": 1771767149064,
+      "name": "clear",
+      "stop": 1771767149213
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Typed", "value": "34CT" },
+        {
+          "name": "Applied To",
+          "value": "<input formcontrolname=\"postal_code\" data-test=\"postal_code\" id=\"postal_code\" type=\"text\" class=\"form-control ng-dirty ng-valid ng-touched\" placeholder=\"Your Postcode *\" data-gtm-form-interact-field-id=\"4\">"
+        }
+      ],
+      "start": 1771767149213,
+      "name": "type 34CT",
+      "stop": 1771767149313
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"proceed-3\"]" },
+        {
+          "name": "Yielded",
+          "value": "<button data-test=\"proceed-3\" type=\"button\" awnextstep=\"\" class=\"btn btn-success\">Proceed...</button>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767149313,
+      "name": "get [data-test=\"proceed-3\"]",
+      "stop": 1771767149314
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<button data-test=\"proceed-3\" type=\"button\" awnextstep=\"\" class=\"btn btn-success\">Proceed...</button>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":633,\"y\":601}" }
+      ],
+      "start": 1771767149314,
+      "name": "click",
+      "stop": 1771767149384
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "<select#payment-method.form-select.ng-untouched.ng-pristine.ng-invalid>"
+            },
+            {
+              "name": "expected",
+              "value": "<select#payment-method.form-select.ng-untouched.ng-pristine.ng-invalid>"
+            },
+            {
+              "name": "subject",
+              "value": "<select data-test=\"payment-method\" id=\"payment-method\" formcontrolname=\"payment_method\" class=\"form-select ng-dirty ng-valid ng-touched\" data-gtm-form-interact-field-id=\"5\">...</select>"
+            }
+          ],
+          "start": 1771767149385,
+          "name": "assert expected <select#payment-method.form-select.ng-untouched.ng-pristine.ng-invalid> to exist in the DOM",
+          "stop": 1771767149386
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<select data-test=\"payment-method\" id=\"payment-method\" formcontrolname=\"payment_method\" class=\"form-select ng-dirty ng-valid ng-touched\" data-gtm-form-interact-field-id=\"5\">...</select>"
+            }
+          ],
+          "start": 1771767149386,
+          "name": "assert expected <select#payment-method.form-select.ng-untouched.ng-pristine.ng-invalid> not to be disabled",
+          "stop": 1771767149386
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"payment-method\"]" },
+        {
+          "name": "Yielded",
+          "value": "<select data-test=\"payment-method\" id=\"payment-method\" formcontrolname=\"payment_method\" class=\"form-select ng-dirty ng-valid ng-touched\" data-gtm-form-interact-field-id=\"5\">...</select>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767149384,
+      "name": "get [data-test=\"payment-method\"]",
+      "stop": 1771767149386
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<select data-test=\"payment-method\" id=\"payment-method\" formcontrolname=\"payment_method\" class=\"form-select ng-dirty ng-valid ng-touched\" data-gtm-form-interact-field-id=\"5\">...</select>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":499,\"y\":331}" },
+        { "name": "Selected", "value": "[\"buy-now-pay-later\"]" }
+      ],
+      "start": 1771767149386,
+      "name": "select buy-now-pay-later",
+      "stop": 1771767149515
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "actual",
+              "value": "<select#monthly_installments.form-select.ng-untouched.ng-pristine.ng-invalid>"
+            },
+            {
+              "name": "expected",
+              "value": "<select#monthly_installments.form-select.ng-untouched.ng-pristine.ng-invalid>"
+            },
+            {
+              "name": "subject",
+              "value": "<select data-test=\"monthly_installments\" id=\"monthly_installments\" aria-describedby=\"monthly_installments_help\" formcontrolname=\"monthly_installments\" class=\"form-select ng-dirty ng-valid ng-touched\" data-gtm-form-interact-field-id=\"6\">...</select>"
+            }
+          ],
+          "start": 1771767149517,
+          "name": "assert expected <select#monthly_installments.form-select.ng-untouched.ng-pristine.ng-invalid> to exist in the DOM",
+          "stop": 1771767149517
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "subject",
+              "value": "<select data-test=\"monthly_installments\" id=\"monthly_installments\" aria-describedby=\"monthly_installments_help\" formcontrolname=\"monthly_installments\" class=\"form-select ng-dirty ng-valid ng-touched\" data-gtm-form-interact-field-id=\"6\">...</select>"
+            }
+          ],
+          "start": 1771767149517,
+          "name": "assert expected <select#monthly_installments.form-select.ng-untouched.ng-pristine.ng-invalid> not to be disabled",
+          "stop": 1771767149517
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"monthly_installments\"]" },
+        {
+          "name": "Yielded",
+          "value": "<select data-test=\"monthly_installments\" id=\"monthly_installments\" aria-describedby=\"monthly_installments_help\" formcontrolname=\"monthly_installments\" class=\"form-select ng-dirty ng-valid ng-touched\" data-gtm-form-interact-field-id=\"6\">...</select>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767149515,
+      "name": "get [data-test=\"monthly_installments\"]",
+      "stop": 1771767149517
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<select data-test=\"monthly_installments\" id=\"monthly_installments\" aria-describedby=\"monthly_installments_help\" formcontrolname=\"monthly_installments\" class=\"form-select ng-dirty ng-valid ng-touched\" data-gtm-form-interact-field-id=\"6\">...</select>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":500,\"y\":385}" },
+        { "name": "Selected", "value": "[\"6\"]" }
+      ],
+      "start": 1771767149518,
+      "name": "select 6",
+      "stop": 1771767149653
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        { "name": "Selector", "value": "[data-test=\"finish\"]" },
+        {
+          "name": "Yielded",
+          "value": "<button data-test=\"finish\" type=\"button\" class=\"btn btn-success\">Confirm</button>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767149653,
+      "name": "get [data-test=\"finish\"]",
+      "stop": 1771767149654
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Applied To",
+          "value": "<button data-test=\"finish\" type=\"button\" class=\"btn btn-success\">Confirm</button>"
+        },
+        { "name": "Elements", "value": "1" },
+        { "name": "Coords", "value": "{\"x\":680,\"y\":485}" }
+      ],
+      "start": 1771767149654,
+      "name": "click",
+      "stop": 1771767149733
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            { "name": "actual", "value": "Payment was successful" },
+            { "name": "expected", "value": "Payment was successful" },
+            {
+              "name": "subject",
+              "value": "<div data-test=\"payment-success-message\" class=\"help-block\">Payment...</div>"
+            }
+          ],
+          "start": 1771767149734,
+          "name": "assert expected [data-test=\"payment-success-message\"] to have text Payment was successful, but the text was ''",
+          "stop": 1771767151078
+        }
+      ],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "Selector",
+          "value": "[data-test=\"payment-success-message\"]"
+        },
+        {
+          "name": "Yielded",
+          "value": "<div data-test=\"payment-success-message\" class=\"help-block\">Payment...</div>"
+        },
+        { "name": "Elements", "value": "1" }
+      ],
+      "start": 1771767149733,
+      "name": "get [data-test=\"payment-success-message\"]",
+      "stop": 1771767151078
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "cypress" },
+    {
+      "name": "parentSuite",
+      "value": "E2E tests of practicesoftwaretesting site"
+    },
+    { "name": "suite", "value": "test of purchasing with different methods" },
+    { "name": "host", "value": "a-birzgal.local" },
+    { "name": "thread", "value": "pid-99271-worker-main" },
+    { "name": "package", "value": "cypress.e2e.spec.cy.ts" }
+  ],
+  "links": [],
+  "start": 1771767140103,
+  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site test of purchasing with different methods check buy now pay later payment",
+  "titlePath": [
+    "cypress",
+    "e2e",
+    "spec.cy.ts",
+    "E2E tests of practicesoftwaretesting site",
+    "test of purchasing with different methods"
+  ],
+  "testCaseId": "1498a030cbb60e32fa7dcf8fd7134998",
+  "stop": 1771767151078
+}

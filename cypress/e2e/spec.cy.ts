@@ -9,7 +9,7 @@ beforeEach(() => {
 describe("E2E tests of practicesoftwaretesting site", () => {
   const ctx = new TestContext();
 
-  it("check site logo visible on the main page", async () => {
+  it("check site logo visible on the main page", () => {
     ctx.header.getSiteTitle().should("be.enabled");
   });
 
