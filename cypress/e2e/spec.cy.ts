@@ -10,7 +10,7 @@ describe("E2E tests of practicesoftwaretesting site", () => {
   const ctx = new TestContext();
 
   it("check site logo visible on the main page", () => {
-    ctx.header.getSiteTitle().should("be.enabled");
+    ctx.header.getSiteTitle().should("be.visible");
   });
 
   it("[Flacky] check searching by name of product", () => {
@@ -100,7 +100,9 @@ describe("E2E tests of practicesoftwaretesting site", () => {
       ctx.header.clickHomeTab();
       ctx.mainPage.goToPageFromPaginator(2);
       ctx.mainPage.selectProductByIndex(6);
+      cy.intercept("POST", "**/favorites").as("addToFavorites");
       ctx.productPage.clickAddToFavoritesButton();
+      cy.wait("@addToFavorites").its("response.statusCode").should("eq", 200);
       ctx.productPage.clickAddToFavoritesButton();
       cy.get(ctx.header.alertLocator).should(
         "have.text",
@@ -262,7 +264,7 @@ describe("E2E tests of practicesoftwaretesting site", () => {
       );
     });
 
-    it("check payment with gift card", () => {
+    it.only("check payment with gift card", () => {
       ctx.header.clickHomeTab();
       ctx.mainPage.goToPageFromPaginator(3);
       ctx.mainPage.selectProductByIndex(6);

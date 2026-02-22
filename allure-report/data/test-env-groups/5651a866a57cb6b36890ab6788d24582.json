@@ -1,7 +1,0 @@
-{
-  "id": "5651a866a57cb6b36890ab6788d24582",
-  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site test of purchasing with different methods check payment with credit card",
-  "name": "check payment with credit card",
-  "status": "failed",
-  "testResultsByEnv": { "default": "c1df46c77bca16f9f2755c6e55e25a79" }
-}

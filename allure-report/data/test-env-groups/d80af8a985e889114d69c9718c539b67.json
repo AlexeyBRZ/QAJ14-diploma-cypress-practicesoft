@@ -1,7 +1,0 @@
-{
-  "id": "d80af8a985e889114d69c9718c539b67",
-  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site check sorting of products check sorting by eco-friendly label",
-  "name": "check sorting by eco-friendly label",
-  "status": "broken",
-  "testResultsByEnv": { "default": "0de5b400f84ff96e4c7dda0b0893b2b2" }
-}

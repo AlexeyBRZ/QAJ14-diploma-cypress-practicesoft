@@ -1,6 +1,6 @@
 export class Header {
   cartIconLocator = '[data-test="nav-cart"]';
-  siteTitleLocator = "[class=navbar-brand]";
+  siteTitleLocator = ".navbar-brand";
   alertLocator = '[role="alert"]';
   HomeTabLocator = '[data-test="nav-home"]';
   signInTabLocator = '[data-test="nav-sign-in"]';

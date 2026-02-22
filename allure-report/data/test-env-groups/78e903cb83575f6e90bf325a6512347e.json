@@ -1,7 +1,0 @@
-{
-  "id": "78e903cb83575f6e90bf325a6512347e",
-  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page Check alert that only one Thor Hammer can be added to the cart",
-  "name": "Check alert that only one Thor Hammer can be added to the cart",
-  "status": "failed",
-  "testResultsByEnv": { "default": "be909946d8be17f81ff01672a532dec1" }
-}

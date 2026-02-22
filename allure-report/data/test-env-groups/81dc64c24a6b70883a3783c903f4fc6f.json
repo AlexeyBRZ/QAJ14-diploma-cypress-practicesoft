@@ -1,7 +1,0 @@
-{
-  "id": "81dc64c24a6b70883a3783c903f4fc6f",
-  "fullName": "cypress/e2e/spec.cy.ts#E2E tests of practicesoftwaretesting site tests of product page check alert if product is added to favorites",
-  "name": "check alert if product is added to favorites",
-  "status": "broken",
-  "testResultsByEnv": { "default": "09e30c8a13b35a358b981abf26299a7e" }
-}
