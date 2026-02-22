@@ -1,2 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","8425","check payment with gift card","E2E tests of practicesoftwaretesting site","2026-02-22","broken","2026-02-22","","test of purchasing with different methods","",""
+"","6236","check payment with gift card","E2E tests of practicesoftwaretesting site","2026-02-22","broken","2026-02-22","","test of purchasing with different methods","",""
