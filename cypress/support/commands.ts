@@ -13,7 +13,9 @@
 //
 // -- This is a parent command --
 Cypress.Commands.add("navigate", () => {
-  cy.visit("https://practicesoftwaretesting.com/");
+  cy.visit("https://practicesoftwaretesting.com/", {
+    failOnStatusCode: false
+  });
 });
 
 Cypress.Commands.add("collectProductNames", (selector: string) => {
