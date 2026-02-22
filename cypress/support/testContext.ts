@@ -1,7 +1,7 @@
 import { MainPage } from "../e2e/pages/main_page";
 import { ProductPage } from "../e2e/pages/product_page";
-import { SideBar } from "../e2e/pages/side_bar";
-import { Header } from "../e2e/pages/header";
+import { SideBar } from "../e2e/pages/components/side_bar.component";
+import { Header } from "../e2e/pages/components/header.component";
 import { CartPage } from "../e2e/pages/cart_page";
 import { FavoritesPage } from "../e2e/pages/favorites_page";
 
