@@ -5,7 +5,6 @@ export default defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
       allureCypress(on, config, {
-        //       resultsDir: "allure-results",
       });
 
       return config;
@@ -15,7 +14,7 @@ export default defineConfig({
     env: {
       apiKey: "my-secret-key",
     },
-
+    baseUrl: 'https://practicesoftwaretesting.com',
     supportFile: "cypress/support/e2e.ts",
     trashAssetsBeforeRuns: false,
     video: false,

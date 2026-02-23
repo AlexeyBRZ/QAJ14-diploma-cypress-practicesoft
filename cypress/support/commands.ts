@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
 Cypress.Commands.add("navigate", () => {
-  cy.visit("https://practicesoftwaretesting.com/", {
+  //cy.visit("https://practicesoftwaretesting.com/", {
+  cy.visit("/", {
     failOnStatusCode: false,
   });
 });
